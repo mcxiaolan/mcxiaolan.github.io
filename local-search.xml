@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>你好，Hexo</title>
+    <link href="/articles/%E4%BD%A0%E5%A5%BD%EF%BC%8CHexo.html"/>
+    <url>/articles/%E4%BD%A0%E5%A5%BD%EF%BC%8CHexo.html</url>
+    
+    <content type="html"><![CDATA[<p>欢迎，这是我第一次使用 <a href="https://hexo.io/zh-hans">Hexo</a> 搭建博客。</p><hr><h2 id="轻巧"><a href="#轻巧" class="headerlink" title="轻巧"></a>轻巧</h2><p>整站静态化，速度快。</p><h2 id="灵活"><a href="#灵活" class="headerlink" title="灵活"></a>灵活</h2><p>有主题插件，够美观。</p><h2 id="安全"><a href="#安全" class="headerlink" title="安全"></a>安全</h2><p>重要的文件都在本地。</p><hr><h2 id="关于-Hexo"><a href="#关于-Hexo" class="headerlink" title="关于 Hexo"></a>关于 Hexo</h2><p>Hexo 最初由Tommy Chen于 2012 年创建和维护。从那时起，它已经帮助成千上万的人建立了他们梦想中的网站/博客。<br>有 <img src="https://img.shields.io/github/stars/hexojs/hexo?style=for-the-badge&color=0e83cd&logo=github" alt="Stars"> 人支持他们。</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>安卓手机使用Github Pages + hexo免费搭建博客</title>
     <link href="/articles/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E4%BD%BF%E7%94%A8Github-Pages-hexo%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2.html"/>
     <url>/articles/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E4%BD%BF%E7%94%A8Github-Pages-hexo%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2.html</url>
@@ -363,11 +376,11 @@
     
     <tags>
       
-      <tag>美化</tag>
-      
       <tag>教程</tag>
       
       <tag>typecho</tag>
+      
+      <tag>美化</tag>
       
       <tag>优化</tag>
       
@@ -579,19 +592,6 @@
       <tag>白嫖</tag>
       
     </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="/articles/hello-world.html"/>
-    <url>/articles/hello-world.html</url>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
-    
     
   </entry>
   
