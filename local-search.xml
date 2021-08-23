@@ -8,7 +8,7 @@
     <link href="/articles/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E4%BD%BF%E7%94%A8Github-Pages-hexo%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2.html"/>
     <url>/articles/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E4%BD%BF%E7%94%A8Github-Pages-hexo%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2.html</url>
     
-    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本机教程仅针对安卓使用Termux搭建，网上已经有很多其他设备搭建的教程了，如果网上的教程不能用的话，你可以自己尝试参考我的文章。</p><h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><ul><li>安装Termux app</li><li>安装AnLinux app</li><li>安装VNC viewer app</li><li>github账号</li><li>合适的网络环境</li></ul><h2 id="开始前"><a href="#开始前" class="headerlink" title="开始前"></a>开始前</h2><p>开始前我们需要安装Ubuntu和图形化界面在我们手机里，这里推荐一个教程视频</p><p>【Termux系列：手机安装一个带桌面的Linux系统-哔哩哔哩】<a href="https://b23.tv/y3eny7">https://b23.tv/y3eny7</a></p><h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><p>在桌面或者其他地方右键打开终端，执行以下命令<br><code>apt-get update -y &amp;&amp; apt-get upgrade -y &amp;&amp; apt-get install firefox -y &amp;&amp; apt-get install git -y &amp;&amp; apt-get install npm -y &amp;&amp; apt-get install nodejs -y</code></p><p>如果你不是root用户，请使用以下命令<br><code>sudo apt-get update -y &amp;&amp; sudo apt-get upgrade -y &amp;&amp; sudo apt-get install firefox -y &amp;&amp; sudo apt-get install git -y &amp;&amp; sudo apt-get install npm -y &amp;&amp; sudo apt-get install nodejs -y</code></p><p>这个过程有点漫长，稍等亿会，如果你看到他停了很久了，说明好了。</p><p>然后继续执行命令<br><code>npm install hexo-cli -g &amp;&amp; hexo init blog &amp;&amp; cd blog &amp;&amp; hexo g</code></p><p>然后你就会发现，之前你右键的地方多出了一个叫blog的文件夹，那么博客安装也就到这里了。</p><h2 id="Github配置"><a href="#Github配置" class="headerlink" title="Github配置"></a>Github配置</h2><p>创建一个仓库，根据下面的图片进行配置。<br><img src="https://tvax3.sinaimg.cn/large/008kKrIXgy1gtmf1h3j5rj60u01uoaja02.jpg" alt="创建仓库"></p><p>然后回到终端，执行<code>cd ~/.ssh</code><br>然后复制这串命令到终端进行修改<br><code>ssh-keygen -t rsa -C &quot;email&quot;</code><br>修改email成你的github注册时的邮箱（一般情况下是这个邮箱），然后执行命令连续按三次回车键。<br>然后打开文件管理，来到根目录（root）下<br>找到.ssh（如果找不见的话，请自己寻找<code>显示隐藏文件</code>选项）<br>打开id_rsa.pub，把里面的内容全选复制（为了确保万无一失，请使用CTRL+A）</p><p>打开这个链接 <a href="https://github.com/settings/keys">https://github.com/settings/keys</a></p><p>点击 <code>New SSH key</code></p><p>Title可以随意写，Key请粘贴刚刚复制的内容。</p><p>然后点击<code>Add SSH key</code>。</p><p>然后回到终端执行以下命令测试<code>ssh -T git@github.com</code></p><p>如果它提示<code>Hi xxx! You&#39;ve successfully authenticated</code>说明已配置好。</p><p>打开blog/_config.yml<br>滑到最下面，修改成这样</p><figure class="highlight dts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs dts"><span class="hljs-symbol">deploy:</span><br><span class="hljs-symbol">  type:</span> git<br><span class="hljs-symbol">  repo:</span> git@github.com:mcxiaolan/mcxiaolan.github.io.git <span class="hljs-meta">#请自行修改用户名</span><br><span class="hljs-symbol">  branch:</span> master <span class="hljs-meta">#默认是master</span><br></code></pre></td></tr></table></figure><p>保存之后，回到终端执行命令<code>npm install hexo-deployer-git --save</code></p><h2 id="大功告成"><a href="#大功告成" class="headerlink" title="大功告成"></a>大功告成</h2><p>现在你的系统已经安装好hexo并且成功配置好了github，最后执行一串命令<code>hexo d</code>，就会自动部署到github.</p><h2 id="基本命令"><a href="#基本命令" class="headerlink" title="基本命令"></a>基本命令</h2><p>hexo new post “新建文章名” //新建文章</p><p>hexo new page “新建页面名” //新建页面</p><p>hexo clean //清除一些东西</p><p>hexo g //生成文件</p><p>hexo s //生成本地预览（按ctrl+C停止）<br>如果无法生成，请尝试使用以下命令<br>hexo s -p 1-65535任意一个数</p><p>配置文件在_config.yml</p><p>文章和页面在source.</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本机教程仅针对安卓使用Termux搭建，网上已经有很多其他设备搭建的教程了，如果网上的教程不能用的话，你可以自己尝试参考我的文章。</p><h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><ul><li>安装Termux app</li><li>安装AnLinux app</li><li>安装VNC viewer app</li><li>github账号</li><li>合适的网络环境</li></ul><h2 id="开始前"><a href="#开始前" class="headerlink" title="开始前"></a>开始前</h2><p>开始前我们需要安装Ubuntu和图形化界面在我们手机里，这里推荐一个教程视频</p><p>【Termux系列：手机安装一个带桌面的Linux系统-哔哩哔哩】<a href="https://b23.tv/y3eny7">https://b23.tv/y3eny7</a></p><h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><p>在桌面或者其他地方右键打开终端，执行以下命令<br><code>apt-get update -y &amp;&amp; apt-get upgrade -y &amp;&amp; apt-get install firefox -y &amp;&amp; apt-get install git -y &amp;&amp; apt-get install npm -y &amp;&amp; apt-get install nodejs -y</code></p><p>如果你不是root用户，请使用以下命令<br><code>sudo apt-get update -y &amp;&amp; sudo apt-get upgrade -y &amp;&amp; sudo apt-get install firefox -y &amp;&amp; sudo apt-get install git -y &amp;&amp; sudo apt-get install npm -y &amp;&amp; sudo apt-get install nodejs -y</code></p><p>这个过程有点漫长，稍等亿会，如果你看到他停了很久了，说明好了。</p><p>然后继续执行命令<br><code>npm install hexo-cli -g &amp;&amp; hexo init blog &amp;&amp; cd blog &amp;&amp; hexo g</code></p><p>然后你就会发现，之前你右键的地方多出了一个叫blog的文件夹，那么博客安装也就到这里了。</p><h2 id="Github配置"><a href="#Github配置" class="headerlink" title="Github配置"></a>Github配置</h2><p>创建一个仓库，根据下面的图片进行配置。<br><img src="https://tvax3.sinaimg.cn/large/008kKrIXgy1gtmf1h3j5rj60u01uoaja02.jpg" alt="创建仓库"></p><p>然后回到终端，执行<code>cd ~/.ssh</code><br>然后复制这串命令到终端进行修改<br><code>ssh-keygen -t rsa -C &quot;email&quot;</code><br>修改email成你的github注册时的邮箱（一般情况下是这个邮箱），然后执行命令连续按三次回车键。<br>然后打开文件管理，来到根目录（root）下<br>找到.ssh（如果找不见的话，请自己寻找<code>显示隐藏文件</code>选项）<br>打开id_rsa.pub，把里面的内容全选复制（为了确保万无一失，请使用CTRL+A）</p><p>打开这个链接 <a href="https://github.com/settings/keys">https://github.com/settings/keys</a></p><p>点击 <code>New SSH key</code></p><p>Title可以随意写，Key请粘贴刚刚复制的内容。</p><p>然后点击<code>Add SSH key</code>。</p><p>然后回到终端执行以下命令测试<code>ssh -T git@github.com</code></p><p>如果它提示<code>Hi xxx! You&#39;ve successfully authenticated</code>说明已配置好。</p><p>打开blog/_config.yml<br>滑到最下面，修改成这样</p><figure class="highlight dts"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs dts"><span class="hljs-symbol">deploy:</span><br><span class="hljs-symbol">  type:</span> git<br><span class="hljs-symbol">  repo:</span> git@github.com:mcxiaolan/mcxiaolan.github.io.git <span class="hljs-meta">#请自行修改用户名</span><br><span class="hljs-symbol">  branch:</span> master <span class="hljs-meta">#默认是master</span><br></code></pre></div></td></tr></table></figure><p>保存之后，回到终端执行命令<code>npm install hexo-deployer-git --save</code></p><h2 id="大功告成"><a href="#大功告成" class="headerlink" title="大功告成"></a>大功告成</h2><p>现在你的系统已经安装好hexo并且成功配置好了github，最后执行一串命令<code>hexo d</code>，就会自动部署到github.</p><h2 id="基本命令"><a href="#基本命令" class="headerlink" title="基本命令"></a>基本命令</h2><p>hexo new post “新建文章名” //新建文章</p><p>hexo new page “新建页面名” //新建页面</p><p>hexo clean //清除一些东西</p><p>hexo g //生成文件</p><p>hexo s //生成本地预览（按ctrl+C停止）<br>如果无法生成，请尝试使用以下命令<br>hexo s -p 1-65535任意一个数</p><p>配置文件在_config.yml</p><p>文章和页面在source.</p>]]></content>
     
     
     <categories>
@@ -70,11 +70,11 @@
       
       <tag>免费</tag>
       
+      <tag>搭建</tag>
+      
       <tag>教程</tag>
       
       <tag>typecho</tag>
-      
-      <tag>搭建</tag>
       
     </tags>
     
@@ -134,9 +134,9 @@
       
       <tag>免费</tag>
       
-      <tag>搭建</tag>
-      
       <tag>白嫖</tag>
+      
+      <tag>搭建</tag>
       
       <tag>免费主机</tag>
       
@@ -223,13 +223,13 @@
     
     <tags>
       
-      <tag>免费</tag>
+      <tag>CloudFlare</tag>
       
-      <tag>搭建</tag>
+      <tag>免费</tag>
       
       <tag>白嫖</tag>
       
-      <tag>CloudFlare</tag>
+      <tag>搭建</tag>
       
       <tag>博客</tag>
       
@@ -310,15 +310,15 @@
     
     <tags>
       
-      <tag>免费</tag>
+      <tag>CloudFlare</tag>
       
-      <tag>搭建</tag>
+      <tag>免费</tag>
       
       <tag>白嫖</tag>
       
-      <tag>CloudFlare</tag>
-      
       <tag>网站</tag>
+      
+      <tag>搭建</tag>
       
       <tag>短网址</tag>
       
@@ -364,7 +364,7 @@
     <link href="/articles/%E5%A6%82%E4%BD%95%E6%8A%8ATypecho%E8%BF%9E%E6%8E%A5%E4%B8%AD%E7%9A%84index-php%E5%8E%BB%E6%8E%89%EF%BC%88%E4%BC%AA%E9%9D%99%E6%80%81%E6%95%99%E7%A8%8B%EF%BC%89.html"/>
     <url>/articles/%E5%A6%82%E4%BD%95%E6%8A%8ATypecho%E8%BF%9E%E6%8E%A5%E4%B8%AD%E7%9A%84index-php%E5%8E%BB%E6%8E%89%EF%BC%88%E4%BC%AA%E9%9D%99%E6%80%81%E6%95%99%E7%A8%8B%EF%BC%89.html</url>
     
-    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>就是看index.php不爽<br><img src="https://tva4.sinaimg.cn/large/008kKrIXgy1gsug4mowv1j309k00sq34.jpg"></p><p>现在看起来爽多了，你也要整一个吗？<br><img src="https://tva2.sinaimg.cn/large/008kKrIXgy1gsug587egcj306v00r0ss.jpg"></p><h1 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h1><p>新建 <code>.htaccess</code>，请使用专业的编辑工具，如<code>vs code</code> <code>Notepad++</code>等<br>把以下代码放入文件里。</p><figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><code class="hljs apache"><span class="hljs-section">&lt;IfModule mod_rewrite.c&gt;</span><br>    <span class="hljs-attribute"><span class="hljs-nomarkup">RewriteEngine</span></span> <span class="hljs-literal">On</span><br><br>    <span class="hljs-attribute">RewriteBase</span> /<br><br>    <span class="hljs-attribute"><span class="hljs-nomarkup">RewriteCond</span></span> <span class="hljs-variable">%&#123;REQUEST_FILENAME&#125;</span> !-f<br><br>    <span class="hljs-attribute"><span class="hljs-nomarkup">RewriteCond</span></span> <span class="hljs-variable">%&#123;REQUEST_FILENAME&#125;</span> !-d<br><br>    <span class="hljs-attribute"><span class="hljs-nomarkup">RewriteRule</span></span> ^(.*)$ index.php<span class="hljs-meta"> [L,E=PATH_INFO:$1]</span><br><br><span class="hljs-section">&lt;/IfModule&gt;</span><br></code></pre></td></tr></table></figure><p>之后上传到网站根目录（一般能看见<code>admin</code>）<br><img src="https://tva2.sinaimg.cn/large/008kKrIXgy1gsug5rklazj304y07fq3e.jpg"></p><p>打开你的网站后台，前往 设置-永久链接，按以下来改<br>个性化定义你们可以自己修改，我只是推荐我这样改<br><img src="https://tva2.sinaimg.cn/large/008kKrIXgy1gsug66udl2j308409kwhe.jpg"></p><p>修改完成以后，一般会提醒检测失败，我们把它勾上，然后再次保存（请注意原来自定义的内容会被清除，请重新填入）<br><img src="https://tvax1.sinaimg.cn/large/008kKrIXgy1gsug6jo3njj309q080goi.jpg"></p><h1 id="感受"><a href="#感受" class="headerlink" title="感受"></a>感受</h1><blockquote><p>舒服就完事儿了</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>就是看index.php不爽<br><img src="https://tva4.sinaimg.cn/large/008kKrIXgy1gsug4mowv1j309k00sq34.jpg"></p><p>现在看起来爽多了，你也要整一个吗？<br><img src="https://tva2.sinaimg.cn/large/008kKrIXgy1gsug587egcj306v00r0ss.jpg"></p><h1 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h1><p>新建 <code>.htaccess</code>，请使用专业的编辑工具，如<code>vs code</code> <code>Notepad++</code>等<br>把以下代码放入文件里。</p><figure class="highlight apache"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs apache"><span class="hljs-section">&lt;IfModule mod_rewrite.c&gt;</span><br>    <span class="hljs-attribute"><span class="hljs-nomarkup">RewriteEngine</span></span> <span class="hljs-literal">On</span><br><br>    <span class="hljs-attribute">RewriteBase</span> /<br><br>    <span class="hljs-attribute"><span class="hljs-nomarkup">RewriteCond</span></span> <span class="hljs-variable">%&#123;REQUEST_FILENAME&#125;</span> !-f<br><br>    <span class="hljs-attribute"><span class="hljs-nomarkup">RewriteCond</span></span> <span class="hljs-variable">%&#123;REQUEST_FILENAME&#125;</span> !-d<br><br>    <span class="hljs-attribute"><span class="hljs-nomarkup">RewriteRule</span></span> ^(.*)$ index.php<span class="hljs-meta"> [L,E=PATH_INFO:$1]</span><br><br><span class="hljs-section">&lt;/IfModule&gt;</span><br></code></pre></div></td></tr></table></figure><p>之后上传到网站根目录（一般能看见<code>admin</code>）<br><img src="https://tva2.sinaimg.cn/large/008kKrIXgy1gsug5rklazj304y07fq3e.jpg"></p><p>打开你的网站后台，前往 设置-永久链接，按以下来改<br>个性化定义你们可以自己修改，我只是推荐我这样改<br><img src="https://tva2.sinaimg.cn/large/008kKrIXgy1gsug66udl2j308409kwhe.jpg"></p><p>修改完成以后，一般会提醒检测失败，我们把它勾上，然后再次保存（请注意原来自定义的内容会被清除，请重新填入）<br><img src="https://tvax1.sinaimg.cn/large/008kKrIXgy1gsug6jo3njj309q080goi.jpg"></p><h1 id="感受"><a href="#感受" class="headerlink" title="感受"></a>感受</h1><blockquote><p>舒服就完事儿了</p></blockquote>]]></content>
     
     
     <categories>
@@ -378,9 +378,9 @@
       
       <tag>教程</tag>
       
-      <tag>typecho</tag>
-      
       <tag>美化</tag>
+      
+      <tag>typecho</tag>
       
       <tag>优化</tag>
       
@@ -428,7 +428,7 @@
     <link href="/articles/%E5%A6%82%E4%BD%95%E6%8A%8AWordPress%E8%BF%9E%E6%8E%A5%E4%B8%AD%E7%9A%84index-php%E5%8E%BB%E6%8E%89%EF%BC%88%E4%BC%AA%E9%9D%99%E6%80%81%E6%95%99%E7%A8%8B%EF%BC%89.html"/>
     <url>/articles/%E5%A6%82%E4%BD%95%E6%8A%8AWordPress%E8%BF%9E%E6%8E%A5%E4%B8%AD%E7%9A%84index-php%E5%8E%BB%E6%8E%89%EF%BC%88%E4%BC%AA%E9%9D%99%E6%80%81%E6%95%99%E7%A8%8B%EF%BC%89.html</url>
     
-    <content type="html"><![CDATA[<!-- wp:heading {"level":1} --><h1>前言</h1><!-- /wp:heading --><!-- wp:paragraph --><p>就是看不爽这个index.php</p><!-- /wp:paragraph --><!-- wp:image {"sizeSlug":"large","linkDestination":"media"} --><figure class="wp-block-image size-large"><a href="https://tvax2.sinaimg.cn/large/008kKrIXgy1gsufwc796yj30bl01q74b.jpg"><img src="https://tvax2.sinaimg.cn/large/008kKrIXgy1gsufwc796yj30bl01q74b.jpg" alt=""/></a><figcaption>qswl</figcaption></figure><!-- /wp:image --><!-- wp:heading {"level":1} --><h1>演示</h1><!-- /wp:heading --><!-- wp:paragraph --><p>现在看起来老爽了，你也想整一个吗？</p><!-- /wp:paragraph --><!-- wp:image {"sizeSlug":"large","linkDestination":"media"} --><figure class="wp-block-image size-large"><a href="https://tva2.sinaimg.cn/large/008kKrIXgy1gsufyiseetj309w018t8m.jpg"><img src="https://tva2.sinaimg.cn/large/008kKrIXgy1gsufyiseetj309w018t8m.jpg" alt=""/></a></figure><!-- /wp:image --><!-- wp:heading {"level":1} --><h1>教程</h1><!-- /wp:heading --><!-- wp:mdx/warning {"content":"此教程仅针对WordPress，而且是Apache，其他博客程序不一定适用。"} --><blockquote class="wp-block-mdx-warning mdx-warning"><p>警告<br/><strong>此教程仅针对WordPress，而且是Apache，其他博客程序不一定适用。</strong></p></blockquote><!-- /wp:mdx/warning --><!-- wp:paragraph --><p>在 WordPress 安装目录新建 .htaccess</p><!-- /wp:paragraph --><!-- wp:image {"sizeSlug":"large","linkDestination":"media"} --><figure class="wp-block-image size-large"><a href="https://tva3.sinaimg.cn/large/008kKrIXgy1gsufz2o4klj30c10jcdi7.jpg"><img src="https://tva3.sinaimg.cn/large/008kKrIXgy1gsufz2o4klj30c10jcdi7.jpg" alt=""/></a></figure><!-- /wp:image --><!-- wp:paragraph --><p>编辑它，写入以下文本</p><!-- /wp:paragraph --><!-- wp:code --><pre class="wp-block-code"><code>&lt;IfModule mod_rewrite.c&gt;RewriteEngine OnRewriteBase /RewriteRule ^index\.php$ - &#91;L]RewriteCond %&#123;REQUEST_FILENAME&#125; !-fRewriteCond %&#123;REQUEST_FILENAME&#125; !-dRewriteRule . /index.php &#91;L]&lt;/IfModule&gt;</code></pre><!-- /wp:code --><!-- wp:paragraph --><p>之后保存，来到你的 WordPress 后台，在设置选项找到固定链接。</p><!-- /wp:paragraph --><!-- wp:paragraph --><p>更改你喜欢的固定链接，只要把<code>index.php/</code> 去掉，保存即可。</p><!-- /wp:paragraph --><!-- wp:image {"sizeSlug":"large","linkDestination":"media"} --><figure class="wp-block-image size-large"><a href="https://tva1.sinaimg.cn/large/008kKrIXgy1gsug0npyqzj30c00490t1.jpg"><img src="https://tva1.sinaimg.cn/large/008kKrIXgy1gsug0npyqzj30c00490t1.jpg" alt=""/></a></figure><!-- /wp:image --><!-- wp:paragraph --><p>非常简单嗷。</p><!-- /wp:paragraph -->]]></content>
+    <content type="html"><![CDATA[<!-- wp:heading {"level":1} --><h1>前言</h1><!-- /wp:heading --><!-- wp:paragraph --><p>就是看不爽这个index.php</p><!-- /wp:paragraph --><!-- wp:image {"sizeSlug":"large","linkDestination":"media"} --><figure class="wp-block-image size-large"><a href="https://tvax2.sinaimg.cn/large/008kKrIXgy1gsufwc796yj30bl01q74b.jpg"><img src="https://tvax2.sinaimg.cn/large/008kKrIXgy1gsufwc796yj30bl01q74b.jpg" alt=""/></a><figcaption>qswl</figcaption></figure><!-- /wp:image --><!-- wp:heading {"level":1} --><h1>演示</h1><!-- /wp:heading --><!-- wp:paragraph --><p>现在看起来老爽了，你也想整一个吗？</p><!-- /wp:paragraph --><!-- wp:image {"sizeSlug":"large","linkDestination":"media"} --><figure class="wp-block-image size-large"><a href="https://tva2.sinaimg.cn/large/008kKrIXgy1gsufyiseetj309w018t8m.jpg"><img src="https://tva2.sinaimg.cn/large/008kKrIXgy1gsufyiseetj309w018t8m.jpg" alt=""/></a></figure><!-- /wp:image --><!-- wp:heading {"level":1} --><h1>教程</h1><!-- /wp:heading --><!-- wp:mdx/warning {"content":"此教程仅针对WordPress，而且是Apache，其他博客程序不一定适用。"} --><blockquote class="wp-block-mdx-warning mdx-warning"><p>警告<br/><strong>此教程仅针对WordPress，而且是Apache，其他博客程序不一定适用。</strong></p></blockquote><!-- /wp:mdx/warning --><!-- wp:paragraph --><p>在 WordPress 安装目录新建 .htaccess</p><!-- /wp:paragraph --><!-- wp:image {"sizeSlug":"large","linkDestination":"media"} --><figure class="wp-block-image size-large"><a href="https://tva3.sinaimg.cn/large/008kKrIXgy1gsufz2o4klj30c10jcdi7.jpg"><img src="https://tva3.sinaimg.cn/large/008kKrIXgy1gsufz2o4klj30c10jcdi7.jpg" alt=""/></a></figure><!-- /wp:image --><!-- wp:paragraph --><p>编辑它，写入以下文本</p><!-- /wp:paragraph --><!-- wp:code --><div class="hljs code-wrapper"><pre class="wp-block-code"><code>&lt;IfModule mod_rewrite.c&gt;RewriteEngine OnRewriteBase /RewriteRule ^index\.php$ - &#91;L]RewriteCond %&#123;REQUEST_FILENAME&#125; !-fRewriteCond %&#123;REQUEST_FILENAME&#125; !-dRewriteRule . /index.php &#91;L]&lt;/IfModule&gt;</code></pre></div><!-- /wp:code --><!-- wp:paragraph --><p>之后保存，来到你的 WordPress 后台，在设置选项找到固定链接。</p><!-- /wp:paragraph --><!-- wp:paragraph --><p>更改你喜欢的固定链接，只要把<code>index.php/</code> 去掉，保存即可。</p><!-- /wp:paragraph --><!-- wp:image {"sizeSlug":"large","linkDestination":"media"} --><figure class="wp-block-image size-large"><a href="https://tva1.sinaimg.cn/large/008kKrIXgy1gsug0npyqzj30c00490t1.jpg"><img src="https://tva1.sinaimg.cn/large/008kKrIXgy1gsug0npyqzj30c00490t1.jpg" alt=""/></a></figure><!-- /wp:image --><!-- wp:paragraph --><p>非常简单嗷。</p><!-- /wp:paragraph -->]]></content>
     
     
     <categories>
@@ -440,9 +440,9 @@
     
     <tags>
       
-      <tag>教程</tag>
-      
       <tag>WordPress</tag>
+      
+      <tag>教程</tag>
       
     </tags>
     
@@ -486,7 +486,7 @@
     <link href="/articles/%E5%9C%A8%E4%BD%A0%E7%9A%84%E7%BD%91%E7%AB%99%E5%8F%B3%E4%B8%8B%E8%A7%92%E6%B7%BB%E5%8A%A0SSL%E8%AE%A4%E8%AF%81%E6%A0%87%E5%BF%97%EF%BC%81.html"/>
     <url>/articles/%E5%9C%A8%E4%BD%A0%E7%9A%84%E7%BD%91%E7%AB%99%E5%8F%B3%E4%B8%8B%E8%A7%92%E6%B7%BB%E5%8A%A0SSL%E8%AE%A4%E8%AF%81%E6%A0%87%E5%BF%97%EF%BC%81.html</url>
     
-    <content type="html"><![CDATA[<!-- wp:heading --><h2>前言</h2><!-- /wp:heading --><!-- wp:paragraph --><p>由于互联网是明文传输，我们在网上输入的各种信息都有可能被看到。而SSL证书可以为我们的传输信息进行加密，确保不被泄露，并且能被很多浏览器挂上绿色的锁！</p><!-- /wp:paragraph --><!-- wp:heading --><h2>演示</h2><!-- /wp:heading --><!-- wp:image {"sizeSlug":"large","linkDestination":"media"} --><figure class="wp-block-image size-large"><a href="https://tvax2.sinaimg.cn/large/008kKrIXgy1gsufmrjdcmj30d80mpn60.jpg"><img src="https://tvax2.sinaimg.cn/large/008kKrIXgy1gsufmrjdcmj30d80mpn60.jpg" alt=""/></a><figcaption>由于这个会挡住我的 返回顶部 按钮，所以我决定不再用了。</figcaption></figure><!-- /wp:image --><!-- wp:heading --><h2>教程</h2><!-- /wp:heading --><!-- wp:paragraph --><p>大家自己找找footer.php，打开footer.php,在最后一个&lt;/body&gt;换行,把下面的代码粘贴（记得修改链接）</p><!-- /wp:paragraph --><!-- wp:code --><pre class="wp-block-code"><code>&lt;div id="cc-myssl-id" style="position: fixed;right: 0;bottom: 0;width: 65px;height: 65px;z-index: 99;"&gt;&lt;a href="https://myssl.com/seal/detail?domain=你的链接" target="_blank"&gt;&lt;img src="https://static.myssl.com/res/images/myssl-id.png" alt="" style="width:100%;height:100%"&gt;&lt;/a&gt;&lt;/div&gt;</code></pre><!-- /wp:code --><!-- wp:paragraph --><p><br><img src="https://tvax4.sinaimg.cn/large/008kKrIXgy1gsufnmqxybj311f0bhagy.jpg" alt="图"><br>之后打开<a rel="noreferrer noopener" href="https://myssl.com" target="_blank">https://myssl.com</a><br>输入你的域名检测就大功告成了！<br><img src="https://tva4.sinaimg.cn/large/008kKrIXgy1gsufp12wazj31200i6dud.jpg" alt="test"></p><!-- /wp:paragraph -->]]></content>
+    <content type="html"><![CDATA[<!-- wp:heading --><h2>前言</h2><!-- /wp:heading --><!-- wp:paragraph --><p>由于互联网是明文传输，我们在网上输入的各种信息都有可能被看到。而SSL证书可以为我们的传输信息进行加密，确保不被泄露，并且能被很多浏览器挂上绿色的锁！</p><!-- /wp:paragraph --><!-- wp:heading --><h2>演示</h2><!-- /wp:heading --><!-- wp:image {"sizeSlug":"large","linkDestination":"media"} --><figure class="wp-block-image size-large"><a href="https://tvax2.sinaimg.cn/large/008kKrIXgy1gsufmrjdcmj30d80mpn60.jpg"><img src="https://tvax2.sinaimg.cn/large/008kKrIXgy1gsufmrjdcmj30d80mpn60.jpg" alt=""/></a><figcaption>由于这个会挡住我的 返回顶部 按钮，所以我决定不再用了。</figcaption></figure><!-- /wp:image --><!-- wp:heading --><h2>教程</h2><!-- /wp:heading --><!-- wp:paragraph --><p>大家自己找找footer.php，打开footer.php,在最后一个&lt;/body&gt;换行,把下面的代码粘贴（记得修改链接）</p><!-- /wp:paragraph --><!-- wp:code --><div class="hljs code-wrapper"><pre class="wp-block-code"><code>&lt;div id="cc-myssl-id" style="position: fixed;right: 0;bottom: 0;width: 65px;height: 65px;z-index: 99;"&gt;&lt;a href="https://myssl.com/seal/detail?domain=你的链接" target="_blank"&gt;&lt;img src="https://static.myssl.com/res/images/myssl-id.png" alt="" style="width:100%;height:100%"&gt;&lt;/a&gt;&lt;/div&gt;</code></pre></div><!-- /wp:code --><!-- wp:paragraph --><p><br><img src="https://tvax4.sinaimg.cn/large/008kKrIXgy1gsufnmqxybj311f0bhagy.jpg" alt="图"><br>之后打开<a rel="noreferrer noopener" href="https://myssl.com" target="_blank">https://myssl.com</a><br>输入你的域名检测就大功告成了！<br><img src="https://tva4.sinaimg.cn/large/008kKrIXgy1gsufp12wazj31200i6dud.jpg" alt="test"></p><!-- /wp:paragraph -->]]></content>
     
     
     <categories>
@@ -558,11 +558,11 @@
       
       <tag>白嫖</tag>
       
-      <tag>office</tag>
-      
       <tag>onedrive</tag>
       
       <tag>微软</tag>
+      
+      <tag>office</tag>
       
     </tags>
     
