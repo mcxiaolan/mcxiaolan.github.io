@@ -58,9 +58,9 @@
     <link href="https://blog.mcxiaolan.top/articles/[%E7%BD%AE%E9%A1%B6]%E4%BD%A0%E5%A5%BD%EF%BC%8CHexo.html"/>
     <id>https://blog.mcxiaolan.top/articles/[%E7%BD%AE%E9%A1%B6]%E4%BD%A0%E5%A5%BD%EF%BC%8CHexo.html</id>
     <published>2021-08-18T04:28:08.000Z</published>
-    <updated>2021-08-21T13:29:43.132Z</updated>
+    <updated>2021-08-25T02:19:13.657Z</updated>
     
-    <content type="html"><![CDATA[<p>欢迎，这是我第一次使用 <a href="https://hexo.io/zh-hans">Hexo</a> 搭建博客。</p><hr><h2 id="轻巧"><a href="#轻巧" class="headerlink" title="轻巧"></a>轻巧</h2><p>整站静态化，速度快。</p><h2 id="灵活"><a href="#灵活" class="headerlink" title="灵活"></a>灵活</h2><p>有主题插件，够美观。</p><h2 id="安全"><a href="#安全" class="headerlink" title="安全"></a>安全</h2><p>重要的文件都在本地。</p><hr><h2 id="关于-Hexo"><a href="#关于-Hexo" class="headerlink" title="关于 Hexo"></a>关于 Hexo</h2><p>Hexo 最初由Tommy Chen于 2012 年创建和维护。从那时起，它已经帮助成千上万的人建立了他们梦想中的网站/博客。<br><a href="https://github.com/hexojs/hexo"><img src="https://img.shields.io/github/stars/hexojs/hexo?style=for-the-badge&color=0e83cd&logo=github" alt="Stars"></a></p>]]></content>
+    <content type="html"><![CDATA[<p>欢迎，这是我第一次使用 <a href="https://hexo.io/zh-cn">Hexo</a> 搭建博客。</p><hr><h2 id="轻巧"><a href="#轻巧" class="headerlink" title="轻巧"></a>轻巧</h2><p>整站静态化，速度快。</p><h2 id="灵活"><a href="#灵活" class="headerlink" title="灵活"></a>灵活</h2><p>有主题插件，够美观。</p><h2 id="安全"><a href="#安全" class="headerlink" title="安全"></a>安全</h2><p>重要的文件都在本地。</p><hr><h2 id="关于-Hexo"><a href="#关于-Hexo" class="headerlink" title="关于 Hexo"></a>关于 Hexo</h2><p>Hexo 最初由Tommy Chen于 2012 年创建和维护。从那时起，它已经帮助成千上万的人建立了他们梦想中的网站/博客。<br><a href="https://github.com/hexojs/hexo"><img src="https://img.shields.io/github/stars/hexojs/hexo?style=for-the-badge&color=0e83cd&logo=github" alt="Stars"></a></p>]]></content>
     
     
       
@@ -557,9 +557,9 @@
     <category term="源码" scheme="https://blog.mcxiaolan.top/categories/%E6%BA%90%E7%A0%81/"/>
     
     
-    <category term="美化" scheme="https://blog.mcxiaolan.top/tags/%E7%BE%8E%E5%8C%96/"/>
-    
     <category term="ssl" scheme="https://blog.mcxiaolan.top/tags/ssl/"/>
+    
+    <category term="美化" scheme="https://blog.mcxiaolan.top/tags/%E7%BE%8E%E5%8C%96/"/>
     
   </entry>
   
