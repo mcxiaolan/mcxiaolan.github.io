@@ -22,9 +22,9 @@
       
       <tag>免费</tag>
       
-      <tag>博客</tag>
-      
       <tag>github</tag>
+      
+      <tag>博客</tag>
       
       <tag>hexo</tag>
       
@@ -597,6 +597,28 @@
   
   
   
+  
+  
+  
+  <entry>
+    <title></title>
+    <link href="/"/>
+    <url>/</url>
+    
+    <content type="html"><![CDATA[<h2 id="小岚的小窝"><a href="#小岚的小窝" class="headerlink" title="小岚的小窝"></a>小岚的小窝</h2><p><a href="https://blog.mcxiaolan.top/">https://blog.mcxiaolan.top</a></p>]]></content>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title></title>
+    <link href="/"/>
+    <url>/</url>
+    
+    <content type="html"><![CDATA[{"name":"小岚的小窝","short_name":"白嫖的天空无限蓝","display":"standalone","start_url":"/","theme_color":"#8888ff","background_color":"#aaaaff","icons":[{"src":"https://cdn.jsdelivr.net/gh/mcxiaolan/jsdelivr@master/%E5%A4%B4%E5%83%8F.jpg","sizes":"256x256","type":"image/png"}]}]]></content>
+    
+  </entry>
   
   
   
