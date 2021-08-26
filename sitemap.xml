@@ -172,6 +172,13 @@
 
   
   <url>
+    <loc>https://blog.mcxiaolan.top/tags/CloudFlare/</loc>
+    <lastmod>2021-08-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.mcxiaolan.top/tags/%E5%85%8D%E8%B4%B9/</loc>
     <lastmod>2021-08-26</lastmod>
     <changefreq>daily</changefreq>
@@ -186,7 +193,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mcxiaolan.top/tags/CloudFlare/</loc>
+    <loc>https://blog.mcxiaolan.top/tags/%E7%BD%91%E7%AB%99/</loc>
     <lastmod>2021-08-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -194,6 +201,13 @@
   
   <url>
     <loc>https://blog.mcxiaolan.top/tags/%E6%90%AD%E5%BB%BA/</loc>
+    <lastmod>2021-08-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mcxiaolan.top/tags/%E7%9F%AD%E7%BD%91%E5%9D%80/</loc>
     <lastmod>2021-08-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -277,13 +291,6 @@
   </url>
   
   <url>
-    <loc>https://blog.mcxiaolan.top/tags/%E7%BD%91%E7%AB%99/</loc>
-    <lastmod>2021-08-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.mcxiaolan.top/tags/%E4%B8%BB%E6%9C%BA/</loc>
     <lastmod>2021-08-26</lastmod>
     <changefreq>daily</changefreq>
@@ -347,6 +354,13 @@
   </url>
   
   <url>
+    <loc>https://blog.mcxiaolan.top/tags/WordPress/</loc>
+    <lastmod>2021-08-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.mcxiaolan.top/tags/hexo/</loc>
     <lastmod>2021-08-26</lastmod>
     <changefreq>daily</changefreq>
@@ -390,20 +404,6 @@
   
   <url>
     <loc>https://blog.mcxiaolan.top/tags/%E9%82%AE%E7%AE%B1/</loc>
-    <lastmod>2021-08-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mcxiaolan.top/tags/%E7%9F%AD%E7%BD%91%E5%9D%80/</loc>
-    <lastmod>2021-08-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mcxiaolan.top/tags/WordPress/</loc>
     <lastmod>2021-08-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
