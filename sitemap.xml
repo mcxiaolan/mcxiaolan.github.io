@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.mcxiaolan.top/manifest.json</loc>
+    
+    <lastmod>2021-08-27</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.mcxiaolan.top/articles/%E4%BD%BF%E7%94%A8cloudflare-page%E6%90%AD%E5%BB%BA%E5%B0%8F%E6%B8%B8%E6%88%8F%EF%BC%8Cm3u8%E5%9C%A8%E7%BA%BF%E4%B8%8B%E8%BD%BD%EF%BC%8C%E5%9B%BE%E7%89%87%E5%8A%A0%E6%B0%B4%E5%8D%B0%EF%BC%8C%E9%9F%B3%E4%B9%90%E8%A7%A3%E9%94%81%E7%AD%89%E5%9C%A8%E7%BA%BF%E7%BD%91%E9%A1%B5.html</loc>
     
     <lastmod>2021-08-26</lastmod>
@@ -172,13 +179,6 @@
 
   
   <url>
-    <loc>https://blog.mcxiaolan.top/tags/CloudFlare/</loc>
-    <lastmod>2021-08-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.mcxiaolan.top/tags/%E5%85%8D%E8%B4%B9/</loc>
     <lastmod>2021-08-27</lastmod>
     <changefreq>daily</changefreq>
@@ -193,7 +193,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mcxiaolan.top/tags/%E7%BD%91%E7%AB%99/</loc>
+    <loc>https://blog.mcxiaolan.top/tags/CloudFlare/</loc>
     <lastmod>2021-08-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -207,14 +207,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mcxiaolan.top/tags/%E7%9F%AD%E7%BD%91%E5%9D%80/</loc>
-    <lastmod>2021-08-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mcxiaolan.top/tags/QQ/</loc>
+    <loc>https://blog.mcxiaolan.top/tags/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2021-08-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -249,6 +242,20 @@
   </url>
   
   <url>
+    <loc>https://blog.mcxiaolan.top/tags/%E7%BD%91%E7%AB%99/</loc>
+    <lastmod>2021-08-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mcxiaolan.top/tags/%E7%9F%AD%E7%BD%91%E5%9D%80/</loc>
+    <lastmod>2021-08-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.mcxiaolan.top/tags/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2021-08-27</lastmod>
     <changefreq>daily</changefreq>
@@ -263,7 +270,28 @@
   </url>
   
   <url>
-    <loc>https://blog.mcxiaolan.top/tags/%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>https://blog.mcxiaolan.top/tags/onedrive/</loc>
+    <lastmod>2021-08-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mcxiaolan.top/tags/%E5%BE%AE%E8%BD%AF/</loc>
+    <lastmod>2021-08-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mcxiaolan.top/tags/%E5%85%8D%E8%B4%B9%E4%B8%BB%E6%9C%BA/</loc>
+    <lastmod>2021-08-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mcxiaolan.top/tags/onemanager/</loc>
     <lastmod>2021-08-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -277,7 +305,28 @@
   </url>
   
   <url>
-    <loc>https://blog.mcxiaolan.top/tags/%E5%85%8D%E8%B4%B9%E4%B8%BB%E6%9C%BA/</loc>
+    <loc>https://blog.mcxiaolan.top/tags/QQ/</loc>
+    <lastmod>2021-08-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mcxiaolan.top/tags/office/</loc>
+    <lastmod>2021-08-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mcxiaolan.top/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
+    <lastmod>2021-08-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mcxiaolan.top/tags/vps/</loc>
     <lastmod>2021-08-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -312,6 +361,41 @@
   </url>
   
   <url>
+    <loc>https://blog.mcxiaolan.top/tags/%E5%92%95%E9%B8%BD/</loc>
+    <lastmod>2021-08-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mcxiaolan.top/tags/%E7%BD%91%E7%9B%98/</loc>
+    <lastmod>2021-08-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mcxiaolan.top/tags/outlook/</loc>
+    <lastmod>2021-08-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mcxiaolan.top/tags/%E9%82%AE%E7%AE%B1/</loc>
+    <lastmod>2021-08-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mcxiaolan.top/tags/ssl/</loc>
+    <lastmod>2021-08-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.mcxiaolan.top/tags/hexo/</loc>
     <lastmod>2021-08-27</lastmod>
     <changefreq>daily</changefreq>
@@ -332,83 +416,6 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://blog.mcxiaolan.top/tags/office/</loc>
-    <lastmod>2021-08-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mcxiaolan.top/tags/onedrive/</loc>
-    <lastmod>2021-08-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mcxiaolan.top/tags/%E5%BE%AE%E8%BD%AF/</loc>
-    <lastmod>2021-08-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mcxiaolan.top/tags/ssl/</loc>
-    <lastmod>2021-08-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mcxiaolan.top/tags/%E5%92%95%E9%B8%BD/</loc>
-    <lastmod>2021-08-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mcxiaolan.top/tags/%E7%BD%91%E7%9B%98/</loc>
-    <lastmod>2021-08-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mcxiaolan.top/tags/onemanager/</loc>
-    <lastmod>2021-08-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mcxiaolan.top/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
-    <lastmod>2021-08-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mcxiaolan.top/tags/vps/</loc>
-    <lastmod>2021-08-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mcxiaolan.top/tags/outlook/</loc>
-    <lastmod>2021-08-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mcxiaolan.top/tags/%E9%82%AE%E7%AE%B1/</loc>
-    <lastmod>2021-08-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   
   <url>
@@ -419,14 +426,14 @@
   </url>
   
   <url>
-    <loc>https://blog.mcxiaolan.top/categories/%E6%BA%90%E7%A0%81/</loc>
+    <loc>https://blog.mcxiaolan.top/categories/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/</loc>
     <lastmod>2021-08-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.mcxiaolan.top/categories/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/</loc>
+    <loc>https://blog.mcxiaolan.top/categories/%E6%BA%90%E7%A0%81/</loc>
     <lastmod>2021-08-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
