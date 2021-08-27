@@ -169,9 +169,9 @@
     
     <category term="免费" scheme="https://blog.mcxiaolan.top/tags/%E5%85%8D%E8%B4%B9/"/>
     
-    <category term="域名" scheme="https://blog.mcxiaolan.top/tags/%E5%9F%9F%E5%90%8D/"/>
-    
     <category term="github" scheme="https://blog.mcxiaolan.top/tags/github/"/>
+    
+    <category term="域名" scheme="https://blog.mcxiaolan.top/tags/%E5%9F%9F%E5%90%8D/"/>
     
     <category term="续期" scheme="https://blog.mcxiaolan.top/tags/%E7%BB%AD%E6%9C%9F/"/>
     
@@ -462,11 +462,11 @@
     <category term="源码" scheme="https://blog.mcxiaolan.top/categories/%E6%BA%90%E7%A0%81/"/>
     
     
-    <category term="美化" scheme="https://blog.mcxiaolan.top/tags/%E7%BE%8E%E5%8C%96/"/>
-    
     <category term="教程" scheme="https://blog.mcxiaolan.top/tags/%E6%95%99%E7%A8%8B/"/>
     
     <category term="typecho" scheme="https://blog.mcxiaolan.top/tags/typecho/"/>
+    
+    <category term="美化" scheme="https://blog.mcxiaolan.top/tags/%E7%BE%8E%E5%8C%96/"/>
     
     <category term="优化" scheme="https://blog.mcxiaolan.top/tags/%E4%BC%98%E5%8C%96/"/>
     
@@ -592,9 +592,9 @@
     <category term="源码" scheme="https://blog.mcxiaolan.top/categories/%E6%BA%90%E7%A0%81/"/>
     
     
-    <category term="ssl" scheme="https://blog.mcxiaolan.top/tags/ssl/"/>
-    
     <category term="美化" scheme="https://blog.mcxiaolan.top/tags/%E7%BE%8E%E5%8C%96/"/>
+    
+    <category term="ssl" scheme="https://blog.mcxiaolan.top/tags/ssl/"/>
     
   </entry>
   
