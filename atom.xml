@@ -6,7 +6,7 @@
   <link href="https://blog.mcxiaolan.top/atom.xml" rel="self"/>
   
   <link href="https://blog.mcxiaolan.top/"/>
-  <updated>2021-08-28T01:17:02.390Z</updated>
+  <updated>2021-08-28T01:54:33.502Z</updated>
   <id>https://blog.mcxiaolan.top/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>解决vercel国内被墙问题</title>
+    <link href="https://blog.mcxiaolan.top/articles/%E8%A7%A3%E5%86%B3vercel%E5%9B%BD%E5%86%85%E8%A2%AB%E5%A2%99%E9%97%AE%E9%A2%98.html"/>
+    <id>https://blog.mcxiaolan.top/articles/%E8%A7%A3%E5%86%B3vercel%E5%9B%BD%E5%86%85%E8%A2%AB%E5%A2%99%E9%97%AE%E9%A2%98.html</id>
+    <published>2021-08-28T01:30:23.000Z</published>
+    <updated>2021-08-28T01:54:33.502Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>有时我们访问用vercel的服务时，发现会拒绝请求或者连接重置。</p><h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><p>早在<code>2021年5月14日</code>，官方就回馈了此问题:<a href="https://www.vercel-status.com/incidents/r758bhbklgfd">原文链接</a></p><p>以下为机翻:</p><blockquote><p>我们进行了更改，以确保 vercel.com 和 vercel.app 域可以在中国境内被屏蔽后再次从中国访问。</p></blockquote><blockquote><p>对于在 Vercel 上使用自定义域的受影响用户，可以通过将指向 Vercel 的 A 记录值从 76.76.21.21 更改为 76.223.126.88 来缓解该问题。</p></blockquote><blockquote><p>虽然我们已经解决了影响 CNAME 记录的问题，但我们仍然建议将 cname.vercel-dns.com 更改为 cname-china.vercel-dns.com 以获得额外的冗余。</p></blockquote><p>简单来说就是：<br>A记录修改为：76.223.126.88<br>cname记录修改为：cname-china.vercel-dns.com</p><h2 id="替代方案"><a href="#替代方案" class="headerlink" title="替代方案"></a>替代方案</h2><p>如果vercel还是被墙的话<br>可以来试一试<code>Cloudflare pages</code></p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="教程" scheme="https://blog.mcxiaolan.top/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="vercel" scheme="https://blog.mcxiaolan.top/tags/vercel/"/>
+    
+    <category term="托管" scheme="https://blog.mcxiaolan.top/tags/%E6%89%98%E7%AE%A1/"/>
+    
+  </entry>
   
   <entry>
     <title>限时Porkbun免费一年gay域名</title>
@@ -43,9 +72,9 @@
     
     <category term="白嫖" scheme="https://blog.mcxiaolan.top/tags/%E7%99%BD%E5%AB%96/"/>
     
-    <category term="porkbun" scheme="https://blog.mcxiaolan.top/tags/porkbun/"/>
-    
     <category term="域名" scheme="https://blog.mcxiaolan.top/tags/%E5%9F%9F%E5%90%8D/"/>
+    
+    <category term="porkbun" scheme="https://blog.mcxiaolan.top/tags/porkbun/"/>
     
   </entry>
   
@@ -241,11 +270,11 @@
     
     <category term="搭建" scheme="https://blog.mcxiaolan.top/tags/%E6%90%AD%E5%BB%BA/"/>
     
+    <category term="免费主机" scheme="https://blog.mcxiaolan.top/tags/%E5%85%8D%E8%B4%B9%E4%B8%BB%E6%9C%BA/"/>
+    
     <category term="onedrive" scheme="https://blog.mcxiaolan.top/tags/onedrive/"/>
     
     <category term="微软" scheme="https://blog.mcxiaolan.top/tags/%E5%BE%AE%E8%BD%AF/"/>
-    
-    <category term="免费主机" scheme="https://blog.mcxiaolan.top/tags/%E5%85%8D%E8%B4%B9%E4%B8%BB%E6%9C%BA/"/>
     
     <category term="onemanager" scheme="https://blog.mcxiaolan.top/tags/onemanager/"/>
     
@@ -534,9 +563,9 @@
     
     <category term="白嫖" scheme="https://blog.mcxiaolan.top/tags/%E7%99%BD%E5%AB%96/"/>
     
-    <category term="免费主机" scheme="https://blog.mcxiaolan.top/tags/%E5%85%8D%E8%B4%B9%E4%B8%BB%E6%9C%BA/"/>
-    
     <category term="主机" scheme="https://blog.mcxiaolan.top/tags/%E4%B8%BB%E6%9C%BA/"/>
+    
+    <category term="免费主机" scheme="https://blog.mcxiaolan.top/tags/%E5%85%8D%E8%B4%B9%E4%B8%BB%E6%9C%BA/"/>
     
   </entry>
   
@@ -625,9 +654,9 @@
     <category term="源码" scheme="https://blog.mcxiaolan.top/categories/%E6%BA%90%E7%A0%81/"/>
     
     
-    <category term="美化" scheme="https://blog.mcxiaolan.top/tags/%E7%BE%8E%E5%8C%96/"/>
-    
     <category term="ssl" scheme="https://blog.mcxiaolan.top/tags/ssl/"/>
+    
+    <category term="美化" scheme="https://blog.mcxiaolan.top/tags/%E7%BE%8E%E5%8C%96/"/>
     
   </entry>
   
