@@ -6,7 +6,7 @@
   <link href="https://blog.mcxiaolan.top/atom.xml" rel="self"/>
   
   <link href="https://blog.mcxiaolan.top/"/>
-  <updated>2021-08-28T02:05:06.150Z</updated>
+  <updated>2021-08-29T08:44:50.783Z</updated>
   <id>https://blog.mcxiaolan.top/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>小岚的小窝已支持渐进式 Web 应用（PWA）</title>
+    <link href="https://blog.mcxiaolan.top/articles/support-PWA.html"/>
+    <id>https://blog.mcxiaolan.top/articles/support-PWA.html</id>
+    <published>2021-08-29T08:05:21.000Z</published>
+    <updated>2021-08-29T08:44:50.783Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="PWA-是什么"><a href="#PWA-是什么" class="headerlink" title="PWA 是什么?"></a>PWA 是什么?</h2><p>PWA:渐进式 Web 应用</p><p>PWA 介绍:<a href="https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps">MDN</a></p><h2 id="为什么要让博客支持-PWA-技术"><a href="#为什么要让博客支持-PWA-技术" class="headerlink" title="为什么要让博客支持 PWA 技术?"></a>为什么要让博客支持 PWA 技术?</h2><h3 id="优势"><a href="#优势" class="headerlink" title="优势"></a>优势</h3><p>PWA 是可被发现、易安装、可链接、独立于网络、渐进式、可重用、响应性和安全的。<br>如果你忘记了我的网站域名，你可以直接通过已安装的 PWA 应用来打开我的博客。<br>最重要的是能让我的网站进行离线访问！</p><h2 id="如何安装-PWA-应用"><a href="#如何安装-PWA-应用" class="headerlink" title="如何安装 PWA 应用"></a>如何安装 PWA 应用</h2><h3 id="支持的浏览器"><a href="#支持的浏览器" class="headerlink" title="支持的浏览器"></a>支持的浏览器</h3><p>市场主流浏览器已经能够较好支持这一应用标准<br>PWA 所需的关键要素是 service worker 支持<br>所以只要是支持 service worker 的浏览器<br>理论上均支持 PWA 应用：</p><ul><li>Chrome（v70 稳定版及以上版本）</li><li>Firefox（仅支持 Android v58+）</li><li>Edge</li><li>Safari（iOS 11.3+）<br>等等。</li></ul><h3 id="安装应用"><a href="#安装应用" class="headerlink" title="安装应用"></a>安装应用</h3><blockquote><p>图片中使用的均为 Google Chrome 浏览器，不同的浏览器位置可能不同。</p></blockquote><p>电脑：<br>可在浏览器右上角安装应用<br><img src="https://tva2.sinaimg.cn/large/008kKrIXgy1gtxpsdj6h2j60kq09pmyz02.jpg" alt="电脑安装"></p><p>安装好后将会在桌面生成图标<br><img src="https://tva2.sinaimg.cn/large/008kKrIXgy1gtxpsdbla3j61uo0u017502.jpg" alt="电脑桌面"></p><p>手机：<br>在浏览器最下面安装应用<br><img src="https://tva4.sinaimg.cn/large/008kKrIXgy1gtxpscs7rej60u01uotpo02.jpg" alt="手机安装"></p><p>或者点击右上角三个点安装<br><img src="https://tvax3.sinaimg.cn/large/008kKrIXgy1gtxr3gahfmj60u01uo4fx02.jpg" alt="手机右上角安装 - 1"><br><img src="https://tva3.sinaimg.cn/large/008kKrIXgy1gtxr3fwva3j60u01uoqe502.jpg" alt="手机右上角安装 - 2"></p><p>安装好后将会在桌面生成图标<br><img src="https://tvax3.sinaimg.cn/large/008kKrIXgy1gtxpsbgov4j60u01uo18m02.jpg" alt="手机桌面"></p><p>手机打开的效果如下<br><img src="https://tvax3.sinaimg.cn/large/008kKrIXgy1gtxpsc6jxxj60u01uo1a202.jpg" alt="手机效果图"></p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="经历" scheme="https://blog.mcxiaolan.top/categories/%E7%BB%8F%E5%8E%86/"/>
+    
+    
+    <category term="网站" scheme="https://blog.mcxiaolan.top/tags/%E7%BD%91%E7%AB%99/"/>
+    
+    <category term="优化" scheme="https://blog.mcxiaolan.top/tags/%E4%BC%98%E5%8C%96/"/>
+    
+    <category term="PWA" scheme="https://blog.mcxiaolan.top/tags/PWA/"/>
+    
+  </entry>
   
   <entry>
     <title>解决vercel国内被墙问题</title>
@@ -524,13 +555,13 @@
     <category term="源码" scheme="https://blog.mcxiaolan.top/categories/%E6%BA%90%E7%A0%81/"/>
     
     
-    <category term="教程" scheme="https://blog.mcxiaolan.top/tags/%E6%95%99%E7%A8%8B/"/>
-    
-    <category term="typecho" scheme="https://blog.mcxiaolan.top/tags/typecho/"/>
+    <category term="优化" scheme="https://blog.mcxiaolan.top/tags/%E4%BC%98%E5%8C%96/"/>
     
     <category term="美化" scheme="https://blog.mcxiaolan.top/tags/%E7%BE%8E%E5%8C%96/"/>
     
-    <category term="优化" scheme="https://blog.mcxiaolan.top/tags/%E4%BC%98%E5%8C%96/"/>
+    <category term="教程" scheme="https://blog.mcxiaolan.top/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="typecho" scheme="https://blog.mcxiaolan.top/tags/typecho/"/>
     
     <category term="伪静态" scheme="https://blog.mcxiaolan.top/tags/%E4%BC%AA%E9%9D%99%E6%80%81/"/>
     
@@ -592,9 +623,9 @@
     <category term="源码" scheme="https://blog.mcxiaolan.top/categories/%E6%BA%90%E7%A0%81/"/>
     
     
-    <category term="教程" scheme="https://blog.mcxiaolan.top/tags/%E6%95%99%E7%A8%8B/"/>
-    
     <category term="WordPress" scheme="https://blog.mcxiaolan.top/tags/WordPress/"/>
+    
+    <category term="教程" scheme="https://blog.mcxiaolan.top/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
