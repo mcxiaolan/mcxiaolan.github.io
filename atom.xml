@@ -169,9 +169,9 @@
     
     <category term="免费" scheme="https://blog.mcxiaolan.top/tags/%E5%85%8D%E8%B4%B9/"/>
     
-    <category term="github" scheme="https://blog.mcxiaolan.top/tags/github/"/>
-    
     <category term="博客" scheme="https://blog.mcxiaolan.top/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="github" scheme="https://blog.mcxiaolan.top/tags/github/"/>
     
     <category term="hexo" scheme="https://blog.mcxiaolan.top/tags/hexo/"/>
     
@@ -301,11 +301,11 @@
     
     <category term="搭建" scheme="https://blog.mcxiaolan.top/tags/%E6%90%AD%E5%BB%BA/"/>
     
-    <category term="免费主机" scheme="https://blog.mcxiaolan.top/tags/%E5%85%8D%E8%B4%B9%E4%B8%BB%E6%9C%BA/"/>
-    
     <category term="onedrive" scheme="https://blog.mcxiaolan.top/tags/onedrive/"/>
     
     <category term="微软" scheme="https://blog.mcxiaolan.top/tags/%E5%BE%AE%E8%BD%AF/"/>
+    
+    <category term="免费主机" scheme="https://blog.mcxiaolan.top/tags/%E5%85%8D%E8%B4%B9%E4%B8%BB%E6%9C%BA/"/>
     
     <category term="onemanager" scheme="https://blog.mcxiaolan.top/tags/onemanager/"/>
     
@@ -559,9 +559,9 @@
     
     <category term="教程" scheme="https://blog.mcxiaolan.top/tags/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="美化" scheme="https://blog.mcxiaolan.top/tags/%E7%BE%8E%E5%8C%96/"/>
-    
     <category term="typecho" scheme="https://blog.mcxiaolan.top/tags/typecho/"/>
+    
+    <category term="美化" scheme="https://blog.mcxiaolan.top/tags/%E7%BE%8E%E5%8C%96/"/>
     
     <category term="伪静态" scheme="https://blog.mcxiaolan.top/tags/%E4%BC%AA%E9%9D%99%E6%80%81/"/>
     
@@ -594,9 +594,9 @@
     
     <category term="白嫖" scheme="https://blog.mcxiaolan.top/tags/%E7%99%BD%E5%AB%96/"/>
     
-    <category term="主机" scheme="https://blog.mcxiaolan.top/tags/%E4%B8%BB%E6%9C%BA/"/>
-    
     <category term="免费主机" scheme="https://blog.mcxiaolan.top/tags/%E5%85%8D%E8%B4%B9%E4%B8%BB%E6%9C%BA/"/>
+    
+    <category term="主机" scheme="https://blog.mcxiaolan.top/tags/%E4%B8%BB%E6%9C%BA/"/>
     
   </entry>
   
@@ -623,9 +623,9 @@
     <category term="源码" scheme="https://blog.mcxiaolan.top/categories/%E6%BA%90%E7%A0%81/"/>
     
     
-    <category term="WordPress" scheme="https://blog.mcxiaolan.top/tags/WordPress/"/>
-    
     <category term="教程" scheme="https://blog.mcxiaolan.top/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="WordPress" scheme="https://blog.mcxiaolan.top/tags/WordPress/"/>
     
   </entry>
   
