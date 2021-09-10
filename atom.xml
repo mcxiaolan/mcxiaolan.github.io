@@ -6,7 +6,7 @@
   <link href="https://blog.mcxiaolan.top/atom.xml" rel="self"/>
   
   <link href="https://blog.mcxiaolan.top/"/>
-  <updated>2021-08-29T08:44:50.783Z</updated>
+  <updated>2021-09-10T15:32:59.724Z</updated>
   <id>https://blog.mcxiaolan.top/</id>
   
   <author>
@@ -15,6 +15,39 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>免费搭建自己的证书透明网站！每日自动检查你的网站证书</title>
+    <link href="https://blog.mcxiaolan.top/articles/Check-your-SSL.html"/>
+    <id>https://blog.mcxiaolan.top/articles/Check-your-SSL.html</id>
+    <published>2021-09-10T14:57:17.000Z</published>
+    <updated>2021-09-10T15:32:59.724Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>很多网站都有 SSL 证书，但是如果你的网站太多，不方便一个一个访问查看剩余时间怎么办呢？<br>这篇文章可以解决你的问题😎</p><h2 id="视频教程"><a href="#视频教程" class="headerlink" title="视频教程"></a>视频教程</h2><blockquote><p>Xiaolan is ready to upload.<br>Please wait.</p></blockquote><h2 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h2><p><a href="https://ssl.mcxiaolan.top/">https://ssl.mcxiaolan.top</a></p><h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><blockquote><p>手机操作的话，建议换成电脑版</p></blockquote><p>1.打开我的 <a href="https://github.com/mcxiaolan/ssl">Github</a> 仓库，点击 <code>fork</code> 按钮<br>（不要脸的求个star，别忘了支持原作者）<br>2.依次点击账号设置(右上角的Settings)-Developer settings-Personal access tokens-Generate new token<br>Note相当于机密的说明，可以随意填<br>Expiration选择 no expiration<br>把<code>security_events</code>勾上，滑到最下面点击Generate token<br>将机密保存好，只会出现一次。<br>3.回到你之前fork的仓库，点击settings，点击secrets，点击New repository secret<br>NAME填<code>TOKEN</code>（大写），Value填刚刚的机密，然后点击add secret<br>4.点击Actions，然后点击绿色的按钮<br>5.回到你的仓库首页，打开<code>.github/workflows</code>文件夹<br>6.修改SSLCheck.yml，第37行改成要监测证书的域名，多个域名以空格分开，把39行的内容修改成自己的访问域名<br>修改完成后点击绿色的按钮，然后再点一次绿色的按钮<br>耐心等待部署完成即可</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="教程" scheme="https://blog.mcxiaolan.top/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="github" scheme="https://blog.mcxiaolan.top/tags/github/"/>
+    
+    <category term="ssl" scheme="https://blog.mcxiaolan.top/tags/ssl/"/>
+    
+    <category term="证书透明" scheme="https://blog.mcxiaolan.top/tags/%E8%AF%81%E4%B9%A6%E9%80%8F%E6%98%8E/"/>
+    
+    <category term="免费" scheme="https://blog.mcxiaolan.top/tags/%E5%85%8D%E8%B4%B9/"/>
+    
+  </entry>
   
   <entry>
     <title>小岚的小窝已支持渐进式 Web 应用（PWA）</title>
@@ -103,9 +136,9 @@
     
     <category term="白嫖" scheme="https://blog.mcxiaolan.top/tags/%E7%99%BD%E5%AB%96/"/>
     
-    <category term="porkbun" scheme="https://blog.mcxiaolan.top/tags/porkbun/"/>
-    
     <category term="域名" scheme="https://blog.mcxiaolan.top/tags/%E5%9F%9F%E5%90%8D/"/>
+    
+    <category term="porkbun" scheme="https://blog.mcxiaolan.top/tags/porkbun/"/>
     
   </entry>
   
@@ -132,15 +165,15 @@
     <category term="源码" scheme="https://blog.mcxiaolan.top/categories/%E6%BA%90%E7%A0%81/"/>
     
     
-    <category term="CloudFlare" scheme="https://blog.mcxiaolan.top/tags/CloudFlare/"/>
+    <category term="github" scheme="https://blog.mcxiaolan.top/tags/github/"/>
     
     <category term="免费" scheme="https://blog.mcxiaolan.top/tags/%E5%85%8D%E8%B4%B9/"/>
     
     <category term="白嫖" scheme="https://blog.mcxiaolan.top/tags/%E7%99%BD%E5%AB%96/"/>
     
-    <category term="网站" scheme="https://blog.mcxiaolan.top/tags/%E7%BD%91%E7%AB%99/"/>
+    <category term="CloudFlare" scheme="https://blog.mcxiaolan.top/tags/CloudFlare/"/>
     
-    <category term="github" scheme="https://blog.mcxiaolan.top/tags/github/"/>
+    <category term="网站" scheme="https://blog.mcxiaolan.top/tags/%E7%BD%91%E7%AB%99/"/>
     
   </entry>
   
@@ -167,9 +200,9 @@
     <category term="教程" scheme="https://blog.mcxiaolan.top/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="免费" scheme="https://blog.mcxiaolan.top/tags/%E5%85%8D%E8%B4%B9/"/>
-    
     <category term="github" scheme="https://blog.mcxiaolan.top/tags/github/"/>
+    
+    <category term="免费" scheme="https://blog.mcxiaolan.top/tags/%E5%85%8D%E8%B4%B9/"/>
     
     <category term="博客" scheme="https://blog.mcxiaolan.top/tags/%E5%8D%9A%E5%AE%A2/"/>
     
@@ -260,11 +293,11 @@
     <category term="教程" scheme="https://blog.mcxiaolan.top/categories/%E6%95%99%E7%A8%8B/"/>
     
     
+    <category term="github" scheme="https://blog.mcxiaolan.top/tags/github/"/>
+    
     <category term="免费" scheme="https://blog.mcxiaolan.top/tags/%E5%85%8D%E8%B4%B9/"/>
     
     <category term="域名" scheme="https://blog.mcxiaolan.top/tags/%E5%9F%9F%E5%90%8D/"/>
-    
-    <category term="github" scheme="https://blog.mcxiaolan.top/tags/github/"/>
     
     <category term="续期" scheme="https://blog.mcxiaolan.top/tags/%E7%BB%AD%E6%9C%9F/"/>
     
@@ -301,11 +334,11 @@
     
     <category term="搭建" scheme="https://blog.mcxiaolan.top/tags/%E6%90%AD%E5%BB%BA/"/>
     
-    <category term="免费主机" scheme="https://blog.mcxiaolan.top/tags/%E5%85%8D%E8%B4%B9%E4%B8%BB%E6%9C%BA/"/>
-    
     <category term="onedrive" scheme="https://blog.mcxiaolan.top/tags/onedrive/"/>
     
     <category term="微软" scheme="https://blog.mcxiaolan.top/tags/%E5%BE%AE%E8%BD%AF/"/>
+    
+    <category term="免费主机" scheme="https://blog.mcxiaolan.top/tags/%E5%85%8D%E8%B4%B9%E4%B8%BB%E6%9C%BA/"/>
     
     <category term="onemanager" scheme="https://blog.mcxiaolan.top/tags/onemanager/"/>
     
@@ -392,11 +425,11 @@
     <category term="教程" scheme="https://blog.mcxiaolan.top/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="CloudFlare" scheme="https://blog.mcxiaolan.top/tags/CloudFlare/"/>
-    
     <category term="免费" scheme="https://blog.mcxiaolan.top/tags/%E5%85%8D%E8%B4%B9/"/>
     
     <category term="白嫖" scheme="https://blog.mcxiaolan.top/tags/%E7%99%BD%E5%AB%96/"/>
+    
+    <category term="CloudFlare" scheme="https://blog.mcxiaolan.top/tags/CloudFlare/"/>
     
     <category term="搭建" scheme="https://blog.mcxiaolan.top/tags/%E6%90%AD%E5%BB%BA/"/>
     
@@ -485,15 +518,15 @@
     <category term="教程" scheme="https://blog.mcxiaolan.top/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="CloudFlare" scheme="https://blog.mcxiaolan.top/tags/CloudFlare/"/>
-    
     <category term="免费" scheme="https://blog.mcxiaolan.top/tags/%E5%85%8D%E8%B4%B9/"/>
     
     <category term="白嫖" scheme="https://blog.mcxiaolan.top/tags/%E7%99%BD%E5%AB%96/"/>
     
-    <category term="网站" scheme="https://blog.mcxiaolan.top/tags/%E7%BD%91%E7%AB%99/"/>
+    <category term="CloudFlare" scheme="https://blog.mcxiaolan.top/tags/CloudFlare/"/>
     
     <category term="搭建" scheme="https://blog.mcxiaolan.top/tags/%E6%90%AD%E5%BB%BA/"/>
+    
+    <category term="网站" scheme="https://blog.mcxiaolan.top/tags/%E7%BD%91%E7%AB%99/"/>
     
     <category term="短网址" scheme="https://blog.mcxiaolan.top/tags/%E7%9F%AD%E7%BD%91%E5%9D%80/"/>
     
@@ -555,13 +588,13 @@
     <category term="源码" scheme="https://blog.mcxiaolan.top/categories/%E6%BA%90%E7%A0%81/"/>
     
     
-    <category term="优化" scheme="https://blog.mcxiaolan.top/tags/%E4%BC%98%E5%8C%96/"/>
-    
     <category term="教程" scheme="https://blog.mcxiaolan.top/tags/%E6%95%99%E7%A8%8B/"/>
     
     <category term="typecho" scheme="https://blog.mcxiaolan.top/tags/typecho/"/>
     
     <category term="美化" scheme="https://blog.mcxiaolan.top/tags/%E7%BE%8E%E5%8C%96/"/>
+    
+    <category term="优化" scheme="https://blog.mcxiaolan.top/tags/%E4%BC%98%E5%8C%96/"/>
     
     <category term="伪静态" scheme="https://blog.mcxiaolan.top/tags/%E4%BC%AA%E9%9D%99%E6%80%81/"/>
     
@@ -594,9 +627,9 @@
     
     <category term="白嫖" scheme="https://blog.mcxiaolan.top/tags/%E7%99%BD%E5%AB%96/"/>
     
-    <category term="主机" scheme="https://blog.mcxiaolan.top/tags/%E4%B8%BB%E6%9C%BA/"/>
-    
     <category term="免费主机" scheme="https://blog.mcxiaolan.top/tags/%E5%85%8D%E8%B4%B9%E4%B8%BB%E6%9C%BA/"/>
+    
+    <category term="主机" scheme="https://blog.mcxiaolan.top/tags/%E4%B8%BB%E6%9C%BA/"/>
     
   </entry>
   
@@ -749,11 +782,11 @@
     
     <category term="白嫖" scheme="https://blog.mcxiaolan.top/tags/%E7%99%BD%E5%AB%96/"/>
     
-    <category term="office" scheme="https://blog.mcxiaolan.top/tags/office/"/>
-    
     <category term="onedrive" scheme="https://blog.mcxiaolan.top/tags/onedrive/"/>
     
     <category term="微软" scheme="https://blog.mcxiaolan.top/tags/%E5%BE%AE%E8%BD%AF/"/>
+    
+    <category term="office" scheme="https://blog.mcxiaolan.top/tags/office/"/>
     
   </entry>
   

@@ -22,25 +22,9 @@
   
     <link rel="manifest" href="/manifest.json"> <script src="./service-worker.js"></script>
   
-  <title>小岚的小窝已支持渐进式 Web 应用（PWA） - 小岚的小窝</title>
+  <title>归档 - 小岚的小窝</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
-
-
-  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@4.0.0/github-markdown.min.css" />
-  <link  rel="stylesheet" href="/lib/hint/hint.min.css" />
-
-  
-    
-    
-      
-      <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10.7.2/styles/github-gist.min.css" />
-    
-  
-
-  
-    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-  
 
 
 
@@ -69,7 +53,7 @@
 
 
 <body>
-  <header style="height: 70vh;">
+  <header style="height: 60vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand"
@@ -271,51 +255,14 @@
 </nav>
 
     <div class="banner" id="banner" parallax=true
-         style="background: url('https://tva4.sinaimg.cn/large/008kKrIXgy1gtxq75uqm4j61kw0lfq6n02.jpg') no-repeat center center;
+         style="background: url('https://tvax2.sinaimg.cn/large/008kKrIXgy1gtneywk7jrj61wu104nii02.jpg') no-repeat center center;
            background-size: cover;">
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="小岚的小窝已支持渐进式 Web 应用（PWA）">
+            <span class="h2" id="subtitle" title="归档">
               
             </span>
-
-            
-              <div class="mt-3">
-  
-  
-    <span class="post-meta">
-      <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2021-08-29 16:05" pubdate>
-        2021年8月29日 下午
-      </time>
-    </span>
-  
-</div>
-
-<div class="mt-1">
-  
-    
-    <span class="post-meta mr-2">
-      <i class="iconfont icon-chart"></i>
-      304 字
-    </span>
-  
-
-  
-    
-    <span class="post-meta mr-2">
-      <i class="iconfont icon-clock-fill"></i>
-      
-      
-      3
-       分钟
-    </span>
-  
-
-  
-  
-</div>
 
             
           </div>
@@ -328,135 +275,40 @@
 
   <main>
     
+      <div class="container nopadding-x-md">
+        <div class="py-5" id="board"
+          >
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-10 m-auto">
+                
+
+<div class="list-group">
+  <p class="h4">共计 25 篇文章</p>
+  <hr>
+  
+  
+    
       
+      <p class="h5">2021</p>
+    
+    <a href="/articles/Check-your-SSL.html" class="list-group-item list-group-item-action">
+      <span class="archive-post-title">免费搭建自己的证书透明网站！每日自动检查你的网站证书</span>
+      <time style="float: right;">09-10</time>
+    </a>
+  
+</div>
 
-<div class="container-fluid nopadding-x">
-  <div class="row nomargin-x">
-    <div class="d-none d-lg-block col-lg-2"></div>
-    <div class="col-lg-8 nopadding-x-md">
-      <div class="container nopadding-x-md" id="board-ctn">
-        <div class="py-5" id="board">
-          <article class="post-content mx-auto">
-            <!-- SEO header -->
-            <h1 style="display: none">小岚的小窝已支持渐进式 Web 应用（PWA）</h1>
-            
-            <div class="markdown-body">
-              <h2 id="PWA-是什么"><a href="#PWA-是什么" class="headerlink" title="PWA 是什么?"></a>PWA 是什么?</h2><p>PWA:渐进式 Web 应用</p>
-<p>PWA 介绍:<a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps">MDN</a></p>
-<h2 id="为什么要让博客支持-PWA-技术"><a href="#为什么要让博客支持-PWA-技术" class="headerlink" title="为什么要让博客支持 PWA 技术?"></a>为什么要让博客支持 PWA 技术?</h2><h3 id="优势"><a href="#优势" class="headerlink" title="优势"></a>优势</h3><p>PWA 是可被发现、易安装、可链接、独立于网络、渐进式、可重用、响应性和安全的。<br>如果你忘记了我的网站域名，你可以直接通过已安装的 PWA 应用来打开我的博客。<br>最重要的是能让我的网站进行离线访问！</p>
-<h2 id="如何安装-PWA-应用"><a href="#如何安装-PWA-应用" class="headerlink" title="如何安装 PWA 应用"></a>如何安装 PWA 应用</h2><h3 id="支持的浏览器"><a href="#支持的浏览器" class="headerlink" title="支持的浏览器"></a>支持的浏览器</h3><p>市场主流浏览器已经能够较好支持这一应用标准<br>PWA 所需的关键要素是 service worker 支持<br>所以只要是支持 service worker 的浏览器<br>理论上均支持 PWA 应用：</p>
-<ul>
-<li>Chrome（v70 稳定版及以上版本）</li>
-<li>Firefox（仅支持 Android v58+）</li>
-<li>Edge</li>
-<li>Safari（iOS 11.3+）<br>等等。</li>
-</ul>
-<h3 id="安装应用"><a href="#安装应用" class="headerlink" title="安装应用"></a>安装应用</h3><blockquote>
-<p>图片中使用的均为 Google Chrome 浏览器，不同的浏览器位置可能不同。</p>
-</blockquote>
-<p>电脑：<br>可在浏览器右上角安装应用<br><img src="https://tva2.sinaimg.cn/large/008kKrIXgy1gtxpsdj6h2j60kq09pmyz02.jpg" srcset="/img/loading.gif" lazyload alt="电脑安装"></p>
-<p>安装好后将会在桌面生成图标<br><img src="https://tva2.sinaimg.cn/large/008kKrIXgy1gtxpsdbla3j61uo0u017502.jpg" srcset="/img/loading.gif" lazyload alt="电脑桌面"></p>
-<p>手机：<br>在浏览器最下面安装应用<br><img src="https://tva4.sinaimg.cn/large/008kKrIXgy1gtxpscs7rej60u01uotpo02.jpg" srcset="/img/loading.gif" lazyload alt="手机安装"></p>
-<p>或者点击右上角三个点安装<br><img src="https://tvax3.sinaimg.cn/large/008kKrIXgy1gtxr3gahfmj60u01uo4fx02.jpg" srcset="/img/loading.gif" lazyload alt="手机右上角安装 - 1"><br><img src="https://tva3.sinaimg.cn/large/008kKrIXgy1gtxr3fwva3j60u01uoqe502.jpg" srcset="/img/loading.gif" lazyload alt="手机右上角安装 - 2"></p>
-<p>安装好后将会在桌面生成图标<br><img src="https://tvax3.sinaimg.cn/large/008kKrIXgy1gtxpsbgov4j60u01uo18m02.jpg" srcset="/img/loading.gif" lazyload alt="手机桌面"></p>
-<p>手机打开的效果如下<br><img src="https://tvax3.sinaimg.cn/large/008kKrIXgy1gtxpsc6jxxj60u01uo1a202.jpg" srcset="/img/loading.gif" lazyload alt="手机效果图"></p>
 
-            </div>
-            <hr>
-            <div>
-              <div class="post-metas mb-3">
-                
-                  <div class="post-meta mr-3">
-                    <i class="iconfont icon-category"></i>
-                    
-                      <a class="hover-with-bg" href="/categories/%E7%BB%8F%E5%8E%86/">经历</a>
-                    
-                  </div>
-                
-                
-                  <div class="post-meta">
-                    <i class="iconfont icon-tags"></i>
-                    
-                      <a class="hover-with-bg" href="/tags/%E7%BD%91%E7%AB%99/">网站</a>
-                    
-                      <a class="hover-with-bg" href="/tags/%E4%BC%98%E5%8C%96/">优化</a>
-                    
-                      <a class="hover-with-bg" href="/tags/PWA/">PWA</a>
-                    
-                  </div>
-                
+
+
+
               </div>
-              
-                <p class="note note-warning">
-                  
-                    本博客所有文章除特别声明外，均采用<a target="_blank" rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/"><font color="#1E90FF">知识共享署名-非商业性使用-相同方式共享 3.0 中国大陆许可协议</font></a>进行许可。<br> 如果你要转载文章，请询问作者，以相同方式进行<font color="red">非商业性</font>搬运。<br><br>使用 来必力 作为评论，这可能需要一段时间才能加载。
-                  
-                </p>
-              
-              
-                <div class="post-prevnext">
-                  <article class="post-prev col-6">
-                    
-                    
-                      <a href="/articles/Check-your-SSL.html">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">免费搭建自己的证书透明网站！每日自动检查你的网站证书</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
-                  </article>
-                  <article class="post-next col-6">
-                    
-                    
-                      <a href="/articles/%E8%A7%A3%E5%86%B3vercel%E5%9B%BD%E5%86%85%E8%A2%AB%E5%A2%99%E9%97%AE%E9%A2%98.html">
-                        <span class="hidden-mobile">解决vercel国内被墙问题</span>
-                        <span class="visible-mobile">下一篇</span>
-                        <i class="iconfont icon-arrowright"></i>
-                      </a>
-                    
-                  </article>
-                </div>
-              
             </div>
-
-            
-              <!-- Comments -->
-              <article class="comments" id="comments" lazyload>
-                
-                  
-                
-                
-  <div id="lv-container" data-id="city" data-uid="MTAyMC81Mzg0Ni8zMDMxOQ==">
-    <script type="text/javascript">
-      Fluid.utils.loadComments('#lv-container', function() {
-        Fluid.utils.createScript('https://cdn-city.livere.com/js/embed.dist.js');
-      });
-    </script>
-    <noscript>Please enable JavaScript to view the comments</noscript>
-  </div>
-
-
-              </article>
-            
-          </article>
+          </div>
         </div>
       </div>
-    </div>
-    
-      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
-        <div id="toc">
-  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
-  <div class="toc-body" id="toc-body"></div>
-</div>
-
-      </div>
-    
-  </div>
-</div>
-
-<!-- Custom -->
-
-
     
 
     
@@ -542,15 +394,9 @@
 
 
 
-  <script  src="https://cdn.jsdelivr.net/npm/tocbot@4.12.3/dist/tocbot.min.js" ></script>
 
 
 
-  <script  src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js" ></script>
-
-
-
-  <script  src="https://cdn.jsdelivr.net/npm/anchor-js@4.3.1/anchor.min.js" ></script>
 
 
 
