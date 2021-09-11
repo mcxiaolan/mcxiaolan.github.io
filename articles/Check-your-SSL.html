@@ -298,7 +298,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      349 字
+      468 字
     </span>
   
 
@@ -308,7 +308,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      4
+      5
        分钟
     </span>
   
@@ -359,7 +359,10 @@
 <p>5.回到你的仓库首页，打开<code>.github/workflows</code>文件夹</p>
 <p>6.修改SSLCheck.yml，第37行改成要监测证书的域名，多个域名以空格分开<br>添加一个CNAME记录,记录填<code>用户名.githib.io</code><br>把39行的内容修改成自己的访问域名</p>
 <p>如果无需自己的域名可以直接填<code>用户名.githib.io</code></p>
-<p>修改完成后点击绿色的按钮，然后再点一次绿色的按钮<br>耐心等待部署完成即可</p>
+<p>修改完成后点击绿色的按钮，然后再点一次绿色的按钮<br>耐心等待部署完成</p>
+<h2 id="常见错误"><a href="#常见错误" class="headerlink" title="常见错误"></a>常见错误</h2><h3 id="404"><a href="#404" class="headerlink" title="404"></a>404</h3><p>等待几分钟后，如果显示404错误的话<br>请打开仓库的settings - pages<br>检查部署分支，如果是master或者main<br>请手动修改为ph-pages</p>
+<h3 id="自定义域名无SSL"><a href="#自定义域名无SSL" class="headerlink" title="自定义域名无SSL"></a>自定义域名无SSL</h3><p>这个只要添加好CNAME记录后耐心等待<br>等 Github 签发证书，你就可以勾选强制https<br>当然最省事的你可以cf开启代理，但并不推荐这样做</p>
+<h3 id="自定义域名无法访问"><a href="#自定义域名无法访问" class="headerlink" title="自定义域名无法访问"></a>自定义域名无法访问</h3><p>多半是墙了，github.io的锅</p>
 
             </div>
             <hr>
