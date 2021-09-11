@@ -298,7 +298,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      316 字
+      349 字
     </span>
   
 
@@ -308,7 +308,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      3
+      4
        分钟
     </span>
   
@@ -350,11 +350,16 @@
 <p>手机操作的话，建议换成电脑版</p>
 </blockquote>
 <p>1.打开我的 <a target="_blank" rel="noopener" href="https://github.com/mcxiaolan/ssl">Github</a> 仓库，点击 <code>fork</code> 按钮<br>（不要脸的求个star，别忘了支持原作者）</p>
-<p>2.依次点击账号设置(右上角的Settings)-Developer settings-Personal access tokens-Generate new token<br>Note相当于机密的说明，可以随意填<br>Expiration选择 no expiration<br>把<code>security_events</code>勾上，滑到最下面点击Generate token<br>将机密保存好，只会出现一次。</p>
-<p>3.回到你之前fork的仓库，点击settings，点击secrets，点击New repository secret<br>NAME填<code>TOKEN</code>（大写），Value填刚刚的机密，然后点击add secret</p>
+<p>2.依次点击账号设置(右上角的Settings)-Developer settings<br>Personal access tokens<br>Generate new token</p>
+<p>Note相当于机密的说明，可以随意填</p>
+<p>Expiration选择 no expiration<br>把<code>security_events</code>勾上，滑到最下面点击Generate token<br>将机密保存好，只会出现一次。</p>
+<p>3.回到你之前fork的仓库，点击settings，点击secrets，点击New repository secret</p>
+<p>NAME填<code>TOKEN</code>（大写），Value填刚刚的机密，然后点击add secret</p>
 <p>4.点击Actions，然后点击绿色的按钮</p>
 <p>5.回到你的仓库首页，打开<code>.github/workflows</code>文件夹</p>
-<p>6.修改SSLCheck.yml，第37行改成要监测证书的域名，多个域名以空格分开，把39行的内容修改成自己的访问域名<br>修改完成后点击绿色的按钮，然后再点一次绿色的按钮<br>耐心等待部署完成即可</p>
+<p>6.修改SSLCheck.yml，第37行改成要监测证书的域名，多个域名以空格分开<br>添加一个CNAME记录,记录填<code>用户名.githib.io</code><br>把39行的内容修改成自己的访问域名</p>
+<p>如果无需自己的域名可以直接填<code>用户名.githib.io</code></p>
+<p>修改完成后点击绿色的按钮，然后再点一次绿色的按钮<br>耐心等待部署完成即可</p>
 
             </div>
             <hr>

@@ -8,7 +8,7 @@
     <link href="/articles/Check-your-SSL.html"/>
     <url>/articles/Check-your-SSL.html</url>
     
-    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>很多网站都有 SSL 证书，但是如果你的网站太多，不方便一个一个访问查看剩余时间怎么办呢？<br>这篇文章可以解决你的问题😎</p><h2 id="视频教程"><a href="#视频教程" class="headerlink" title="视频教程"></a>视频教程</h2><blockquote><p>Xiaolan is ready to upload.<br>Please wait.</p></blockquote><h2 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h2><p><a href="https://ssl.mcxiaolan.top/">https://ssl.mcxiaolan.top</a></p><h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><blockquote><p>手机操作的话，建议换成电脑版</p></blockquote><p>1.打开我的 <a href="https://github.com/mcxiaolan/ssl">Github</a> 仓库，点击 <code>fork</code> 按钮<br>（不要脸的求个star，别忘了支持原作者）</p><p>2.依次点击账号设置(右上角的Settings)-Developer settings-Personal access tokens-Generate new token<br>Note相当于机密的说明，可以随意填<br>Expiration选择 no expiration<br>把<code>security_events</code>勾上，滑到最下面点击Generate token<br>将机密保存好，只会出现一次。</p><p>3.回到你之前fork的仓库，点击settings，点击secrets，点击New repository secret<br>NAME填<code>TOKEN</code>（大写），Value填刚刚的机密，然后点击add secret</p><p>4.点击Actions，然后点击绿色的按钮</p><p>5.回到你的仓库首页，打开<code>.github/workflows</code>文件夹</p><p>6.修改SSLCheck.yml，第37行改成要监测证书的域名，多个域名以空格分开，把39行的内容修改成自己的访问域名<br>修改完成后点击绿色的按钮，然后再点一次绿色的按钮<br>耐心等待部署完成即可</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>很多网站都有 SSL 证书，但是如果你的网站太多，不方便一个一个访问查看剩余时间怎么办呢？<br>这篇文章可以解决你的问题😎</p><h2 id="视频教程"><a href="#视频教程" class="headerlink" title="视频教程"></a>视频教程</h2><blockquote><p>Xiaolan is ready to upload.<br>Please wait.</p></blockquote><h2 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h2><p><a href="https://ssl.mcxiaolan.top/">https://ssl.mcxiaolan.top</a></p><h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><blockquote><p>手机操作的话，建议换成电脑版</p></blockquote><p>1.打开我的 <a href="https://github.com/mcxiaolan/ssl">Github</a> 仓库，点击 <code>fork</code> 按钮<br>（不要脸的求个star，别忘了支持原作者）</p><p>2.依次点击账号设置(右上角的Settings)-Developer settings<br>Personal access tokens<br>Generate new token</p><p>Note相当于机密的说明，可以随意填</p><p>Expiration选择 no expiration<br>把<code>security_events</code>勾上，滑到最下面点击Generate token<br>将机密保存好，只会出现一次。</p><p>3.回到你之前fork的仓库，点击settings，点击secrets，点击New repository secret</p><p>NAME填<code>TOKEN</code>（大写），Value填刚刚的机密，然后点击add secret</p><p>4.点击Actions，然后点击绿色的按钮</p><p>5.回到你的仓库首页，打开<code>.github/workflows</code>文件夹</p><p>6.修改SSLCheck.yml，第37行改成要监测证书的域名，多个域名以空格分开<br>添加一个CNAME记录,记录填<code>用户名.githib.io</code><br>把39行的内容修改成自己的访问域名</p><p>如果无需自己的域名可以直接填<code>用户名.githib.io</code></p><p>修改完成后点击绿色的按钮，然后再点一次绿色的按钮<br>耐心等待部署完成即可</p>]]></content>
     
     
     <categories>
@@ -763,22 +763,22 @@
   
   
   <entry>
-    <title>留言栏</title>
+    <title>about</title>
     <link href="/"/>
     <url>/</url>
     
-    <content type="html"><![CDATA[<h2 id="欢迎留言"><a href="#欢迎留言" class="headerlink" title="欢迎留言"></a>欢迎留言</h2><p>感谢你能在岚天呀的小破站留言。<br>有任何建议或者问题，欢迎留言。<br>粉丝群：715255814</p><h2 id="评论规则"><a href="#评论规则" class="headerlink" title="评论规则"></a>评论规则</h2><ol><li>发布评论时，请遵守您所在国家和中华人民共和国的法律法规，禁止发布政治相关内容；</li><li>评论内容应该和所在页面的内容相关，禁止一切无意义和严重跑题的内容；</li><li>请尊重他人，友好评论，请像和他人面对面谈话时一样保持对他人的尊重；</li><li>禁止发布广告；</li><li>请勿使用类似“谢谢谢谢谢谢谢谢谢”、“哈哈哈哈哈哈哈哈”这样的术语。表达感谢请真诚，此种方式视为灌水。</li></ol><blockquote><p>此规则来自 <a href="https://www.midishow.com/help/comment-rules.ab">MidiShow</a></p></blockquote>]]></content>
+    <content type="html"><![CDATA[<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><blockquote><p>我是岚天呀，常叫小岚或Xiaolan.<br>职业：学生</p></blockquote><h2 id="擅长"><a href="#擅长" class="headerlink" title="擅长"></a>擅长</h2><p>会一点html和Markdown</p><h2 id="经历"><a href="#经历" class="headerlink" title="经历"></a>经历</h2><p>搭建网站的道路上经历了许多坎坷<br>刚开始看到萌新杰少这位大佬的视频<br><a href="https://b23.tv/nl1WsI">视频链接</a><br>然后就开始对搭建网站有了兴趣<br>后来开始做了一些分享教程<br>碰到了叶某云的广告<br>那时候也用了一阵子<br>然后呢？带着我的数据跑了😭<br>于是我就开始用Freenom的域名<br>到现在自己买的top域名<br>从xiaolan.ml<br>到lantianya.ga<br>最后到mcxiaolan.top<br>后来开始接触Termux<br>也开始学了学基础的指令<br>于是我抛弃了虚拟主机<br>换成了现在的Hexo<br>我是不是很惨?😞</p><h2 id="安卓-RSS-软件"><a href="#安卓-RSS-软件" class="headerlink" title="安卓 RSS 软件"></a>安卓 RSS 软件</h2><p><a href="https://www.coolapk.com/apk/com.blend.rolly">Rolly RSS Reader</a></p>]]></content>
     
   </entry>
   
   
   
   <entry>
-    <title>about</title>
+    <title>留言栏</title>
     <link href="/"/>
     <url>/</url>
     
-    <content type="html"><![CDATA[<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><blockquote><p>我是岚天呀，常叫小岚或Xiaolan.<br>职业：学生</p></blockquote><h2 id="擅长"><a href="#擅长" class="headerlink" title="擅长"></a>擅长</h2><p>会一点html和Markdown</p><h2 id="经历"><a href="#经历" class="headerlink" title="经历"></a>经历</h2><p>搭建网站的道路上经历了许多坎坷<br>刚开始看到萌新杰少这位大佬的视频<br><a href="https://b23.tv/nl1WsI">视频链接</a><br>然后就开始对搭建网站有了兴趣<br>后来开始做了一些分享教程<br>碰到了叶某云的广告<br>那时候也用了一阵子<br>然后呢？带着我的数据跑了😭<br>于是我就开始用Freenom的域名<br>到现在自己买的top域名<br>从xiaolan.ml<br>到lantianya.ga<br>最后到mcxiaolan.top<br>后来开始接触Termux<br>也开始学了学基础的指令<br>于是我抛弃了虚拟主机<br>换成了现在的Hexo<br>我是不是很惨?😞</p><h2 id="安卓-RSS-软件"><a href="#安卓-RSS-软件" class="headerlink" title="安卓 RSS 软件"></a>安卓 RSS 软件</h2><p><a href="https://www.coolapk.com/apk/com.blend.rolly">Rolly RSS Reader</a></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="欢迎留言"><a href="#欢迎留言" class="headerlink" title="欢迎留言"></a>欢迎留言</h2><p>感谢你能在岚天呀的小破站留言。<br>有任何建议或者问题，欢迎留言。<br>粉丝群：715255814</p><h2 id="评论规则"><a href="#评论规则" class="headerlink" title="评论规则"></a>评论规则</h2><ol><li>发布评论时，请遵守您所在国家和中华人民共和国的法律法规，禁止发布政治相关内容；</li><li>评论内容应该和所在页面的内容相关，禁止一切无意义和严重跑题的内容；</li><li>请尊重他人，友好评论，请像和他人面对面谈话时一样保持对他人的尊重；</li><li>禁止发布广告；</li><li>请勿使用类似“谢谢谢谢谢谢谢谢谢”、“哈哈哈哈哈哈哈哈”这样的术语。表达感谢请真诚，此种方式视为灌水。</li></ol><blockquote><p>此规则来自 <a href="https://www.midishow.com/help/comment-rules.ab">MidiShow</a></p></blockquote>]]></content>
     
   </entry>
   
