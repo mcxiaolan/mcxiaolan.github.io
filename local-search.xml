@@ -8,7 +8,7 @@
     <link href="/articles/Check-your-SSL.html"/>
     <url>/articles/Check-your-SSL.html</url>
     
-    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>很多网站都有 SSL 证书，但是如果你的网站太多，不方便一个一个访问查看剩余时间怎么办呢？<br>这篇文章可以解决你的问题😎</p><h2 id="视频教程"><a href="#视频教程" class="headerlink" title="视频教程"></a>视频教程</h2><blockquote><p>Xiaolan is ready to upload.<br>Please wait.</p></blockquote><h2 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h2><p><a href="https://ssl.mcxiaolan.top/">https://ssl.mcxiaolan.top</a></p><h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><blockquote><p>手机操作的话，建议换成电脑版</p></blockquote><p>1.打开我的 <a href="https://github.com/mcxiaolan/ssl">Github</a> 仓库，点击 <code>fork</code> 按钮<br>（不要脸的求个star，别忘了支持原作者）</p><p>2.依次点击账号设置(右上角的Settings)-Developer settings<br>Personal access tokens<br>Generate new token</p><p>Note相当于机密的说明，可以随意填</p><p>Expiration选择 no expiration<br>把<code>security_events</code>勾上，滑到最下面点击Generate token<br>将机密保存好，只会出现一次。</p><p>3.回到你之前fork的仓库，点击settings，点击secrets，点击New repository secret</p><p>NAME填<code>TOKEN</code>（大写），Value填刚刚的机密，然后点击add secret</p><p>4.点击Actions，然后点击绿色的按钮</p><p>5.回到你的仓库首页，打开<code>.github/workflows</code>文件夹</p><p>6.修改SSLCheck.yml，第37行改成要监测证书的域名，多个域名以空格分开<br>添加一个CNAME记录,记录填<code>用户名.githib.io</code><br>把39行的内容修改成自己的访问域名</p><p>如果无需自己的域名可以直接填<code>用户名.githib.io</code></p><p>修改完成后点击绿色的按钮，然后再点一次绿色的按钮<br>耐心等待部署完成</p><h2 id="常见错误"><a href="#常见错误" class="headerlink" title="常见错误"></a>常见错误</h2><h3 id="404"><a href="#404" class="headerlink" title="404"></a>404</h3><p>等待几分钟后，如果显示404错误的话<br>请打开仓库的settings - pages<br>检查部署分支，如果是master或者main<br>请手动修改为ph-pages</p><h3 id="自定义域名无SSL"><a href="#自定义域名无SSL" class="headerlink" title="自定义域名无SSL"></a>自定义域名无SSL</h3><p>这个只要添加好CNAME记录后耐心等待<br>等 Github 签发证书，你就可以勾选强制https<br>当然最省事的你可以cf开启代理，但并不推荐这样做</p><h3 id="自定义域名无法访问"><a href="#自定义域名无法访问" class="headerlink" title="自定义域名无法访问"></a>自定义域名无法访问</h3><p>多半是墙了，github.io的锅</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>很多网站都有 SSL 证书，但是如果你的网站太多，不方便一个一个访问查看剩余时间怎么办呢？<br>这篇文章可以解决你的问题😎</p><h2 id="视频教程"><a href="#视频教程" class="headerlink" title="视频教程"></a>视频教程</h2><iframe class="video" src="//player.bilibili.com/player.html?aid=720416307&bvid=BV1wQ4y1r7Mj&cid=406233855&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>【免费搭建自己的证书透明网站！每日自动检查你的网站证书-哔哩哔哩】https://b23.tv/CykyP2## Demo<p><a href="https://ssl.mcxiaolan.top/">https://ssl.mcxiaolan.top</a></p><h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><blockquote><p>手机操作的话，建议换成电脑版</p></blockquote><p>1.打开我的 <a href="https://github.com/mcxiaolan/ssl">Github</a> 仓库，点击 <code>fork</code> 按钮<br>（不要脸的求个star，别忘了支持原作者）</p><p>2.依次点击账号设置(右上角的Settings)-Developer settings<br>Personal access tokens<br>Generate new token</p><p>Note相当于机密的说明，可以随意填</p><p>Expiration选择 no expiration<br>把<code>security_events</code>勾上，滑到最下面点击Generate token<br>将机密保存好，只会出现一次。</p><p>3.回到你之前fork的仓库，点击settings，点击secrets，点击New repository secret</p><p>NAME填<code>TOKEN</code>（大写），Value填刚刚的机密，然后点击add secret</p><p>4.点击Actions，然后点击绿色的按钮</p><p>5.回到你的仓库首页，打开<code>.github/workflows</code>文件夹</p><p>6.修改SSLCheck.yml，第37行改成要监测证书的域名，多个域名以空格分开<br>添加一个CNAME记录,记录填<code>用户名.githib.io</code><br>把39行的内容修改成自己的访问域名</p><p>如果无需自己的域名可以直接填<code>用户名.githib.io</code></p><p>修改完成后点击绿色的按钮，然后再点一次绿色的按钮<br>耐心等待部署完成</p><h2 id="常见错误"><a href="#常见错误" class="headerlink" title="常见错误"></a>常见错误</h2><h3 id="404"><a href="#404" class="headerlink" title="404"></a>404</h3><p>等待几分钟后，如果显示404错误的话<br>请打开仓库的settings - pages<br>检查部署分支，如果是master或者main<br>请手动修改为ph-pages</p><h3 id="自定义域名无SSL"><a href="#自定义域名无SSL" class="headerlink" title="自定义域名无SSL"></a>自定义域名无SSL</h3><p>这个只要添加好CNAME记录后耐心等待<br>等 Github 签发证书，你就可以勾选强制https<br>当然最省事的你可以cf开启代理，但并不推荐这样做</p><h3 id="自定义域名无法访问"><a href="#自定义域名无法访问" class="headerlink" title="自定义域名无法访问"></a>自定义域名无法访问</h3><p>多半是墙了，github.io的锅</p>]]></content>
     
     
     <categories>
@@ -529,11 +529,11 @@
       
       <tag>优化</tag>
       
+      <tag>美化</tag>
+      
       <tag>教程</tag>
       
       <tag>typecho</tag>
-      
-      <tag>美化</tag>
       
       <tag>伪静态</tag>
       
