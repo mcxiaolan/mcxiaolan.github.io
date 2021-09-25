@@ -6,7 +6,7 @@
   <link href="https://blog.mcxiaolan.top/atom.xml" rel="self"/>
   
   <link href="https://blog.mcxiaolan.top/"/>
-  <updated>2021-09-19T04:50:53.662Z</updated>
+  <updated>2021-09-25T09:11:06.802Z</updated>
   <id>https://blog.mcxiaolan.top/</id>
   
   <author>
@@ -15,6 +15,41 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用 hyperbeam 获取 freenom 域名</title>
+    <link href="https://blog.mcxiaolan.top/articles/get-freenom-domains.html"/>
+    <id>https://blog.mcxiaolan.top/articles/get-freenom-domains.html</id>
+    <published>2021-09-25T09:04:08.000Z</published>
+    <updated>2021-09-25T09:11:06.802Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="使用须知"><a href="#使用须知" class="headerlink" title="使用须知"></a>使用须知</h1><p>如果你有梯子都无法注册 freenom,也许这篇文章可以帮你解决。<br>本次教程可能也需要用到梯子，用于登录操作。</p><h1 id="视频教程"><a href="#视频教程" class="headerlink" title="视频教程"></a>视频教程</h1><p>uploading…</p><h1 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h1><p>打开<a href="https://hyperbeam.com/">https://hyperbeam.com</a></p><p>点击在浏览器打开，弄好一个账号即可</p><p>手机端回到 hyperbeam,下载他们的 APP（可能需要浏览器的支持）</p><p>打开他们的 app 登录账号</p><p>然后点击创建房间</p><p>起好名字继续创建，然后就可以开始浏览了，有时候可能需要排队，需要耐心等待。</p><p>然后你就可以获得一个国外远程服务器桌面了</p><p>接下来的操作就比较重要了</p><p>修改你的账户地址</p><p>用 <a href="https://whatismyipaddress.com/">https://whatismyipaddress.com</a></p><p>查看这台服务器所在的地址</p><p>然后进行填写就可以顺利白嫖。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="教程" scheme="https://blog.mcxiaolan.top/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="免费" scheme="https://blog.mcxiaolan.top/tags/%E5%85%8D%E8%B4%B9/"/>
+    
+    <category term="域名" scheme="https://blog.mcxiaolan.top/tags/%E5%9F%9F%E5%90%8D/"/>
+    
+    <category term="白嫖" scheme="https://blog.mcxiaolan.top/tags/%E7%99%BD%E5%AB%96/"/>
+    
+    <category term="hyperbeam" scheme="https://blog.mcxiaolan.top/tags/hyperbeam/"/>
+    
+    <category term="freenom" scheme="https://blog.mcxiaolan.top/tags/freenom/"/>
+    
+  </entry>
   
   <entry>
     <title>岚天论坛 试运营</title>
@@ -200,9 +235,9 @@
     
     <category term="白嫖" scheme="https://blog.mcxiaolan.top/tags/%E7%99%BD%E5%AB%96/"/>
     
-    <category term="网站" scheme="https://blog.mcxiaolan.top/tags/%E7%BD%91%E7%AB%99/"/>
-    
     <category term="CloudFlare" scheme="https://blog.mcxiaolan.top/tags/CloudFlare/"/>
+    
+    <category term="网站" scheme="https://blog.mcxiaolan.top/tags/%E7%BD%91%E7%AB%99/"/>
     
   </entry>
   
@@ -328,9 +363,9 @@
     
     <category term="域名" scheme="https://blog.mcxiaolan.top/tags/%E5%9F%9F%E5%90%8D/"/>
     
-    <category term="续期" scheme="https://blog.mcxiaolan.top/tags/%E7%BB%AD%E6%9C%9F/"/>
-    
     <category term="freenom" scheme="https://blog.mcxiaolan.top/tags/freenom/"/>
+    
+    <category term="续期" scheme="https://blog.mcxiaolan.top/tags/%E7%BB%AD%E6%9C%9F/"/>
     
   </entry>
   
@@ -363,11 +398,11 @@
     
     <category term="搭建" scheme="https://blog.mcxiaolan.top/tags/%E6%90%AD%E5%BB%BA/"/>
     
+    <category term="免费主机" scheme="https://blog.mcxiaolan.top/tags/%E5%85%8D%E8%B4%B9%E4%B8%BB%E6%9C%BA/"/>
+    
     <category term="onedrive" scheme="https://blog.mcxiaolan.top/tags/onedrive/"/>
     
     <category term="微软" scheme="https://blog.mcxiaolan.top/tags/%E5%BE%AE%E8%BD%AF/"/>
-    
-    <category term="免费主机" scheme="https://blog.mcxiaolan.top/tags/%E5%85%8D%E8%B4%B9%E4%B8%BB%E6%9C%BA/"/>
     
     <category term="onemanager" scheme="https://blog.mcxiaolan.top/tags/onemanager/"/>
     
@@ -551,11 +586,11 @@
     
     <category term="白嫖" scheme="https://blog.mcxiaolan.top/tags/%E7%99%BD%E5%AB%96/"/>
     
-    <category term="网站" scheme="https://blog.mcxiaolan.top/tags/%E7%BD%91%E7%AB%99/"/>
-    
     <category term="CloudFlare" scheme="https://blog.mcxiaolan.top/tags/CloudFlare/"/>
     
     <category term="搭建" scheme="https://blog.mcxiaolan.top/tags/%E6%90%AD%E5%BB%BA/"/>
+    
+    <category term="网站" scheme="https://blog.mcxiaolan.top/tags/%E7%BD%91%E7%AB%99/"/>
     
     <category term="短网址" scheme="https://blog.mcxiaolan.top/tags/%E7%9F%AD%E7%BD%91%E5%9D%80/"/>
     
@@ -656,9 +691,9 @@
     
     <category term="白嫖" scheme="https://blog.mcxiaolan.top/tags/%E7%99%BD%E5%AB%96/"/>
     
-    <category term="免费主机" scheme="https://blog.mcxiaolan.top/tags/%E5%85%8D%E8%B4%B9%E4%B8%BB%E6%9C%BA/"/>
-    
     <category term="主机" scheme="https://blog.mcxiaolan.top/tags/%E4%B8%BB%E6%9C%BA/"/>
+    
+    <category term="免费主机" scheme="https://blog.mcxiaolan.top/tags/%E5%85%8D%E8%B4%B9%E4%B8%BB%E6%9C%BA/"/>
     
   </entry>
   
