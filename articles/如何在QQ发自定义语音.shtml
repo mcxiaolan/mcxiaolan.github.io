@@ -22,7 +22,7 @@
   
     <link rel="manifest" href="/manifest.json"> <script src="./service-worker.js"></script>
   
-  <title>使用Heroku免费服务器搭建Onedrive个人网盘！ - 小岚的小窝</title>
+  <title>如何在QQ发自定义语音? - 小岚的小窝</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
 
@@ -287,12 +287,12 @@
 </nav>
 
     <div class="banner" id="banner" parallax=true
-         style="background: url('https://tvax4.sinaimg.cn/large/008kKrIXgy1gsxlzhaqwcj30u00l7aex.jpg') no-repeat center center;
+         style="background: url('https://tvax2.sinaimg.cn/large/008kKrIXgy1gtneywk7jrj61wu104nii02.jpg') no-repeat center center;
            background-size: cover;">
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="使用Heroku免费服务器搭建Onedrive个人网盘！">
+            <span class="h2" id="subtitle" title="如何在QQ发自定义语音?">
               
             </span>
 
@@ -302,8 +302,8 @@
   
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2021-07-27 23:49" pubdate>
-        2021年7月27日 晚上
+      <time datetime="2021-07-11 14:58" pubdate>
+        2021年7月11日 下午
       </time>
     </span>
   
@@ -314,7 +314,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      719 字
+      182 字
     </span>
   
 
@@ -324,7 +324,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      7
+      1
        分钟
     </span>
   
@@ -354,41 +354,16 @@
         <div class="py-5" id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">使用Heroku免费服务器搭建Onedrive个人网盘！</h1>
+            <h1 style="display: none">如何在QQ发自定义语音?</h1>
             
             <div class="markdown-body">
-              <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>今日检查B站消息的时候，看到一位粉丝留言：<br><img src="https://tva3.sinaimg.cn/large/008kKrIXgy1gsvxmyidkdj30u00a8q3r.jpg" srcset="/img/loading.gif" lazyload alt="留言"><br>说实话，以前出了很多期用Oneindex搭建的教程，但是这个原作者已经跑路了，没有人维护，只有一些大佬的魔改版。许多功能都没有，例如：</p>
-<ul>
-<li>上传文件</li>
-<li>管理文件</li>
-<li>挂载多个网盘</li>
-<li>多样化自定义<br>等等，于是我找到了一个更好的替代品——Onemanager-PHP。</li>
-</ul>
-<h2 id="视频教程"><a href="#视频教程" class="headerlink" title="视频教程"></a>视频教程</h2><iframe class="video" src="//player.bilibili.com/player.html?aid=846896452&bvid=BV1754y1J7ho&cid=377644553&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+              <h2 id="视频教程"><a href="#视频教程" class="headerlink" title="视频教程"></a>视频教程</h2><iframe class="video" src="//player.bilibili.com/player.html?aid=931528836&bvid=BV1WM4y1M7Pt&cid=367969356&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
-<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1754y1J7ho">前往此视频</a></p>
-<h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><p>自备一个Onedrive账号，还有一个邮箱</p>
-<p>1.注册<a target="_blank" rel="noopener" href="https://heroku.com/">Heroku</a>（要魔法上网），验证好邮箱以后即可设置密码，设置完密码后，同意服务协议即可</p>
-<p>2.打开我的<a target="_blank" rel="noopener" href="https://github.com/mcxiaolan/OneManager-php">Github</a>仓库（用我的是因为原作者被Heroku封了），往下滑点击紫色按钮</p>
+<p><a target="_blank" rel="noopener" href="https://b23.tv/TlEaTV">前往视频</a></p>
+<h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><p>打开Android/data/com.tencent.mobileqq/Tencent/MobileQQ/你的QQ<br>找到ptt，如果没有什么重要的录音文件的话，建议整个文件夹都删掉，要不然你会很难改<br>回到QQ点击<code>录音</code>，录多少秒都可以<br>然后回到之前的文件夹会看到有个ptt<br>按录音日期打开，最终你会找到一个文件<br>复制它的名称（名字和后缀一起复制）<br>然后将录音文件删掉，把你想要的音频文件放到这里，粘贴刚刚复制的名字，回到QQ点击发送就好了。</p>
 <blockquote>
-<p>嘻嘻，知道你们有一些人打不开Github，在这里我直接贴Deploy的链接（说实话，注册都有魔法了，这个应该不需要，除非你懒）</p>
+<p>如果失败了，最有可能是因为你的音频文件时间太长。</p>
 </blockquote>
-<p><a target="_blank" rel="noopener" href="https://heroku.com/deploy?template=https://github.com/mcxiaolan/OneManager-php"><img src="https://www.herokucdn.com/deploy/button.svg" srcset="/img/loading.gif" lazyload alt="Deploy"></a></p>
-<p><img src="https://tva1.sinaimg.cn/large/008kKrIXgy1gsvxvvi3rzj30u00eaabm.jpg" srcset="/img/loading.gif" lazyload alt="部署至Heroku"></p>
-<p>3.起好程序名，选择地区，然后即可开始部署<br>如果要使用自己的域名，请点击manage app→settings→add domain，根据提示绑定即可</p>
-<p>4.点击view，根据提示完成安装，然后登录管理员后台。（特别强调一下进入后台的方法，有一些模板不显示后台管理，在域名后输入<code>/?admin</code>即可）</p>
-<p>5.选择onedrive后点击添加磁盘（其他的请自己尝试）</p>
-<p>6.起好标签和名称，选择自己的版本，这里我以国际版为例，点击以后会出现一个用自己的密钥的选项，请务必勾上，当然如果你只是玩一玩的话，那你可以不勾，为了稳定，我们还是自己申请好</p>
-<p>7.点击申请应用ID与机密，点击新注册，起好名字，选择第3项，重定向URL填系统给的Reply URL，然后点击注册<br><img src="https://tvax3.sinaimg.cn/large/008kKrIXgy1gsvye9x5moj30u01uon5f.jpg" srcset="/img/loading.gif" lazyload alt="应用注册"></p>
-<p>8.复制好应用ID，粘贴到Onemanager后台，然后点击添加证书或机密<br><img src="https://tva3.sinaimg.cn/large/008kKrIXgy1gsvygwr9l4j30u01uoak9.jpg" srcset="/img/loading.gif" lazyload alt="应用ID"></p>
-<p>9.点击新客户端密码，说明填上，期限填最大值（2021.7.18最大为24月），然后点击添加，复制好这个机密并注意保存啥的，因为只会显示一次，并且粘贴到onemanager后台</p>
-<p>10.都填好以后点击确定<br><img src="https://tva4.sinaimg.cn/large/008kKrIXgy1gsvym4e0ikj30u01uojzo.jpg" srcset="/img/loading.gif" lazyload alt="阿巴阿巴"></p>
-<p>11.耐心等待跳转到微软的征求许可界面，点击接受，继续耐心等待<br><img src="https://tvax1.sinaimg.cn/large/008kKrIXgy1gsvypfuwkdj30u01uotff.jpg" srcset="/img/loading.gif" lazyload alt="征求许可"></p>
-<p>12.到这里的时候，如果你不懂的话，直接点确认就行了，如果你大佬想尝试更多的话，你可以自己试试。<br><img src="https://tvax1.sinaimg.cn/large/008kKrIXgy1gsvyql3h5mj30u01uo42v.jpg" srcset="/img/loading.gif" lazyload alt="使用OD"></p>
-<p>13.等待他返回首页，即可顺利绑定OneDrive！</p>
-<h2 id="感受"><a href="#感受" class="headerlink" title="感受"></a>感受</h2><p>比Oneindex好，当然有一些不足，不足在哪里我也说不上来。<br>大家也自己可以看一看下面的demo，欢迎在评论区发表你的看法。</p>
-<h2 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h2><p><a target="_blank" rel="noopener" href="https://pan.mcxiaolan.top/">岚天网盘Oneindex</a></p>
-<p><a target="_blank" rel="noopener" href="https://officedrive.herokuapp.com/">Onemanager</a></p>
 
             </div>
             <hr>
@@ -406,19 +381,7 @@
                   <div class="post-meta">
                     <i class="iconfont icon-tags"></i>
                     
-                      <a class="hover-with-bg" href="/tags/%E5%85%8D%E8%B4%B9/">免费</a>
-                    
-                      <a class="hover-with-bg" href="/tags/%E7%99%BD%E5%AB%96/">白嫖</a>
-                    
-                      <a class="hover-with-bg" href="/tags/%E6%90%AD%E5%BB%BA/">搭建</a>
-                    
-                      <a class="hover-with-bg" href="/tags/onedrive/">onedrive</a>
-                    
-                      <a class="hover-with-bg" href="/tags/%E5%BE%AE%E8%BD%AF/">微软</a>
-                    
-                      <a class="hover-with-bg" href="/tags/%E5%85%8D%E8%B4%B9%E4%B8%BB%E6%9C%BA/">免费主机</a>
-                    
-                      <a class="hover-with-bg" href="/tags/onemanager/">onemanager</a>
+                      <a class="hover-with-bg" href="/tags/QQ/">QQ</a>
                     
                   </div>
                 
@@ -435,9 +398,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/articles/%E4%BD%BF%E7%94%A8Github-action%E7%BB%99freenom%E8%87%AA%E5%8A%A8%E7%BB%AD%E6%9C%9F%EF%BC%81.html">
+                      <a href="/articles/%E5%B2%9A%E5%A4%A9%E5%91%80%E8%87%AA%E5%B7%B1%E6%90%AD%E5%BB%BA%E7%9A%84%E4%BA%8C%E7%BA%A7%E5%9F%9F%E5%90%8D%E5%88%86%E5%8F%91%EF%BC%81.shtml">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">使用Github action给freenom自动续期！</span>
+                        <span class="hidden-mobile">岚天呀自己搭建的二级域名分发！</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -445,8 +408,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/articles/%E5%B2%9A%E5%A4%A9%E5%91%80%E8%87%AA%E5%B7%B1%E6%90%AD%E5%BB%BA%E7%9A%84%E4%BA%8C%E7%BA%A7%E5%9F%9F%E5%90%8D%E5%88%86%E5%8F%91%EF%BC%81.html">
-                        <span class="hidden-mobile">岚天呀自己搭建的二级域名分发！</span>
+                      <a href="/articles/%E4%BD%BF%E7%94%A8Cloudflare-Workers%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%EF%BC%8C%E8%BF%98%E6%9C%89%E5%90%8E%E5%8F%B0%EF%BC%81.shtml">
+                        <span class="hidden-mobile">使用Cloudflare Workers免费搭建静态博客，还有后台！</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>

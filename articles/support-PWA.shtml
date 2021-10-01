@@ -22,7 +22,7 @@
   
     <link rel="manifest" href="/manifest.json"> <script src="./service-worker.js"></script>
   
-  <title>使用Cloudflare Workers免费搭建静态博客，还有后台！ - 小岚的小窝</title>
+  <title>小岚的小窝已支持渐进式 Web 应用（PWA） - 小岚的小窝</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
 
@@ -287,12 +287,12 @@
 </nav>
 
     <div class="banner" id="banner" parallax=true
-         style="background: url('https://tvax2.sinaimg.cn/large/008kKrIXgy1gs3xtiprnij30u808twgf.jpg') no-repeat center center;
+         style="background: url('https://tva4.sinaimg.cn/large/008kKrIXgy1gtxq75uqm4j61kw0lfq6n02.jpg') no-repeat center center;
            background-size: cover;">
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="使用Cloudflare Workers免费搭建静态博客，还有后台！">
+            <span class="h2" id="subtitle" title="小岚的小窝已支持渐进式 Web 应用（PWA）">
               
             </span>
 
@@ -302,8 +302,8 @@
   
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2021-07-03 14:18" pubdate>
-        2021年7月3日 下午
+      <time datetime="2021-08-29 16:05" pubdate>
+        2021年8月29日 下午
       </time>
     </span>
   
@@ -314,7 +314,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      1.3k 字
+      304 字
     </span>
   
 
@@ -324,7 +324,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      13
+      3
        分钟
     </span>
   
@@ -354,69 +354,28 @@
         <div class="py-5" id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">使用Cloudflare Workers免费搭建静态博客，还有后台！</h1>
+            <h1 style="display: none">小岚的小窝已支持渐进式 Web 应用（PWA）</h1>
             
             <div class="markdown-body">
-              <h2 id="视频教程"><a href="#视频教程" class="headerlink" title="视频教程"></a>视频教程</h2><iframe src="//player.bilibili.com/player.html?aid=419280182&bvid=BV13V411p7at&cid=374612199&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" class="video"> </iframe>
-【B站首发！使用Cloudflare workers免费搭建静态博客教程来啦！-哔哩哔哩】https://b23.tv/OVXJRM
-
-<h2 id="主要特点"><a href="#主要特点" class="headerlink" title="主要特点"></a>主要特点</h2><ul>
-<li>使用workers提供的KV作为数据库</li>
-<li>使用Cloudflare缓存html来降低KV的读写</li>
-<li>所有html页面均为缓存,可达到静态博客的速度</li>
-<li>使用KV作为数据库,可达到大多数博客程序（如：WordPress、Typecho等）的灵活性</li>
-<li>后台使用markdown语法,方便快捷</li>
-<li>一键发布(页面重构+缓存清理)</li>
-<li>主题仅由一个html界面组成，随意修改</li>
-<li>带有后台，添加友链、评论区等有手就行（</li>
+              <h2 id="PWA-是什么"><a href="#PWA-是什么" class="headerlink" title="PWA 是什么?"></a>PWA 是什么?</h2><p>PWA:渐进式 Web 应用</p>
+<p>PWA 介绍:<a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps">MDN</a></p>
+<h2 id="为什么要让博客支持-PWA-技术"><a href="#为什么要让博客支持-PWA-技术" class="headerlink" title="为什么要让博客支持 PWA 技术?"></a>为什么要让博客支持 PWA 技术?</h2><h3 id="优势"><a href="#优势" class="headerlink" title="优势"></a>优势</h3><p>PWA 是可被发现、易安装、可链接、独立于网络、渐进式、可重用、响应性和安全的。<br>如果你忘记了我的网站域名，你可以直接通过已安装的 PWA 应用来打开我的博客。<br>最重要的是能让我的网站进行离线访问！</p>
+<h2 id="如何安装-PWA-应用"><a href="#如何安装-PWA-应用" class="headerlink" title="如何安装 PWA 应用"></a>如何安装 PWA 应用</h2><h3 id="支持的浏览器"><a href="#支持的浏览器" class="headerlink" title="支持的浏览器"></a>支持的浏览器</h3><p>市场主流浏览器已经能够较好支持这一应用标准<br>PWA 所需的关键要素是 service worker 支持<br>所以只要是支持 service worker 的浏览器<br>理论上均支持 PWA 应用：</p>
+<ul>
+<li>Chrome（v70 稳定版及以上版本）</li>
+<li>Firefox（仅支持 Android v58+）</li>
+<li>Edge</li>
+<li>Safari（iOS 11.3+）<br>等等。</li>
 </ul>
-<h2 id="限制"><a href="#限制" class="headerlink" title="限制"></a>限制</h2><ul>
-<li>KV基本不存在限制,因为使用了缓存,读写很少</li>
-<li>唯一是workers免费版的每天只允许访问100000次，大概20000IP/天，小博客绰绰有余</li>
-<li>文章数:免费1G存储空间,几万篇问题不大</li>
-</ul>
-<h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><blockquote>
-<p>Cloudflare的简称是CF，不是穿越火线</p>
+<h3 id="安装应用"><a href="#安装应用" class="headerlink" title="安装应用"></a>安装应用</h3><blockquote>
+<p>图片中使用的均为 Google Chrome 浏览器，不同的浏览器位置可能不同。</p>
 </blockquote>
-<blockquote>
-<p>CF默认赠送三级域名，觉得长的话可以把自己的域名添加进来哦（自定义.自定义.workers.dev）</p>
-</blockquote>
-<blockquote>
-<p>截取的图片，因为忘记关代理，所以导致一直是英文，不过我相信大多数人应该都看得懂 </p>
-</blockquote>
-<blockquote>
-<p>特别提醒：如果要自定义域名，你的域名必须放在Cloudflare托管，如果你使用其他解析商不行</p>
-</blockquote>
-<p>1.（已注册可跳过此步骤）首先注册一个<a target="_blank" rel="noopener" href="https://dash.cloudflare.com/">Cloudflare</a>，填完信息后一般会让你添加网站，这里可以不添加，（如果你需要自定义域名的话，那么可以添加，如下图）点击左上角的CF图标即可，出现要添加域名后打开邮箱验证。<br><img src="https://tva4.sinaimg.cn/large/0076PFmegy1gs3romf559j30lz0hyjsu.jpg" srcset="/img/loading.gif" lazyload alt="添加域名"></p>
-<p>2.（workers已经弄过可以跳过此步骤）找到workers并打开，填入你想要的二级域名，这个以后是不能改变的噢，填好后选择免费计划。<br><img src="https://tvax3.sinaimg.cn/large/008kKrIXgy1gs3sj811xwj30u00q1q5j.jpg" srcset="/img/loading.gif" lazyload alt="workers域名"></p>
-<p>然后顶栏有一个KV的选项，点击进去之后呢，我们添加一个，名称随意，然后保存。<br><img src="https://tvax2.sinaimg.cn/large/008kKrIXgy1gs3x9nrzy5j30rr0jzq5a.jpg" srcset="/img/loading.gif" lazyload alt="添加KV"></p>
-<p>3.打开原作者Github：<a target="_blank" rel="noopener" href="https://github.com/gdtool/cloudflare-workers-blog">https://github.com/gdtool/cloudflare-workers-blog</a><br>打开index.js，将里面的代码复制<br>如果你无法打开Github，请使用以下链接：<br><a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/gh/mcxiaolan/cloudflare-workers-blog@master/index.js">https://cdn.jsdelivr.net/gh/mcxiaolan/cloudflare-workers-blog@master/index.js</a><br>代码复制好以后创建一个worker将之前的代码粘贴到左边方框（不推荐使用手机粘贴，不然你可以试试），并修改左上角域名。<code>（有域名的请点击保存，没域名的先别急着点）</code></p>
-<p>4.这里是分叉点，我先教没有域名的，有域名的请跳第五步：<br>如果你什么都不懂是个萌新，你只需要修改蓝色的就好，如果你懂点的话，那么你可以继续往下修改。<br>蓝色下面的那两个请留空，因为你没有添加域名。<br>关键字：写完一个后，记得用英文逗号分割（你,我,他）<br><img src="https://tva1.sinaimg.cn/large/008kKrIXgy1gs3u7nbn35j30h1099abl.jpg" srcset="/img/loading.gif" lazyload alt="修改代码"></p>
-<p>修改完点击保存以后，回到该worker界面，点击上面的设置，添加kv绑定，变量名称必须填<code>CFBLOG</code>大写，然后选择你自己添加的KV，点击保存，然后你的网站就可以访问啦。<br><img src="https://tva4.sinaimg.cn/large/008kKrIXgy1gs3vjb8appj31uo0u0aer.jpg" srcset="/img/loading.gif" lazyload alt="绑定KV"></p>
-<blockquote>
-<p>好是好，但是你没域名的话，就会导致没有区域ID，文章不能及时呈现哦。</p>
-</blockquote>
-<p>5.这里是有域名的教程<br>打开域名概述，往下滑会有一个区域ID，复制保存好，待会还有API，然后点击获取API令牌。<br><img src="https://tva1.sinaimg.cn/large/008kKrIXgy1gs3vh73rs5j30q411m0vv.jpg" srcset="/img/loading.gif" lazyload alt="区域ID &amp; 获取API令牌"></p>
-<p>点击API令牌，点击创建令牌<br><img src="https://tvax4.sinaimg.cn/large/008kKrIXgy1gs3vspkdouj30sp06sweu.jpg" srcset="/img/loading.gif" lazyload alt="api"></p>
-<p>滑到最下面有一个创建自定义令牌，点击开始使用<br><img src="https://tvax1.sinaimg.cn/large/008kKrIXgy1gs3vxsdjpmj319r0axq3v.jpg" srcset="/img/loading.gif" lazyload alt="自定义令牌"></p>
-<p>给他起个名称，然后修改这三个框框，然后往下滑点击继续，然后点击创建令牌，然后复制好保存。<br><img src="https://tva3.sinaimg.cn/large/008kKrIXgy1gs3vxspccuj30v00ait9k.jpg" srcset="/img/loading.gif" lazyload alt="API权限"></p>
-<p>然后去编辑你的worker，将刚刚复制好的区域ID和API令牌放上去，然后修改你需要的域名。<br><img src="https://tvax2.sinaimg.cn/large/008kKrIXgy1gs3w7xi09bj30sw0c0dja.jpg" srcset="/img/loading.gif" lazyload alt="域名修改"></p>
-<p>修改完点击保存以后，回到该worker界面，点击上面的设置，添加kv绑定，变量名称必须填<code>CFBLOG</code>大写，然后选择你自己添加的KV，点击保存。<br><img src="https://tva4.sinaimg.cn/large/008kKrIXgy1gs3vjb8appj31uo0u0aer.jpg" srcset="/img/loading.gif" lazyload alt="绑定KV"></p>
-<p>打开你的域名，点击workers，点击添加路由<br><img src="https://tva1.sinaimg.cn/large/008kKrIXgy1gs3wjejpv5j30xc0f0jtu.jpg" srcset="/img/loading.gif" lazyload alt="添加路由"></p>
-<p>填入刚刚你在worker写的域名，然后加 <code>/*</code> ，然后选择你刚刚的worker，然后就可以点击保存。<br><img src="https://tvax3.sinaimg.cn/large/008kKrIXgy1gs3wjetnlgj30dv0bzwf1.jpg" srcset="/img/loading.gif" lazyload alt="绑定worker"></p>
-<p>然后点击DNS，添加一个A记录，名称根据你之前填的域名填，IP随意填，格式<code>xx.xxx.xx.xx</code>，一定要被CF代理哦，也就是保持那个云朵是黄的，然后点击保存。<br><img src="https://tvax1.sinaimg.cn/large/008kKrIXgy1gs3wmtdf78j30ml06lwf0.jpg" srcset="/img/loading.gif" lazyload alt="添加记录"></p>
-<blockquote>
-<p>之后就完成咯，虽然教程很长，但是这个既免费又稳定，可长久使用，这不比那些免费虚拟主机香？不用害怕数据丢失！Cloudflare可是一个大厂。</p>
-</blockquote>
-<h2 id="截图"><a href="#截图" class="headerlink" title="截图"></a>截图</h2><h3 id=""><a href="#" class="headerlink" title=""></a></h3><p><img src="https://tvax2.sinaimg.cn/large/008kKrIXgy1gs3wq48c11j31uo0u0n1c.jpg" srcset="/img/loading.gif" lazyload alt="前台"></p>
-<h3 id="-1"><a href="#-1" class="headerlink" title=""></a></h3><p><img src="https://tvax3.sinaimg.cn/large/008kKrIXgy1gs3wq4gz3zj31uo0u0q7y.jpg" srcset="/img/loading.gif" lazyload alt="后台写文章"></p>
-<h3 id="-2"><a href="#-2" class="headerlink" title=""></a></h3><p><img src="https://tva4.sinaimg.cn/large/008kKrIXgy1gs3wq4paf6j31uo0u079o.jpg" srcset="/img/loading.gif" lazyload alt="后台设置"></p>
-<h3 id="-3"><a href="#-3" class="headerlink" title=""></a></h3><p><img src="https://tva1.sinaimg.cn/large/008kKrIXgy1gs3wq4wou8j31uo0u0wio.jpg" srcset="/img/loading.gif" lazyload alt="后台清除缓存（仅限绑域名）"></p>
-<h2 id="感受"><a href="#感受" class="headerlink" title="感受"></a>感受</h2><p>虽然步骤难，但是用的很放心。</p>
-<blockquote>
-<p>但是不得不说，这个内置的主题是真的丑<br>大家如果有什么好的主题的话，可以在评论区留言，好的话将会展示在下面。</p>
-</blockquote>
-<h2 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h2><p><a target="_blank" rel="noopener" href="https://cfblog.lantianya.ga/">https://cfblog.lantianya.ga</a> （备用博客）</p>
+<p>电脑：<br>可在浏览器右上角安装应用<br><img src="https://tva2.sinaimg.cn/large/008kKrIXgy1gtxpsdj6h2j60kq09pmyz02.jpg" srcset="/img/loading.gif" lazyload alt="电脑安装"></p>
+<p>安装好后将会在桌面生成图标<br><img src="https://tva2.sinaimg.cn/large/008kKrIXgy1gtxpsdbla3j61uo0u017502.jpg" srcset="/img/loading.gif" lazyload alt="电脑桌面"></p>
+<p>手机：<br>在浏览器最下面安装应用<br><img src="https://tva4.sinaimg.cn/large/008kKrIXgy1gtxpscs7rej60u01uotpo02.jpg" srcset="/img/loading.gif" lazyload alt="手机安装"></p>
+<p>或者点击右上角三个点安装<br><img src="https://tvax3.sinaimg.cn/large/008kKrIXgy1gtxr3gahfmj60u01uo4fx02.jpg" srcset="/img/loading.gif" lazyload alt="手机右上角安装 - 1"><br><img src="https://tva3.sinaimg.cn/large/008kKrIXgy1gtxr3fwva3j60u01uoqe502.jpg" srcset="/img/loading.gif" lazyload alt="手机右上角安装 - 2"></p>
+<p>安装好后将会在桌面生成图标<br><img src="https://tvax3.sinaimg.cn/large/008kKrIXgy1gtxpsbgov4j60u01uo18m02.jpg" srcset="/img/loading.gif" lazyload alt="手机桌面"></p>
+<p>手机打开的效果如下<br><img src="https://tvax3.sinaimg.cn/large/008kKrIXgy1gtxpsc6jxxj60u01uo1a202.jpg" srcset="/img/loading.gif" lazyload alt="手机效果图"></p>
 
             </div>
             <hr>
@@ -426,7 +385,7 @@
                   <div class="post-meta mr-3">
                     <i class="iconfont icon-category"></i>
                     
-                      <a class="hover-with-bg" href="/categories/%E6%95%99%E7%A8%8B/">教程</a>
+                      <a class="hover-with-bg" href="/categories/%E7%BB%8F%E5%8E%86/">经历</a>
                     
                   </div>
                 
@@ -434,15 +393,11 @@
                   <div class="post-meta">
                     <i class="iconfont icon-tags"></i>
                     
-                      <a class="hover-with-bg" href="/tags/CloudFlare/">CloudFlare</a>
+                      <a class="hover-with-bg" href="/tags/%E7%BD%91%E7%AB%99/">网站</a>
                     
-                      <a class="hover-with-bg" href="/tags/%E5%85%8D%E8%B4%B9/">免费</a>
+                      <a class="hover-with-bg" href="/tags/%E4%BC%98%E5%8C%96/">优化</a>
                     
-                      <a class="hover-with-bg" href="/tags/%E7%99%BD%E5%AB%96/">白嫖</a>
-                    
-                      <a class="hover-with-bg" href="/tags/%E6%90%AD%E5%BB%BA/">搭建</a>
-                    
-                      <a class="hover-with-bg" href="/tags/%E5%8D%9A%E5%AE%A2/">博客</a>
+                      <a class="hover-with-bg" href="/tags/PWA/">PWA</a>
                     
                   </div>
                 
@@ -459,9 +414,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/articles/%E5%A6%82%E4%BD%95%E5%9C%A8QQ%E5%8F%91%E8%87%AA%E5%AE%9A%E4%B9%89%E8%AF%AD%E9%9F%B3.html">
+                      <a href="/articles/Check-your-SSL.shtml">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">如何在QQ发自定义语音?</span>
+                        <span class="hidden-mobile">免费搭建自己的证书透明网站！每日自动检查你的网站证书</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -469,8 +424,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/articles/%E8%8E%B7%E5%8F%96-Outlook-%E8%B6%85%E7%9F%AD%E9%82%AE%E7%AE%B1%EF%BC%81.html">
-                        <span class="hidden-mobile">获取 Outlook 超短邮箱！</span>
+                      <a href="/articles/%E8%A7%A3%E5%86%B3vercel%E5%9B%BD%E5%86%85%E8%A2%AB%E5%A2%99%E9%97%AE%E9%A2%98.shtml">
+                        <span class="hidden-mobile">解决vercel国内被墙问题</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>

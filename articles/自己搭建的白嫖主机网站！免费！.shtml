@@ -22,7 +22,7 @@
   
     <link rel="manifest" href="/manifest.json"> <script src="./service-worker.js"></script>
   
-  <title>如何把WordPress连接中的index.php去掉（伪静态教程） - 小岚的小窝</title>
+  <title>自己搭建的白嫖主机网站！免费！ - 小岚的小窝</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
 
@@ -287,12 +287,12 @@
 </nav>
 
     <div class="banner" id="banner" parallax=true
-         style="background: url('https://tvax2.sinaimg.cn/large/008kKrIXgy1gsufwc796yj30bl01q74b.jpg') no-repeat center center;
+         style="background: url('https://tva1.sinaimg.cn/large/008kKrIXgy1gsueilbwi7j30u01hcn2i.jpg') no-repeat center center;
            background-size: cover;">
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="如何把WordPress连接中的index.php去掉（伪静态教程）">
+            <span class="h2" id="subtitle" title="自己搭建的白嫖主机网站！免费！">
               
             </span>
 
@@ -302,8 +302,8 @@
   
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2021-01-02 13:09" pubdate>
-        2021年1月2日 下午
+      <time datetime="2020-07-19 14:43" pubdate>
+        2020年7月19日 下午
       </time>
     </span>
   
@@ -314,7 +314,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      149 字
+      178 字
     </span>
   
 
@@ -324,7 +324,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      1
+      2
        分钟
     </span>
   
@@ -354,72 +354,43 @@
         <div class="py-5" id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">如何把WordPress连接中的index.php去掉（伪静态教程）</h1>
+            <h1 style="display: none">自己搭建的白嫖主机网站！免费！</h1>
             
             <div class="markdown-body">
-              <!-- wp:heading {"level":1} -->
-<h1>前言</h1>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>就是看不爽这个index.php</p>
+              <!-- wp:paragraph -->
+<p>Hello大家好，我是小岚！今天我使用Freenom和Myownfreehost搭建了一个免费获取虚拟主机的网站！</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"sizeSlug":"large","linkDestination":"media"} -->
-<figure class="wp-block-image size-large"><a target="_blank" rel="noopener" href="https://tvax2.sinaimg.cn/large/008kKrIXgy1gsufwc796yj30bl01q74b.jpg"><img src="https://tvax2.sinaimg.cn/large/008kKrIXgy1gsufwc796yj30bl01q74b.jpg" srcset="/img/loading.gif" lazyload alt=""/></a><figcaption>qswl</figcaption></figure>
-<!-- /wp:image -->
-
-<!-- wp:heading {"level":1} -->
-<h1>演示</h1>
-<!-- /wp:heading -->
-
+<!-- wp:group -->
+<div class="wp-block-group"><div class="wp-block-group__inner-container"><!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column {"width":"100%"} -->
+<div class="wp-block-column" style="flex-basis:100%"><!-- wp:list -->
+<ul><li>无限GB云存储和100GB带宽</li><li>博客必备的域名：fblog.ml</li><li>每个帐户最多可托管10个网站10个MySQL数据库</li><li>FTP和电子邮件帐户</li><li>24/7监控和防火墙保护</li><li>免费网站构建器和软件采用易于使用的vPanel控制面板</li></ul>
+<img src="https://tva1.sinaimg.cn/large/008kKrIXgy1gsueilbwi7j30u01hcn2i.jpg" srcset="/img/loading.gif" lazyload></img>
 <!-- wp:paragraph -->
-<p>现在看起来老爽了，你也想整一个吗？</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"sizeSlug":"large","linkDestination":"media"} -->
-<figure class="wp-block-image size-large"><a target="_blank" rel="noopener" href="https://tva2.sinaimg.cn/large/008kKrIXgy1gsufyiseetj309w018t8m.jpg"><img src="https://tva2.sinaimg.cn/large/008kKrIXgy1gsufyiseetj309w018t8m.jpg" srcset="/img/loading.gif" lazyload alt=""/></a></figure>
-<!-- /wp:image -->
-
-<!-- wp:heading {"level":1} -->
-<h1>教程</h1>
-<!-- /wp:heading -->
-
-<!-- wp:mdx/warning {"content":"此教程仅针对WordPress，而且是Apache，其他博客程序不一定适用。"} -->
-<blockquote class="wp-block-mdx-warning mdx-warning"><p>警告<br/><strong>此教程仅针对WordPress，而且是Apache，其他博客程序不一定适用。</strong></p></blockquote>
-<!-- /wp:mdx/warning -->
-
-<!-- wp:paragraph -->
-<p>在 WordPress 安装目录新建 .htaccess</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"sizeSlug":"large","linkDestination":"media"} -->
-<figure class="wp-block-image size-large"><a target="_blank" rel="noopener" href="https://tva3.sinaimg.cn/large/008kKrIXgy1gsufz2o4klj30c10jcdi7.jpg"><img src="https://tva3.sinaimg.cn/large/008kKrIXgy1gsufz2o4klj30c10jcdi7.jpg" srcset="/img/loading.gif" lazyload alt=""/></a></figure>
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-<p>编辑它，写入以下文本</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:code -->
-<div class="hljs code-wrapper"><pre class="wp-block-code"><code>&lt;IfModule mod_rewrite.c&gt;RewriteEngine OnRewriteBase /RewriteRule ^index\.php$ - &#91;L]RewriteCond %&#123;REQUEST_FILENAME&#125; !-fRewriteCond %&#123;REQUEST_FILENAME&#125; !-dRewriteRule . /index.php &#91;L]&lt;/IfModule&gt;</code></pre></div>
-<!-- /wp:code -->
-
-<!-- wp:paragraph -->
-<p>之后保存，来到你的 WordPress 后台，在设置选项找到固定链接。</p>
+<p>白嫖地址：<a rel="noreferrer noopener" href="https://support.qq.com/products/315602/link-jump?jump=http://fblog.ml" target="_blank">fblog.ml</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>更改你喜欢的固定链接，只要把<code>index.php/</code> 去掉，保存即可。</p>
+<p>免费赠送的域名：name.fblog.ml （name为用户名）</p>
 <!-- /wp:paragraph -->
-
-<!-- wp:image {"sizeSlug":"large","linkDestination":"media"} -->
-<figure class="wp-block-image size-large"><a target="_blank" rel="noopener" href="https://tva1.sinaimg.cn/large/008kKrIXgy1gsug0npyqzj30c00490t1.jpg"><img src="https://tva1.sinaimg.cn/large/008kKrIXgy1gsug0npyqzj30c00490t1.jpg" srcset="/img/loading.gif" lazyload alt=""/></a></figure>
-<!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>非常简单嗷。</p>
+<p>免费VIP视频解析：<a href="https://support.qq.com/products/315602/link-jump?jump=http://video.fblog.ml" data-type="URL" data-id="https://support.qq.com/products/315602/link-jump?jump=http://video.fblog.ml" target="_blank" rel="noreferrer noopener">video.fblog.ml</a></p>
 <!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>免费VIP音乐解析：<a href="https://support.qq.com/products/315602/link-jump?jump=http://music.fblog.ml" target="_blank" rel="noreferrer noopener">music.fblog.ml</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>欢迎大家使用！希望别攻击此网站（DDOS等）</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>另外分享freenom的免费域名（.tk .ml .ga .cf .gq）地址：<a href="https://freenom.com" target="_blank" rel="noreferrer noopener">freenom.com</a></p>
+<!-- /wp:paragraph -->
+
             </div>
             <hr>
             <div>
@@ -428,7 +399,7 @@
                   <div class="post-meta mr-3">
                     <i class="iconfont icon-category"></i>
                     
-                      <a class="hover-with-bg" href="/categories/%E6%BA%90%E7%A0%81/">源码</a>
+                      <a class="hover-with-bg" href="/categories/%E5%B2%9A%E5%A4%A9%E5%91%80%E7%9A%84%E7%A6%8F%E5%88%A9/">岚天呀的福利</a>
                     
                   </div>
                 
@@ -436,9 +407,9 @@
                   <div class="post-meta">
                     <i class="iconfont icon-tags"></i>
                     
-                      <a class="hover-with-bg" href="/tags/%E6%95%99%E7%A8%8B/">教程</a>
+                      <a class="hover-with-bg" href="/tags/%E5%85%8D%E8%B4%B9/">免费</a>
                     
-                      <a class="hover-with-bg" href="/tags/WordPress/">WordPress</a>
+                      <a class="hover-with-bg" href="/tags/%E7%99%BD%E5%AB%96/">白嫖</a>
                     
                   </div>
                 
@@ -455,21 +426,15 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/articles/%E5%85%8D%E8%B4%B9%E4%B8%BB%E6%9C%BA%E5%88%97%E8%A1%A8.html">
+                      <a href="/articles/%E5%85%8D%E8%B4%B9%E7%99%BD%E5%AB%96%E8%8E%B7%E5%8F%96%E5%BE%AE%E8%BD%AFE5%E5%BC%80%E5%8F%91%E8%80%85%E8%B4%A6%E5%8F%B7%E5%92%8C%E7%BB%AD%E6%9C%9F.shtml">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">免费主机列表</span>
+                        <span class="hidden-mobile">免费白嫖获取微软E5开发者账号和续期</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
                   </article>
                   <article class="post-next col-6">
                     
-                    
-                      <a href="/articles/%E7%99%BD%E5%AB%968EB%E7%9A%84Google-Team-Drive%E4%BA%91%E7%AB%AF%E5%85%B1%E4%BA%AB%E7%A1%AC%E7%9B%98%EF%BC%81.html">
-                        <span class="hidden-mobile">白嫖8EB的Google Team Drive云端共享硬盘！</span>
-                        <span class="visible-mobile">下一篇</span>
-                        <i class="iconfont icon-arrowright"></i>
-                      </a>
                     
                   </article>
                 </div>

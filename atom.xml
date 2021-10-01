@@ -18,8 +18,8 @@
   
   <entry>
     <title>使用 hyperbeam 获取 freenom 域名</title>
-    <link href="https://blog.mcxiaolan.top/articles/get-freenom-domains.html"/>
-    <id>https://blog.mcxiaolan.top/articles/get-freenom-domains.html</id>
+    <link href="https://blog.mcxiaolan.top/articles/get-freenom-domains.shtml"/>
+    <id>https://blog.mcxiaolan.top/articles/get-freenom-domains.shtml</id>
     <published>2021-09-25T09:04:08.000Z</published>
     <updated>2021-09-25T10:01:12.974Z</updated>
     
@@ -53,8 +53,8 @@
   
   <entry>
     <title>岚天论坛 试运营</title>
-    <link href="https://blog.mcxiaolan.top/articles/Create-fourm.html"/>
-    <id>https://blog.mcxiaolan.top/articles/Create-fourm.html</id>
+    <link href="https://blog.mcxiaolan.top/articles/Create-fourm.shtml"/>
+    <id>https://blog.mcxiaolan.top/articles/Create-fourm.shtml</id>
     <published>2021-09-19T03:18:38.000Z</published>
     <updated>2021-09-19T04:50:53.662Z</updated>
     
@@ -82,8 +82,8 @@
   
   <entry>
     <title>免费搭建自己的证书透明网站！每日自动检查你的网站证书</title>
-    <link href="https://blog.mcxiaolan.top/articles/Check-your-SSL.html"/>
-    <id>https://blog.mcxiaolan.top/articles/Check-your-SSL.html</id>
+    <link href="https://blog.mcxiaolan.top/articles/Check-your-SSL.shtml"/>
+    <id>https://blog.mcxiaolan.top/articles/Check-your-SSL.shtml</id>
     <published>2021-09-10T14:57:17.000Z</published>
     <updated>2021-09-25T04:08:53.674Z</updated>
     
@@ -105,9 +105,9 @@
     
     <category term="免费" scheme="https://blog.mcxiaolan.top/tags/%E5%85%8D%E8%B4%B9/"/>
     
-    <category term="ssl" scheme="https://blog.mcxiaolan.top/tags/ssl/"/>
-    
     <category term="github" scheme="https://blog.mcxiaolan.top/tags/github/"/>
+    
+    <category term="ssl" scheme="https://blog.mcxiaolan.top/tags/ssl/"/>
     
     <category term="证书透明" scheme="https://blog.mcxiaolan.top/tags/%E8%AF%81%E4%B9%A6%E9%80%8F%E6%98%8E/"/>
     
@@ -115,8 +115,8 @@
   
   <entry>
     <title>小岚的小窝已支持渐进式 Web 应用（PWA）</title>
-    <link href="https://blog.mcxiaolan.top/articles/support-PWA.html"/>
-    <id>https://blog.mcxiaolan.top/articles/support-PWA.html</id>
+    <link href="https://blog.mcxiaolan.top/articles/support-PWA.shtml"/>
+    <id>https://blog.mcxiaolan.top/articles/support-PWA.shtml</id>
     <published>2021-08-29T08:05:21.000Z</published>
     <updated>2021-08-29T08:44:50.783Z</updated>
     
@@ -146,8 +146,8 @@
   
   <entry>
     <title>解决vercel国内被墙问题</title>
-    <link href="https://blog.mcxiaolan.top/articles/%E8%A7%A3%E5%86%B3vercel%E5%9B%BD%E5%86%85%E8%A2%AB%E5%A2%99%E9%97%AE%E9%A2%98.html"/>
-    <id>https://blog.mcxiaolan.top/articles/%E8%A7%A3%E5%86%B3vercel%E5%9B%BD%E5%86%85%E8%A2%AB%E5%A2%99%E9%97%AE%E9%A2%98.html</id>
+    <link href="https://blog.mcxiaolan.top/articles/%E8%A7%A3%E5%86%B3vercel%E5%9B%BD%E5%86%85%E8%A2%AB%E5%A2%99%E9%97%AE%E9%A2%98.shtml"/>
+    <id>https://blog.mcxiaolan.top/articles/%E8%A7%A3%E5%86%B3vercel%E5%9B%BD%E5%86%85%E8%A2%AB%E5%A2%99%E9%97%AE%E9%A2%98.shtml</id>
     <published>2021-08-28T01:30:23.000Z</published>
     <updated>2021-08-28T02:05:06.150Z</updated>
     
@@ -175,8 +175,8 @@
   
   <entry>
     <title>限时Porkbun免费一年gay域名</title>
-    <link href="https://blog.mcxiaolan.top/articles/Porkbun%E5%85%8D%E8%B4%B9%E4%B8%80%E5%B9%B4gay%E5%9F%9F%E5%90%8D.html"/>
-    <id>https://blog.mcxiaolan.top/articles/Porkbun%E5%85%8D%E8%B4%B9%E4%B8%80%E5%B9%B4gay%E5%9F%9F%E5%90%8D.html</id>
+    <link href="https://blog.mcxiaolan.top/articles/Porkbun%E5%85%8D%E8%B4%B9%E4%B8%80%E5%B9%B4gay%E5%9F%9F%E5%90%8D.shtml"/>
+    <id>https://blog.mcxiaolan.top/articles/Porkbun%E5%85%8D%E8%B4%B9%E4%B8%80%E5%B9%B4gay%E5%9F%9F%E5%90%8D.shtml</id>
     <published>2021-08-27T11:00:21.000Z</published>
     <updated>2021-08-28T01:17:02.390Z</updated>
     
@@ -208,8 +208,8 @@
   
   <entry>
     <title>使用cloudflare page搭建小游戏，m3u8在线下载，图片加水印，音乐解锁等在线网页</title>
-    <link href="https://blog.mcxiaolan.top/articles/%E4%BD%BF%E7%94%A8cloudflare-page%E6%90%AD%E5%BB%BA%E5%B0%8F%E6%B8%B8%E6%88%8F%EF%BC%8Cm3u8%E5%9C%A8%E7%BA%BF%E4%B8%8B%E8%BD%BD%EF%BC%8C%E5%9B%BE%E7%89%87%E5%8A%A0%E6%B0%B4%E5%8D%B0%EF%BC%8C%E9%9F%B3%E4%B9%90%E8%A7%A3%E9%94%81%E7%AD%89%E5%9C%A8%E7%BA%BF%E7%BD%91%E9%A1%B5.html"/>
-    <id>https://blog.mcxiaolan.top/articles/%E4%BD%BF%E7%94%A8cloudflare-page%E6%90%AD%E5%BB%BA%E5%B0%8F%E6%B8%B8%E6%88%8F%EF%BC%8Cm3u8%E5%9C%A8%E7%BA%BF%E4%B8%8B%E8%BD%BD%EF%BC%8C%E5%9B%BE%E7%89%87%E5%8A%A0%E6%B0%B4%E5%8D%B0%EF%BC%8C%E9%9F%B3%E4%B9%90%E8%A7%A3%E9%94%81%E7%AD%89%E5%9C%A8%E7%BA%BF%E7%BD%91%E9%A1%B5.html</id>
+    <link href="https://blog.mcxiaolan.top/articles/%E4%BD%BF%E7%94%A8cloudflare-page%E6%90%AD%E5%BB%BA%E5%B0%8F%E6%B8%B8%E6%88%8F%EF%BC%8Cm3u8%E5%9C%A8%E7%BA%BF%E4%B8%8B%E8%BD%BD%EF%BC%8C%E5%9B%BE%E7%89%87%E5%8A%A0%E6%B0%B4%E5%8D%B0%EF%BC%8C%E9%9F%B3%E4%B9%90%E8%A7%A3%E9%94%81%E7%AD%89%E5%9C%A8%E7%BA%BF%E7%BD%91%E9%A1%B5.shtml"/>
+    <id>https://blog.mcxiaolan.top/articles/%E4%BD%BF%E7%94%A8cloudflare-page%E6%90%AD%E5%BB%BA%E5%B0%8F%E6%B8%B8%E6%88%8F%EF%BC%8Cm3u8%E5%9C%A8%E7%BA%BF%E4%B8%8B%E8%BD%BD%EF%BC%8C%E5%9B%BE%E7%89%87%E5%8A%A0%E6%B0%B4%E5%8D%B0%EF%BC%8C%E9%9F%B3%E4%B9%90%E8%A7%A3%E9%94%81%E7%AD%89%E5%9C%A8%E7%BA%BF%E7%BD%91%E9%A1%B5.shtml</id>
     <published>2021-08-26T09:33:44.000Z</published>
     <updated>2021-08-26T09:51:57.003Z</updated>
     
@@ -243,8 +243,8 @@
   
   <entry>
     <title>安卓手机使用Github Pages + hexo免费搭建博客</title>
-    <link href="https://blog.mcxiaolan.top/articles/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E4%BD%BF%E7%94%A8Github-Pages-hexo%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2.html"/>
-    <id>https://blog.mcxiaolan.top/articles/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E4%BD%BF%E7%94%A8Github-Pages-hexo%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2.html</id>
+    <link href="https://blog.mcxiaolan.top/articles/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E4%BD%BF%E7%94%A8Github-Pages-hexo%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2.shtml"/>
+    <id>https://blog.mcxiaolan.top/articles/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E4%BD%BF%E7%94%A8Github-Pages-hexo%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2.shtml</id>
     <published>2021-08-19T12:50:03.000Z</published>
     <updated>2021-08-21T09:25:09.287Z</updated>
     
@@ -280,8 +280,8 @@
   
   <entry>
     <title>置顶：你好，Hexo</title>
-    <link href="https://blog.mcxiaolan.top/articles/[%E7%BD%AE%E9%A1%B6]%E4%BD%A0%E5%A5%BD%EF%BC%8CHexo.html"/>
-    <id>https://blog.mcxiaolan.top/articles/[%E7%BD%AE%E9%A1%B6]%E4%BD%A0%E5%A5%BD%EF%BC%8CHexo.html</id>
+    <link href="https://blog.mcxiaolan.top/articles/[%E7%BD%AE%E9%A1%B6]%E4%BD%A0%E5%A5%BD%EF%BC%8CHexo.shtml"/>
+    <id>https://blog.mcxiaolan.top/articles/[%E7%BD%AE%E9%A1%B6]%E4%BD%A0%E5%A5%BD%EF%BC%8CHexo.shtml</id>
     <published>2021-08-18T04:28:08.000Z</published>
     <updated>2021-08-25T02:19:13.657Z</updated>
     
@@ -303,8 +303,8 @@
   
   <entry>
     <title>使用Typecho搭建博客（一）</title>
-    <link href="https://blog.mcxiaolan.top/articles/%E4%BD%BF%E7%94%A8Typecho%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%80%EF%BC%89.html"/>
-    <id>https://blog.mcxiaolan.top/articles/%E4%BD%BF%E7%94%A8Typecho%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%80%EF%BC%89.html</id>
+    <link href="https://blog.mcxiaolan.top/articles/%E4%BD%BF%E7%94%A8Typecho%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%80%EF%BC%89.shtml"/>
+    <id>https://blog.mcxiaolan.top/articles/%E4%BD%BF%E7%94%A8Typecho%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%80%EF%BC%89.shtml</id>
     <published>2021-08-10T03:24:48.000Z</published>
     <updated>2021-08-20T12:46:51.735Z</updated>
     
@@ -336,8 +336,8 @@
   
   <entry>
     <title>使用Github action给freenom自动续期！</title>
-    <link href="https://blog.mcxiaolan.top/articles/%E4%BD%BF%E7%94%A8Github-action%E7%BB%99freenom%E8%87%AA%E5%8A%A8%E7%BB%AD%E6%9C%9F%EF%BC%81.html"/>
-    <id>https://blog.mcxiaolan.top/articles/%E4%BD%BF%E7%94%A8Github-action%E7%BB%99freenom%E8%87%AA%E5%8A%A8%E7%BB%AD%E6%9C%9F%EF%BC%81.html</id>
+    <link href="https://blog.mcxiaolan.top/articles/%E4%BD%BF%E7%94%A8Github-action%E7%BB%99freenom%E8%87%AA%E5%8A%A8%E7%BB%AD%E6%9C%9F%EF%BC%81.shtml"/>
+    <id>https://blog.mcxiaolan.top/articles/%E4%BD%BF%E7%94%A8Github-action%E7%BB%99freenom%E8%87%AA%E5%8A%A8%E7%BB%AD%E6%9C%9F%EF%BC%81.shtml</id>
     <published>2021-07-31T16:18:22.000Z</published>
     <updated>2021-08-20T12:45:18.227Z</updated>
     
@@ -371,8 +371,8 @@
   
   <entry>
     <title>使用Heroku免费服务器搭建Onedrive个人网盘！</title>
-    <link href="https://blog.mcxiaolan.top/articles/%E4%BD%BF%E7%94%A8Heroku%E5%85%8D%E8%B4%B9%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BAOnedrive%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%9B%98%EF%BC%81.html"/>
-    <id>https://blog.mcxiaolan.top/articles/%E4%BD%BF%E7%94%A8Heroku%E5%85%8D%E8%B4%B9%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BAOnedrive%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%9B%98%EF%BC%81.html</id>
+    <link href="https://blog.mcxiaolan.top/articles/%E4%BD%BF%E7%94%A8Heroku%E5%85%8D%E8%B4%B9%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BAOnedrive%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%9B%98%EF%BC%81.shtml"/>
+    <id>https://blog.mcxiaolan.top/articles/%E4%BD%BF%E7%94%A8Heroku%E5%85%8D%E8%B4%B9%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BAOnedrive%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%9B%98%EF%BC%81.shtml</id>
     <published>2021-07-27T15:49:05.000Z</published>
     <updated>2021-09-10T11:25:40.236Z</updated>
     
@@ -410,8 +410,8 @@
   
   <entry>
     <title>岚天呀自己搭建的二级域名分发！</title>
-    <link href="https://blog.mcxiaolan.top/articles/%E5%B2%9A%E5%A4%A9%E5%91%80%E8%87%AA%E5%B7%B1%E6%90%AD%E5%BB%BA%E7%9A%84%E4%BA%8C%E7%BA%A7%E5%9F%9F%E5%90%8D%E5%88%86%E5%8F%91%EF%BC%81.html"/>
-    <id>https://blog.mcxiaolan.top/articles/%E5%B2%9A%E5%A4%A9%E5%91%80%E8%87%AA%E5%B7%B1%E6%90%AD%E5%BB%BA%E7%9A%84%E4%BA%8C%E7%BA%A7%E5%9F%9F%E5%90%8D%E5%88%86%E5%8F%91%EF%BC%81.html</id>
+    <link href="https://blog.mcxiaolan.top/articles/%E5%B2%9A%E5%A4%A9%E5%91%80%E8%87%AA%E5%B7%B1%E6%90%AD%E5%BB%BA%E7%9A%84%E4%BA%8C%E7%BA%A7%E5%9F%9F%E5%90%8D%E5%88%86%E5%8F%91%EF%BC%81.shtml"/>
+    <id>https://blog.mcxiaolan.top/articles/%E5%B2%9A%E5%A4%A9%E5%91%80%E8%87%AA%E5%B7%B1%E6%90%AD%E5%BB%BA%E7%9A%84%E4%BA%8C%E7%BA%A7%E5%9F%9F%E5%90%8D%E5%88%86%E5%8F%91%EF%BC%81.shtml</id>
     <published>2021-07-21T07:09:47.000Z</published>
     <updated>2021-08-20T12:43:22.379Z</updated>
     
@@ -441,8 +441,8 @@
   
   <entry>
     <title>如何在QQ发自定义语音?</title>
-    <link href="https://blog.mcxiaolan.top/articles/%E5%A6%82%E4%BD%95%E5%9C%A8QQ%E5%8F%91%E8%87%AA%E5%AE%9A%E4%B9%89%E8%AF%AD%E9%9F%B3.html"/>
-    <id>https://blog.mcxiaolan.top/articles/%E5%A6%82%E4%BD%95%E5%9C%A8QQ%E5%8F%91%E8%87%AA%E5%AE%9A%E4%B9%89%E8%AF%AD%E9%9F%B3.html</id>
+    <link href="https://blog.mcxiaolan.top/articles/%E5%A6%82%E4%BD%95%E5%9C%A8QQ%E5%8F%91%E8%87%AA%E5%AE%9A%E4%B9%89%E8%AF%AD%E9%9F%B3.shtml"/>
+    <id>https://blog.mcxiaolan.top/articles/%E5%A6%82%E4%BD%95%E5%9C%A8QQ%E5%8F%91%E8%87%AA%E5%AE%9A%E4%B9%89%E8%AF%AD%E9%9F%B3.shtml</id>
     <published>2021-07-11T06:58:29.000Z</published>
     <updated>2021-08-20T12:43:03.271Z</updated>
     
@@ -468,8 +468,8 @@
   
   <entry>
     <title>使用Cloudflare Workers免费搭建静态博客，还有后台！</title>
-    <link href="https://blog.mcxiaolan.top/articles/%E4%BD%BF%E7%94%A8Cloudflare-Workers%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%EF%BC%8C%E8%BF%98%E6%9C%89%E5%90%8E%E5%8F%B0%EF%BC%81.html"/>
-    <id>https://blog.mcxiaolan.top/articles/%E4%BD%BF%E7%94%A8Cloudflare-Workers%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%EF%BC%8C%E8%BF%98%E6%9C%89%E5%90%8E%E5%8F%B0%EF%BC%81.html</id>
+    <link href="https://blog.mcxiaolan.top/articles/%E4%BD%BF%E7%94%A8Cloudflare-Workers%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%EF%BC%8C%E8%BF%98%E6%9C%89%E5%90%8E%E5%8F%B0%EF%BC%81.shtml"/>
+    <id>https://blog.mcxiaolan.top/articles/%E4%BD%BF%E7%94%A8Cloudflare-Workers%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%EF%BC%8C%E8%BF%98%E6%9C%89%E5%90%8E%E5%8F%B0%EF%BC%81.shtml</id>
     <published>2021-07-03T06:18:10.000Z</published>
     <updated>2021-09-20T02:50:35.808Z</updated>
     
@@ -503,8 +503,8 @@
   
   <entry>
     <title>获取 Outlook 超短邮箱！</title>
-    <link href="https://blog.mcxiaolan.top/articles/%E8%8E%B7%E5%8F%96-Outlook-%E8%B6%85%E7%9F%AD%E9%82%AE%E7%AE%B1%EF%BC%81.html"/>
-    <id>https://blog.mcxiaolan.top/articles/%E8%8E%B7%E5%8F%96-Outlook-%E8%B6%85%E7%9F%AD%E9%82%AE%E7%AE%B1%EF%BC%81.html</id>
+    <link href="https://blog.mcxiaolan.top/articles/%E8%8E%B7%E5%8F%96-Outlook-%E8%B6%85%E7%9F%AD%E9%82%AE%E7%AE%B1%EF%BC%81.shtml"/>
+    <id>https://blog.mcxiaolan.top/articles/%E8%8E%B7%E5%8F%96-Outlook-%E8%B6%85%E7%9F%AD%E9%82%AE%E7%AE%B1%EF%BC%81.shtml</id>
     <published>2021-07-02T17:03:52.000Z</published>
     <updated>2021-08-20T12:50:50.083Z</updated>
     
@@ -534,8 +534,8 @@
   
   <entry>
     <title>QQ也能当图床！</title>
-    <link href="https://blog.mcxiaolan.top/articles/QQ%E4%B9%9F%E8%83%BD%E5%BD%93%E5%9B%BE%E5%BA%8A%EF%BC%81.html"/>
-    <id>https://blog.mcxiaolan.top/articles/QQ%E4%B9%9F%E8%83%BD%E5%BD%93%E5%9B%BE%E5%BA%8A%EF%BC%81.html</id>
+    <link href="https://blog.mcxiaolan.top/articles/QQ%E4%B9%9F%E8%83%BD%E5%BD%93%E5%9B%BE%E5%BA%8A%EF%BC%81.shtml"/>
+    <id>https://blog.mcxiaolan.top/articles/QQ%E4%B9%9F%E8%83%BD%E5%BD%93%E5%9B%BE%E5%BA%8A%EF%BC%81.shtml</id>
     <published>2021-06-12T03:57:34.000Z</published>
     <updated>2021-08-22T10:50:22.433Z</updated>
     
@@ -561,8 +561,8 @@
   
   <entry>
     <title>CloudFlare 搭建短网址程序?</title>
-    <link href="https://blog.mcxiaolan.top/articles/CloudFlare-%E6%90%AD%E5%BB%BA%E7%9F%AD%E7%BD%91%E5%9D%80%E7%A8%8B%E5%BA%8F.html"/>
-    <id>https://blog.mcxiaolan.top/articles/CloudFlare-%E6%90%AD%E5%BB%BA%E7%9F%AD%E7%BD%91%E5%9D%80%E7%A8%8B%E5%BA%8F.html</id>
+    <link href="https://blog.mcxiaolan.top/articles/CloudFlare-%E6%90%AD%E5%BB%BA%E7%9F%AD%E7%BD%91%E5%9D%80%E7%A8%8B%E5%BA%8F.shtml"/>
+    <id>https://blog.mcxiaolan.top/articles/CloudFlare-%E6%90%AD%E5%BB%BA%E7%9F%AD%E7%BD%91%E5%9D%80%E7%A8%8B%E5%BA%8F.shtml</id>
     <published>2021-06-06T00:16:18.000Z</published>
     <updated>2021-08-21T02:16:05.355Z</updated>
     
@@ -598,8 +598,8 @@
   
   <entry>
     <title>发现了一个白嫖VPS的地方！</title>
-    <link href="https://blog.mcxiaolan.top/articles/%E5%8F%91%E7%8E%B0%E4%BA%86%E4%B8%80%E4%B8%AA%E7%99%BD%E5%AB%96VPS%E7%9A%84%E5%9C%B0%E6%96%B9%EF%BC%81.html"/>
-    <id>https://blog.mcxiaolan.top/articles/%E5%8F%91%E7%8E%B0%E4%BA%86%E4%B8%80%E4%B8%AA%E7%99%BD%E5%AB%96VPS%E7%9A%84%E5%9C%B0%E6%96%B9%EF%BC%81.html</id>
+    <link href="https://blog.mcxiaolan.top/articles/%E5%8F%91%E7%8E%B0%E4%BA%86%E4%B8%80%E4%B8%AA%E7%99%BD%E5%AB%96VPS%E7%9A%84%E5%9C%B0%E6%96%B9%EF%BC%81.shtml"/>
+    <id>https://blog.mcxiaolan.top/articles/%E5%8F%91%E7%8E%B0%E4%BA%86%E4%B8%80%E4%B8%AA%E7%99%BD%E5%AB%96VPS%E7%9A%84%E5%9C%B0%E6%96%B9%EF%BC%81.shtml</id>
     <published>2021-04-15T14:21:01.000Z</published>
     <updated>2021-09-03T10:19:16.252Z</updated>
     
@@ -631,8 +631,8 @@
   
   <entry>
     <title>如何把Typecho连接中的index.php去掉（伪静态教程）</title>
-    <link href="https://blog.mcxiaolan.top/articles/%E5%A6%82%E4%BD%95%E6%8A%8ATypecho%E8%BF%9E%E6%8E%A5%E4%B8%AD%E7%9A%84index-php%E5%8E%BB%E6%8E%89%EF%BC%88%E4%BC%AA%E9%9D%99%E6%80%81%E6%95%99%E7%A8%8B%EF%BC%89.html"/>
-    <id>https://blog.mcxiaolan.top/articles/%E5%A6%82%E4%BD%95%E6%8A%8ATypecho%E8%BF%9E%E6%8E%A5%E4%B8%AD%E7%9A%84index-php%E5%8E%BB%E6%8E%89%EF%BC%88%E4%BC%AA%E9%9D%99%E6%80%81%E6%95%99%E7%A8%8B%EF%BC%89.html</id>
+    <link href="https://blog.mcxiaolan.top/articles/%E5%A6%82%E4%BD%95%E6%8A%8ATypecho%E8%BF%9E%E6%8E%A5%E4%B8%AD%E7%9A%84index-php%E5%8E%BB%E6%8E%89%EF%BC%88%E4%BC%AA%E9%9D%99%E6%80%81%E6%95%99%E7%A8%8B%EF%BC%89.shtml"/>
+    <id>https://blog.mcxiaolan.top/articles/%E5%A6%82%E4%BD%95%E6%8A%8ATypecho%E8%BF%9E%E6%8E%A5%E4%B8%AD%E7%9A%84index-php%E5%8E%BB%E6%8E%89%EF%BC%88%E4%BC%AA%E9%9D%99%E6%80%81%E6%95%99%E7%A8%8B%EF%BC%89.shtml</id>
     <published>2021-03-12T17:47:42.000Z</published>
     <updated>2021-08-20T12:41:38.963Z</updated>
     
@@ -652,13 +652,13 @@
     <category term="源码" scheme="https://blog.mcxiaolan.top/categories/%E6%BA%90%E7%A0%81/"/>
     
     
-    <category term="优化" scheme="https://blog.mcxiaolan.top/tags/%E4%BC%98%E5%8C%96/"/>
-    
     <category term="教程" scheme="https://blog.mcxiaolan.top/tags/%E6%95%99%E7%A8%8B/"/>
     
     <category term="typecho" scheme="https://blog.mcxiaolan.top/tags/typecho/"/>
     
     <category term="美化" scheme="https://blog.mcxiaolan.top/tags/%E7%BE%8E%E5%8C%96/"/>
+    
+    <category term="优化" scheme="https://blog.mcxiaolan.top/tags/%E4%BC%98%E5%8C%96/"/>
     
     <category term="伪静态" scheme="https://blog.mcxiaolan.top/tags/%E4%BC%AA%E9%9D%99%E6%80%81/"/>
     
@@ -666,8 +666,8 @@
   
   <entry>
     <title>免费主机列表</title>
-    <link href="https://blog.mcxiaolan.top/articles/%E5%85%8D%E8%B4%B9%E4%B8%BB%E6%9C%BA%E5%88%97%E8%A1%A8.html"/>
-    <id>https://blog.mcxiaolan.top/articles/%E5%85%8D%E8%B4%B9%E4%B8%BB%E6%9C%BA%E5%88%97%E8%A1%A8.html</id>
+    <link href="https://blog.mcxiaolan.top/articles/%E5%85%8D%E8%B4%B9%E4%B8%BB%E6%9C%BA%E5%88%97%E8%A1%A8.shtml"/>
+    <id>https://blog.mcxiaolan.top/articles/%E5%85%8D%E8%B4%B9%E4%B8%BB%E6%9C%BA%E5%88%97%E8%A1%A8.shtml</id>
     <published>2021-03-06T20:08:23.000Z</published>
     <updated>2021-09-04T00:58:33.856Z</updated>
     
@@ -691,16 +691,16 @@
     
     <category term="白嫖" scheme="https://blog.mcxiaolan.top/tags/%E7%99%BD%E5%AB%96/"/>
     
-    <category term="主机" scheme="https://blog.mcxiaolan.top/tags/%E4%B8%BB%E6%9C%BA/"/>
-    
     <category term="免费主机" scheme="https://blog.mcxiaolan.top/tags/%E5%85%8D%E8%B4%B9%E4%B8%BB%E6%9C%BA/"/>
+    
+    <category term="主机" scheme="https://blog.mcxiaolan.top/tags/%E4%B8%BB%E6%9C%BA/"/>
     
   </entry>
   
   <entry>
     <title>如何把WordPress连接中的index.php去掉（伪静态教程）</title>
-    <link href="https://blog.mcxiaolan.top/articles/%E5%A6%82%E4%BD%95%E6%8A%8AWordPress%E8%BF%9E%E6%8E%A5%E4%B8%AD%E7%9A%84index-php%E5%8E%BB%E6%8E%89%EF%BC%88%E4%BC%AA%E9%9D%99%E6%80%81%E6%95%99%E7%A8%8B%EF%BC%89.html"/>
-    <id>https://blog.mcxiaolan.top/articles/%E5%A6%82%E4%BD%95%E6%8A%8AWordPress%E8%BF%9E%E6%8E%A5%E4%B8%AD%E7%9A%84index-php%E5%8E%BB%E6%8E%89%EF%BC%88%E4%BC%AA%E9%9D%99%E6%80%81%E6%95%99%E7%A8%8B%EF%BC%89.html</id>
+    <link href="https://blog.mcxiaolan.top/articles/%E5%A6%82%E4%BD%95%E6%8A%8AWordPress%E8%BF%9E%E6%8E%A5%E4%B8%AD%E7%9A%84index-php%E5%8E%BB%E6%8E%89%EF%BC%88%E4%BC%AA%E9%9D%99%E6%80%81%E6%95%99%E7%A8%8B%EF%BC%89.shtml"/>
+    <id>https://blog.mcxiaolan.top/articles/%E5%A6%82%E4%BD%95%E6%8A%8AWordPress%E8%BF%9E%E6%8E%A5%E4%B8%AD%E7%9A%84index-php%E5%8E%BB%E6%8E%89%EF%BC%88%E4%BC%AA%E9%9D%99%E6%80%81%E6%95%99%E7%A8%8B%EF%BC%89.shtml</id>
     <published>2021-01-02T05:09:02.000Z</published>
     <updated>2021-08-20T11:58:18.459Z</updated>
     
@@ -728,8 +728,8 @@
   
   <entry>
     <title>白嫖8EB的Google Team Drive云端共享硬盘！</title>
-    <link href="https://blog.mcxiaolan.top/articles/%E7%99%BD%E5%AB%968EB%E7%9A%84Google-Team-Drive%E4%BA%91%E7%AB%AF%E5%85%B1%E4%BA%AB%E7%A1%AC%E7%9B%98%EF%BC%81.html"/>
-    <id>https://blog.mcxiaolan.top/articles/%E7%99%BD%E5%AB%968EB%E7%9A%84Google-Team-Drive%E4%BA%91%E7%AB%AF%E5%85%B1%E4%BA%AB%E7%A1%AC%E7%9B%98%EF%BC%81.html</id>
+    <link href="https://blog.mcxiaolan.top/articles/%E7%99%BD%E5%AB%968EB%E7%9A%84Google-Team-Drive%E4%BA%91%E7%AB%AF%E5%85%B1%E4%BA%AB%E7%A1%AC%E7%9B%98%EF%BC%81.shtml"/>
+    <id>https://blog.mcxiaolan.top/articles/%E7%99%BD%E5%AB%968EB%E7%9A%84Google-Team-Drive%E4%BA%91%E7%AB%AF%E5%85%B1%E4%BA%AB%E7%A1%AC%E7%9B%98%EF%BC%81.shtml</id>
     <published>2020-12-28T04:15:38.000Z</published>
     <updated>2021-08-20T11:55:06.687Z</updated>
     
@@ -761,8 +761,8 @@
   
   <entry>
     <title>在你的网站右下角添加SSL认证标志！</title>
-    <link href="https://blog.mcxiaolan.top/articles/%E5%9C%A8%E4%BD%A0%E7%9A%84%E7%BD%91%E7%AB%99%E5%8F%B3%E4%B8%8B%E8%A7%92%E6%B7%BB%E5%8A%A0SSL%E8%AE%A4%E8%AF%81%E6%A0%87%E5%BF%97%EF%BC%81.html"/>
-    <id>https://blog.mcxiaolan.top/articles/%E5%9C%A8%E4%BD%A0%E7%9A%84%E7%BD%91%E7%AB%99%E5%8F%B3%E4%B8%8B%E8%A7%92%E6%B7%BB%E5%8A%A0SSL%E8%AE%A4%E8%AF%81%E6%A0%87%E5%BF%97%EF%BC%81.html</id>
+    <link href="https://blog.mcxiaolan.top/articles/%E5%9C%A8%E4%BD%A0%E7%9A%84%E7%BD%91%E7%AB%99%E5%8F%B3%E4%B8%8B%E8%A7%92%E6%B7%BB%E5%8A%A0SSL%E8%AE%A4%E8%AF%81%E6%A0%87%E5%BF%97%EF%BC%81.shtml"/>
+    <id>https://blog.mcxiaolan.top/articles/%E5%9C%A8%E4%BD%A0%E7%9A%84%E7%BD%91%E7%AB%99%E5%8F%B3%E4%B8%8B%E8%A7%92%E6%B7%BB%E5%8A%A0SSL%E8%AE%A4%E8%AF%81%E6%A0%87%E5%BF%97%EF%BC%81.shtml</id>
     <published>2020-12-19T07:31:21.000Z</published>
     <updated>2021-08-20T11:51:51.803Z</updated>
     
@@ -790,8 +790,8 @@
   
   <entry>
     <title>免费白嫖EU.org顶级域名</title>
-    <link href="https://blog.mcxiaolan.top/articles/%E5%85%8D%E8%B4%B9%E7%99%BD%E5%AB%96EU-org%E9%A1%B6%E7%BA%A7%E5%9F%9F%E5%90%8D.html"/>
-    <id>https://blog.mcxiaolan.top/articles/%E5%85%8D%E8%B4%B9%E7%99%BD%E5%AB%96EU-org%E9%A1%B6%E7%BA%A7%E5%9F%9F%E5%90%8D.html</id>
+    <link href="https://blog.mcxiaolan.top/articles/%E5%85%8D%E8%B4%B9%E7%99%BD%E5%AB%96EU-org%E9%A1%B6%E7%BA%A7%E5%9F%9F%E5%90%8D.shtml"/>
+    <id>https://blog.mcxiaolan.top/articles/%E5%85%8D%E8%B4%B9%E7%99%BD%E5%AB%96EU-org%E9%A1%B6%E7%BA%A7%E5%9F%9F%E5%90%8D.shtml</id>
     <published>2020-10-09T02:39:00.000Z</published>
     <updated>2021-08-20T12:39:54.399Z</updated>
     
@@ -821,8 +821,8 @@
   
   <entry>
     <title>免费白嫖获取微软E5开发者账号和续期</title>
-    <link href="https://blog.mcxiaolan.top/articles/%E5%85%8D%E8%B4%B9%E7%99%BD%E5%AB%96%E8%8E%B7%E5%8F%96%E5%BE%AE%E8%BD%AFE5%E5%BC%80%E5%8F%91%E8%80%85%E8%B4%A6%E5%8F%B7%E5%92%8C%E7%BB%AD%E6%9C%9F.html"/>
-    <id>https://blog.mcxiaolan.top/articles/%E5%85%8D%E8%B4%B9%E7%99%BD%E5%AB%96%E8%8E%B7%E5%8F%96%E5%BE%AE%E8%BD%AFE5%E5%BC%80%E5%8F%91%E8%80%85%E8%B4%A6%E5%8F%B7%E5%92%8C%E7%BB%AD%E6%9C%9F.html</id>
+    <link href="https://blog.mcxiaolan.top/articles/%E5%85%8D%E8%B4%B9%E7%99%BD%E5%AB%96%E8%8E%B7%E5%8F%96%E5%BE%AE%E8%BD%AFE5%E5%BC%80%E5%8F%91%E8%80%85%E8%B4%A6%E5%8F%B7%E5%92%8C%E7%BB%AD%E6%9C%9F.shtml"/>
+    <id>https://blog.mcxiaolan.top/articles/%E5%85%8D%E8%B4%B9%E7%99%BD%E5%AB%96%E8%8E%B7%E5%8F%96%E5%BE%AE%E8%BD%AFE5%E5%BC%80%E5%8F%91%E8%80%85%E8%B4%A6%E5%8F%B7%E5%92%8C%E7%BB%AD%E6%9C%9F.shtml</id>
     <published>2020-09-19T08:13:19.000Z</published>
     <updated>2021-08-20T11:40:53.311Z</updated>
     
@@ -846,18 +846,18 @@
     
     <category term="白嫖" scheme="https://blog.mcxiaolan.top/tags/%E7%99%BD%E5%AB%96/"/>
     
-    <category term="office" scheme="https://blog.mcxiaolan.top/tags/office/"/>
-    
     <category term="onedrive" scheme="https://blog.mcxiaolan.top/tags/onedrive/"/>
     
     <category term="微软" scheme="https://blog.mcxiaolan.top/tags/%E5%BE%AE%E8%BD%AF/"/>
+    
+    <category term="office" scheme="https://blog.mcxiaolan.top/tags/office/"/>
     
   </entry>
   
   <entry>
     <title>自己搭建的白嫖主机网站！免费！</title>
-    <link href="https://blog.mcxiaolan.top/articles/%E8%87%AA%E5%B7%B1%E6%90%AD%E5%BB%BA%E7%9A%84%E7%99%BD%E5%AB%96%E4%B8%BB%E6%9C%BA%E7%BD%91%E7%AB%99%EF%BC%81%E5%85%8D%E8%B4%B9%EF%BC%81.html"/>
-    <id>https://blog.mcxiaolan.top/articles/%E8%87%AA%E5%B7%B1%E6%90%AD%E5%BB%BA%E7%9A%84%E7%99%BD%E5%AB%96%E4%B8%BB%E6%9C%BA%E7%BD%91%E7%AB%99%EF%BC%81%E5%85%8D%E8%B4%B9%EF%BC%81.html</id>
+    <link href="https://blog.mcxiaolan.top/articles/%E8%87%AA%E5%B7%B1%E6%90%AD%E5%BB%BA%E7%9A%84%E7%99%BD%E5%AB%96%E4%B8%BB%E6%9C%BA%E7%BD%91%E7%AB%99%EF%BC%81%E5%85%8D%E8%B4%B9%EF%BC%81.shtml"/>
+    <id>https://blog.mcxiaolan.top/articles/%E8%87%AA%E5%B7%B1%E6%90%AD%E5%BB%BA%E7%9A%84%E7%99%BD%E5%AB%96%E4%B8%BB%E6%9C%BA%E7%BD%91%E7%AB%99%EF%BC%81%E5%85%8D%E8%B4%B9%EF%BC%81.shtml</id>
     <published>2020-07-19T06:43:02.000Z</published>
     <updated>2021-08-20T11:37:32.243Z</updated>
     

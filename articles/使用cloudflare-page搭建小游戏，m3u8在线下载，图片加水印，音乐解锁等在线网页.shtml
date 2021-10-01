@@ -22,7 +22,7 @@
   
     <link rel="manifest" href="/manifest.json"> <script src="./service-worker.js"></script>
   
-  <title>如何在QQ发自定义语音? - 小岚的小窝</title>
+  <title>使用cloudflare page搭建小游戏，m3u8在线下载，图片加水印，音乐解锁等在线网页 - 小岚的小窝</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
 
@@ -292,7 +292,7 @@
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="如何在QQ发自定义语音?">
+            <span class="h2" id="subtitle" title="使用cloudflare page搭建小游戏，m3u8在线下载，图片加水印，音乐解锁等在线网页">
               
             </span>
 
@@ -302,8 +302,8 @@
   
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2021-07-11 14:58" pubdate>
-        2021年7月11日 下午
+      <time datetime="2021-08-26 17:33" pubdate>
+        2021年8月26日 下午
       </time>
     </span>
   
@@ -314,7 +314,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      182 字
+      369 字
     </span>
   
 
@@ -324,7 +324,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      1
+      4
        分钟
     </span>
   
@@ -354,15 +354,25 @@
         <div class="py-5" id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">如何在QQ发自定义语音?</h1>
+            <h1 style="display: none">使用cloudflare page搭建小游戏，m3u8在线下载，图片加水印，音乐解锁等在线网页</h1>
             
             <div class="markdown-body">
-              <h2 id="视频教程"><a href="#视频教程" class="headerlink" title="视频教程"></a>视频教程</h2><iframe class="video" src="//player.bilibili.com/player.html?aid=931528836&bvid=BV1WM4y1M7Pt&cid=367969356&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-
-<p><a target="_blank" rel="noopener" href="https://b23.tv/TlEaTV">前往视频</a></p>
-<h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><p>打开Android/data/com.tencent.mobileqq/Tencent/MobileQQ/你的QQ<br>找到ptt，如果没有什么重要的录音文件的话，建议整个文件夹都删掉，要不然你会很难改<br>回到QQ点击<code>录音</code>，录多少秒都可以<br>然后回到之前的文件夹会看到有个ptt<br>按录音日期打开，最终你会找到一个文件<br>复制它的名称（名字和后缀一起复制）<br>然后将录音文件删掉，把你想要的音频文件放到这里，粘贴刚刚复制的名字，回到QQ点击发送就好了。</p>
+              <h2 id="chrome恐龙小游戏魔改"><a href="#chrome恐龙小游戏魔改" class="headerlink" title="chrome恐龙小游戏魔改"></a>chrome恐龙小游戏魔改</h2><p>github：<a target="_blank" rel="noopener" href="https://github.com/wayou/t-rex-runner">https://github.com/wayou/t-rex-runner</a></p>
+<p>构建：fork项目，部属即可。</p>
+<h2 id="m3u8-download"><a href="#m3u8-download" class="headerlink" title="m3u8-download"></a>m3u8-download</h2><p>在线m3u8视频下载，主要也是利用浏览器下载，并不是云端下载。所以如果下载的视频比较大，一般的浏览器可能崩溃。不需要构建，自己下载源码本地跑也可以。</p>
+<p>github:<a target="_blank" rel="noopener" href="https://github.com/Momo707577045/m3u8-downloader">https://github.com/Momo707577045/m3u8-downloader</a></p>
+<p>搭建：就一个静态网页，不需要搭建，构建命令，输入目录可以不需要。page加载js可能有点问题，导致不能下载，于是就修改了index.html，把js文件都放在里面了。如果想要搭建可以先fork一下zsxwz修改后的：</p>
+<p><a target="_blank" rel="noopener" href="https://github.com/Momo707577045/m3u8-downloader">https://github.com/Momo707577045/m3u8-downloader</a></p>
+<h2 id="图片加水印"><a href="#图片加水印" class="headerlink" title="图片加水印"></a>图片加水印</h2><p>图片水印打码，专门用于给图片加水印打码的工具，完全基于浏览器本地API，无任何网络请求（特别适合身份证等敏感证件）。</p>
+<p>github：<a target="_blank" rel="noopener" href="https://github.com/joyqi/sfz">https://github.com/joyqi/sfz</a></p>
+<p>搭建：还是先fork项目，纯静态文件不需要构建命令，都是空的直接部属即可。</p>
+<h2 id="音乐解锁"><a href="#音乐解锁" class="headerlink" title="音乐解锁"></a>音乐解锁</h2><p>加密音乐格式解锁，利用浏览器解锁，不是在云端解锁，自己下载releases本地跑也可以。</p>
+<p>github：<a target="_blank" rel="noopener" href="https://github.com/ix64/unlock-music">https://github.com/ix64/unlock-music</a></p>
+<p>搭建：先fork项目到自己的账号，cloudflare page创建项目，选择fork的项目，就可以构建部属了。</p>
+<p>构建命令：npm install&amp;&amp;npm run build</p>
+<p>输出目录：/dist</p>
 <blockquote>
-<p>如果失败了，最有可能是因为你的音频文件时间太长。</p>
+<p>搬运至<a target="_blank" rel="noopener" href="https://zsxwz.com/2021/04/06/%e4%bd%bf%e7%94%a8cloudflare-page%e6%90%ad%e5%bb%ba%e5%b0%8f%e6%b8%b8%e6%88%8f%ef%bc%8cm3u8%e5%9c%a8%e7%ba%bf%e4%b8%8b%e8%bd%bd%ef%bc%8c%e5%9b%be%e7%89%87%e5%8a%a0%e6%b0%b4%e5%8d%b0%e7%ad%89%e7%ad%89/">姿势小王子</a></p>
 </blockquote>
 
             </div>
@@ -373,7 +383,7 @@
                   <div class="post-meta mr-3">
                     <i class="iconfont icon-category"></i>
                     
-                      <a class="hover-with-bg" href="/categories/%E6%95%99%E7%A8%8B/">教程</a>
+                      <a class="hover-with-bg" href="/categories/%E6%BA%90%E7%A0%81/">源码</a>
                     
                   </div>
                 
@@ -381,7 +391,15 @@
                   <div class="post-meta">
                     <i class="iconfont icon-tags"></i>
                     
-                      <a class="hover-with-bg" href="/tags/QQ/">QQ</a>
+                      <a class="hover-with-bg" href="/tags/CloudFlare/">CloudFlare</a>
+                    
+                      <a class="hover-with-bg" href="/tags/%E5%85%8D%E8%B4%B9/">免费</a>
+                    
+                      <a class="hover-with-bg" href="/tags/%E7%99%BD%E5%AB%96/">白嫖</a>
+                    
+                      <a class="hover-with-bg" href="/tags/%E7%BD%91%E7%AB%99/">网站</a>
+                    
+                      <a class="hover-with-bg" href="/tags/github/">github</a>
                     
                   </div>
                 
@@ -398,9 +416,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/articles/%E5%B2%9A%E5%A4%A9%E5%91%80%E8%87%AA%E5%B7%B1%E6%90%AD%E5%BB%BA%E7%9A%84%E4%BA%8C%E7%BA%A7%E5%9F%9F%E5%90%8D%E5%88%86%E5%8F%91%EF%BC%81.html">
+                      <a href="/articles/Porkbun%E5%85%8D%E8%B4%B9%E4%B8%80%E5%B9%B4gay%E5%9F%9F%E5%90%8D.shtml">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">岚天呀自己搭建的二级域名分发！</span>
+                        <span class="hidden-mobile">限时Porkbun免费一年gay域名</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -408,8 +426,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/articles/%E4%BD%BF%E7%94%A8Cloudflare-Workers%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%EF%BC%8C%E8%BF%98%E6%9C%89%E5%90%8E%E5%8F%B0%EF%BC%81.html">
-                        <span class="hidden-mobile">使用Cloudflare Workers免费搭建静态博客，还有后台！</span>
+                      <a href="/articles/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E4%BD%BF%E7%94%A8Github-Pages-hexo%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2.shtml">
+                        <span class="hidden-mobile">安卓手机使用Github Pages + hexo免费搭建博客</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
