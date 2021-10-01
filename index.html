@@ -20,8 +20,6 @@
   <meta name="author" content="Xiaolan">
   <meta name="keywords" content="blog,xiaolan,lantianya,博客,小岚,岚天呀">
   
-    <link rel="manifest" href="/manifest.json"> <script src="./service-worker.js"></script>
-  
   <title>小岚的小窝</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
@@ -410,9 +408,9 @@
             
               <a href="/tags/%E5%85%8D%E8%B4%B9/">免费</a>
             
-              <a href="/tags/%E7%99%BD%E5%AB%96/">白嫖</a>
-            
               <a href="/tags/%E5%9F%9F%E5%90%8D/">域名</a>
+            
+              <a href="/tags/%E7%99%BD%E5%AB%96/">白嫖</a>
             
               <a href="/tags/hyperbeam/">hyperbeam</a>
             
@@ -559,7 +557,7 @@ Demohttps://ssl.mcxiaolan.top
     
       <div class="col-12 col-md-4 m-auto index-img">
         <a href="/articles/support-PWA.html" target="_self">
-          <img src="https://tva4.sinaimg.cn/large/008kKrIXgy1gtxq75uqm4j61kw0lfq6n02.jpg" srcset="/img/loading.gif" lazyload alt="小岚的小窝已支持渐进式 Web 应用（PWA）">
+          <img src="https://tva4.sinaimg.cn/large/008kKrIXgy1gtxq75uqm4j61kw0lfq6n02.jpg" srcset="/img/loading.gif" lazyload alt="（过时）小岚的小窝已支持渐进式 Web 应用（PWA）">
         </a>
       </div>
     
@@ -567,7 +565,7 @@ Demohttps://ssl.mcxiaolan.top
       <h1 class="index-header">
         
         <a href="/articles/support-PWA.html" target="_self">
-          小岚的小窝已支持渐进式 Web 应用（PWA）
+          （过时）小岚的小窝已支持渐进式 Web 应用（PWA）
         </a>
       </h1>
 
@@ -577,10 +575,13 @@ Demohttps://ssl.mcxiaolan.top
           
             
           
-          PWA 是什么?PWA:渐进式 Web 应用
+          注意
+目前已经停止使用 PWA,因为这样子会使你的浏览器缓存网页导致文章更新不及时。
+
+PWA 是什么?PWA:渐进式 Web 应用
 PWA 介绍:MDN
 为什么要让博客支持 PWA 技术?优势PWA 是可被发现、易安装、可链接、独立于网络、渐进式、可重用、响应性和安全的。如果你忘记了我的网站域名，你可以直接通过已安装的 PWA 应用来打开我的博客。最重要的是能让我的网站进行离线访问！
-如何安装 PWA 应用支持的浏览器市场主流浏览器已经能够较好支持这一应用标准PWA 所需的关键要素
+如何安装 
         </a>
       </p>
 
@@ -605,9 +606,9 @@ PWA 介绍:MDN
           <div class="post-meta">
             <i class="iconfont icon-tags"></i>
             
-              <a href="/tags/%E7%BD%91%E7%AB%99/">网站</a>
-            
               <a href="/tags/%E4%BC%98%E5%8C%96/">优化</a>
+            
+              <a href="/tags/%E7%BD%91%E7%AB%99/">网站</a>
             
               <a href="/tags/PWA/">PWA</a>
             
@@ -735,13 +736,13 @@ CANIPLAYTHAT
           <div class="post-meta">
             <i class="iconfont icon-tags"></i>
             
-              <a href="/tags/%E5%85%8D%E8%B4%B9/">免费</a>
-            
-              <a href="/tags/%E7%99%BD%E5%AB%96/">白嫖</a>
-            
               <a href="/tags/porkbun/">porkbun</a>
             
+              <a href="/tags/%E5%85%8D%E8%B4%B9/">免费</a>
+            
               <a href="/tags/%E5%9F%9F%E5%90%8D/">域名</a>
+            
+              <a href="/tags/%E7%99%BD%E5%AB%96/">白嫖</a>
             
           </div>
         
@@ -800,8 +801,6 @@ github:https://github.com/Momo70757704
           <div class="post-meta">
             <i class="iconfont icon-tags"></i>
             
-              <a href="/tags/CloudFlare/">CloudFlare</a>
-            
               <a href="/tags/%E5%85%8D%E8%B4%B9/">免费</a>
             
               <a href="/tags/%E7%99%BD%E5%AB%96/">白嫖</a>
@@ -809,6 +808,8 @@ github:https://github.com/Momo70757704
               <a href="/tags/%E7%BD%91%E7%AB%99/">网站</a>
             
               <a href="/tags/github/">github</a>
+            
+              <a href="/tags/CloudFlare/">CloudFlare</a>
             
           </div>
         
@@ -951,11 +952,11 @@ Typecho安装包
             
               <a href="/tags/%E5%85%8D%E8%B4%B9/">免费</a>
             
-              <a href="/tags/%E6%90%AD%E5%BB%BA/">搭建</a>
-            
               <a href="/tags/%E6%95%99%E7%A8%8B/">教程</a>
             
               <a href="/tags/typecho/">typecho</a>
+            
+              <a href="/tags/%E6%90%AD%E5%BB%BA/">搭建</a>
             
           </div>
         
@@ -1109,4 +1110,5 @@ Typecho安装包
 <script  src="/js/boot.js" ></script>
 
 
-<script>"use strict";if("serviceWorker"in navigator){navigator.serviceWorker.register("service-worker.js").then((function(reg){reg.onupdatefound=function(){var installingWorker=reg.installing;installingWorker.onstatechange=function(){switch(installingWorker.state){case"installed":if(navigator.serviceWorker.controller){console.log("New or updated content is available.")}else{console.log("Content is now available offline!")}break;case"redundant":console.error("The installing service worker became redundant.");break}}}}))["catch"]((function(e){console.error("Error during service worker registration:",e)}))}</script></body></html>
+</body>
+</html>
