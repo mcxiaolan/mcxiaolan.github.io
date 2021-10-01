@@ -22,7 +22,7 @@
   
     <link rel="manifest" href="/manifest.json"> <script src="./service-worker.js"></script>
   
-  <title>解决vercel国内被墙问题 - 小岚的小窝</title>
+  <title>如何把Typecho连接中的index.php去掉（伪静态教程） - 小岚的小窝</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
 
@@ -287,12 +287,12 @@
 </nav>
 
     <div class="banner" id="banner" parallax=true
-         style="background: url('https://cdn.jsdelivr.net/gh/mcxiaolan/jsdelivr@master/vercel-logotype-dark.svg') no-repeat center center;
+         style="background: url('https://tva2.sinaimg.cn/large/008kKrIXgy1gsug587egcj306v00r0ss.jpg') no-repeat center center;
            background-size: cover;">
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="解决vercel国内被墙问题">
+            <span class="h2" id="subtitle" title="如何把Typecho连接中的index.php去掉（伪静态教程）">
               
             </span>
 
@@ -302,8 +302,8 @@
   
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2021-08-28 09:30" pubdate>
-        2021年8月28日 上午
+      <time datetime="2021-03-13 01:47" pubdate>
+        2021年3月13日 凌晨
       </time>
     </span>
   
@@ -314,7 +314,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      228 字
+      198 字
     </span>
   
 
@@ -354,23 +354,20 @@
         <div class="py-5" id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">解决vercel国内被墙问题</h1>
+            <h1 style="display: none">如何把Typecho连接中的index.php去掉（伪静态教程）</h1>
             
             <div class="markdown-body">
-              <h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>有时我们访问用vercel的服务时，发现会拒绝请求或者连接重置。</p>
-<h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><p>早在<code>2021年5月14日</code>，官方就回馈了此问题:<a target="_blank" rel="noopener" href="https://www.vercel-status.com/incidents/r758bhbklgfd">原文链接</a></p>
-<p>以下为机翻:</p>
-<blockquote>
-<p>我们进行了更改，以确保 vercel.com 和 vercel.app 域可以在中国境内被屏蔽后再次从中国访问。</p>
+              <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>就是看index.php不爽<br><img src="https://tva4.sinaimg.cn/large/008kKrIXgy1gsug4mowv1j309k00sq34.jpg" srcset="/img/loading.gif" lazyload></p>
+<p>现在看起来爽多了，你也要整一个吗？<br><img src="https://tva2.sinaimg.cn/large/008kKrIXgy1gsug587egcj306v00r0ss.jpg" srcset="/img/loading.gif" lazyload></p>
+<h1 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h1><p>新建 <code>.htaccess</code>，请使用专业的编辑工具，如<code>vs code</code> <code>Notepad++</code>等<br>把以下代码放入文件里。</p>
+<figure class="highlight apache"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs apache"><span class="hljs-section">&lt;IfModule mod_rewrite.c&gt;</span><br>    <span class="hljs-attribute"><span class="hljs-nomarkup">RewriteEngine</span></span> <span class="hljs-literal">On</span><br><br>    <span class="hljs-attribute">RewriteBase</span> /<br><br>    <span class="hljs-attribute"><span class="hljs-nomarkup">RewriteCond</span></span> <span class="hljs-variable">%&#123;REQUEST_FILENAME&#125;</span> !-f<br><br>    <span class="hljs-attribute"><span class="hljs-nomarkup">RewriteCond</span></span> <span class="hljs-variable">%&#123;REQUEST_FILENAME&#125;</span> !-d<br><br>    <span class="hljs-attribute"><span class="hljs-nomarkup">RewriteRule</span></span> ^(.*)$ index.php<span class="hljs-meta"> [L,E=PATH_INFO:$1]</span><br><br><span class="hljs-section">&lt;/IfModule&gt;</span><br></code></pre></div></td></tr></table></figure>
+
+<p>之后上传到网站根目录（一般能看见<code>admin</code>）<br><img src="https://tva2.sinaimg.cn/large/008kKrIXgy1gsug5rklazj304y07fq3e.jpg" srcset="/img/loading.gif" lazyload></p>
+<p>打开你的网站后台，前往 设置-永久链接，按以下来改<br>个性化定义你们可以自己修改，我只是推荐我这样改<br><img src="https://tva2.sinaimg.cn/large/008kKrIXgy1gsug66udl2j308409kwhe.jpg" srcset="/img/loading.gif" lazyload></p>
+<p>修改完成以后，一般会提醒检测失败，我们把它勾上，然后再次保存（请注意原来自定义的内容会被清除，请重新填入）<br><img src="https://tvax1.sinaimg.cn/large/008kKrIXgy1gsug6jo3njj309q080goi.jpg" srcset="/img/loading.gif" lazyload></p>
+<h1 id="感受"><a href="#感受" class="headerlink" title="感受"></a>感受</h1><blockquote>
+<p>舒服就完事儿了</p>
 </blockquote>
-<blockquote>
-<p>对于在 Vercel 上使用自定义域的受影响用户，可以通过将指向 Vercel 的 A 记录值从 76.76.21.21 更改为 76.223.126.88 来缓解该问题。</p>
-</blockquote>
-<blockquote>
-<p>虽然我们已经解决了影响 CNAME 记录的问题，但我们仍然建议将 cname.vercel-dns.com 更改为 cname-china.vercel-dns.com 以获得额外的冗余。</p>
-</blockquote>
-<p>简单来说就是：<br>A记录修改为：76.223.126.88<br>cname记录修改为：cname-china.vercel-dns.com</p>
-<h2 id="替代方案"><a href="#替代方案" class="headerlink" title="替代方案"></a>替代方案</h2><p>如果vercel还是被墙的话<br>可以来试一试<code>Cloudflare pages</code></p>
 
             </div>
             <hr>
@@ -380,7 +377,7 @@
                   <div class="post-meta mr-3">
                     <i class="iconfont icon-category"></i>
                     
-                      <a class="hover-with-bg" href="/categories/%E6%95%99%E7%A8%8B/">教程</a>
+                      <a class="hover-with-bg" href="/categories/%E6%BA%90%E7%A0%81/">源码</a>
                     
                   </div>
                 
@@ -388,9 +385,15 @@
                   <div class="post-meta">
                     <i class="iconfont icon-tags"></i>
                     
-                      <a class="hover-with-bg" href="/tags/vercel/">vercel</a>
+                      <a class="hover-with-bg" href="/tags/%E4%BC%98%E5%8C%96/">优化</a>
                     
-                      <a class="hover-with-bg" href="/tags/%E6%89%98%E7%AE%A1/">托管</a>
+                      <a class="hover-with-bg" href="/tags/%E6%95%99%E7%A8%8B/">教程</a>
+                    
+                      <a class="hover-with-bg" href="/tags/typecho/">typecho</a>
+                    
+                      <a class="hover-with-bg" href="/tags/%E7%BE%8E%E5%8C%96/">美化</a>
+                    
+                      <a class="hover-with-bg" href="/tags/%E4%BC%AA%E9%9D%99%E6%80%81/">伪静态</a>
                     
                   </div>
                 
@@ -407,9 +410,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/articles/support-PWA.shtml">
+                      <a href="/articles/%E5%8F%91%E7%8E%B0%E4%BA%86%E4%B8%80%E4%B8%AA%E7%99%BD%E5%AB%96VPS%E7%9A%84%E5%9C%B0%E6%96%B9%EF%BC%81.html">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">小岚的小窝已支持渐进式 Web 应用（PWA）</span>
+                        <span class="hidden-mobile">发现了一个白嫖VPS的地方！</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -417,8 +420,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/articles/Porkbun%E5%85%8D%E8%B4%B9%E4%B8%80%E5%B9%B4gay%E5%9F%9F%E5%90%8D.shtml">
-                        <span class="hidden-mobile">限时Porkbun免费一年gay域名</span>
+                      <a href="/articles/%E5%85%8D%E8%B4%B9%E4%B8%BB%E6%9C%BA%E5%88%97%E8%A1%A8.html">
+                        <span class="hidden-mobile">免费主机列表</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>

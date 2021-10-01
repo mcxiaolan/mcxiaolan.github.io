@@ -22,7 +22,7 @@
   
     <link rel="manifest" href="/manifest.json"> <script src="./service-worker.js"></script>
   
-  <title>白嫖8EB的Google Team Drive云端共享硬盘！ - 小岚的小窝</title>
+  <title>CloudFlare 搭建短网址程序? - 小岚的小窝</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
 
@@ -287,12 +287,12 @@
 </nav>
 
     <div class="banner" id="banner" parallax=true
-         style="background: url('https://tvax4.sinaimg.cn/large/008kKrIXgy1gtni1b5kj9j60g40a3q3b02.jpg') no-repeat center center;
+         style="background: url('https://tvax4.sinaimg.cn/large/008kKrIXgy1gsxxzgvzisj30nw0dymyd.jpg') no-repeat center center;
            background-size: cover;">
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="白嫖8EB的Google Team Drive云端共享硬盘！">
+            <span class="h2" id="subtitle" title="CloudFlare 搭建短网址程序?">
               
             </span>
 
@@ -302,8 +302,8 @@
   
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2020-12-28 12:15" pubdate>
-        2020年12月28日 中午
+      <time datetime="2021-06-06 08:16" pubdate>
+        2021年6月6日 早上
       </time>
     </span>
   
@@ -314,7 +314,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      153 字
+      412 字
     </span>
   
 
@@ -324,7 +324,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      1
+      4
        分钟
     </span>
   
@@ -354,24 +354,17 @@
         <div class="py-5" id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">白嫖8EB的Google Team Drive云端共享硬盘！</h1>
+            <h1 style="display: none">CloudFlare 搭建短网址程序?</h1>
             
             <div class="markdown-body">
-              <!-- wp:heading -->
-<h2>提示</h2>
-<!-- /wp:heading -->
+              <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>CloudFlare相信很多人都知道，它可以防御DDoS,而且拥有全球 CDN 加速，静态页面也可托管在CloudFlare pages上，Workers 可以托管一些代码。<br>那么今天就使用 workers 创建一个短网址程序（y1s1，我愿称之为链接跳转，Workers 的域名太长了）</p>
+<iframe class="video" src="//player.bilibili.com/player.html?aid=888388740&bvid=BV1xK4y1V7uu&cid=349720107&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
-<!-- wp:paragraph -->
-<p>上传或者下载都需要404工具，并且建议用自己的小号注册，否则被封了不关我事，而且这个免费白嫖有些不稳</p>
-<!-- /wp:paragraph -->
+<h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><p>原作者Github：<a target="_blank" rel="noopener" href="https://github.com/xyTom/Url-Shorten-Worker">https://github.com/xyTom/Url-Shorten-Worker</a><br>打开CloudFlare,打开Workers，弄好你的二级域名(如果已经做过，可忽略)<br><img src="https://tvax1.sinaimg.cn/large/0076PFmely1gr88qfob44j30ln03kt8p.jpg" srcset="/img/loading.gif" lazyload alt="域名"><br><a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/xyTom/Url-Shorten-Worker/main/index.js">点击此处</a>获取短网址代码<br>点击创建Worker，将之前的代码弄上去，之后在“部署后即可上线”的左边可以修改三级域名。<br><img src="https://tvax2.sinaimg.cn/large/0076PFmely1gr88xkme60j305m0130si.jpg" srcset="/img/loading.gif" lazyload alt="修改域名"><br>然后点击保存并部署。<br>然后重新回到workers界面，点开上面的KV<br><img src="https://tva2.sinaimg.cn/large/0076PFmely1gr890ho0e2j309s01u0si.jpg" srcset="/img/loading.gif" lazyload alt="KV"><br>输入名称后点击添加<br>打开你刚刚创建的workers，点击设置<br><img src="https://tvax3.sinaimg.cn/large/0076PFmely1gr8923f2nzj309u08z74b.jpg" srcset="/img/loading.gif" lazyload alt="设置"><br>然后找KV命名空间绑定，变量输入’LINKS’（全部大写），然后KV 命名空间选择你之前创建的就行，然后点击保存。<br><img src="https://tva1.sinaimg.cn/large/0076PFmely1gr895t20foj30zu0cr3yz.jpg" srcset="/img/loading.gif" lazyload alt="KV设置"><br>就完事儿了<br>如果你想修改html，请Fork原作者的Github<br><img src="https://tvax3.sinaimg.cn/large/0076PFmely1gr89e051thj304h019mwx.jpg" srcset="/img/loading.gif" lazyload alt="Fork"><br>修改gh-page分支里的index.html文件<br><img src="https://tvax1.sinaimg.cn/large/0076PFmely1gr89ka243pj316h0dz75h.jpg" srcset="/img/loading.gif" lazyload alt="html"><br>之后，然后使用jsdelivr加速一下你的仓库的index.html。然后修改一下worker，把jsdelivr加速地址改成自己就可以了。<br><a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/gh/username/Url-Shorten-Worker@gh-pages/index.html%EF%BC%88username%E5%A1%AB%E4%BD%A0%E7%9A%84Github%E7%94%A8%E6%88%B7%E5%90%8D%EF%BC%89">https://cdn.jsdelivr.net/gh/username/Url-Shorten-Worker@gh-pages/index.html（username填你的Github用户名）</a><br>在87行左右修改链接即可<br><img src="https://tvax3.sinaimg.cn/large/0076PFmely1gr89r7t2iqj30q000odfp.jpg" srcset="/img/loading.gif" lazyload alt="links"><br>看看我的 <a target="_blank" rel="noopener" href="https://github.com/mcxiaolan/Url-Shorten-Worker/blob/gh-pages/index.html">https://github.com/mcxiaolan/Url-Shorten-Worker/blob/gh-pages/index.html</a></p>
+<h2 id="成品"><a href="#成品" class="headerlink" title="成品"></a>成品</h2><p><a target="_blank" rel="noopener" href="https://www.sdwz1.workers.dev/">https://www.sdwz1.workers.dev/</a></p>
+<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>免费版每天只能访问10万次，允许储存1G数据</p>
+<h2 id="原作者"><a href="#原作者" class="headerlink" title="原作者"></a>原作者</h2><p>本篇文章从 <a target="_blank" rel="noopener" href="https://zsxwz.com/2021/05/21/workerkv%E6%90%AD%E5%BB%BA%E7%9F%AD%E7%BD%91%E5%9D%80%E7%A8%8B%E5%BA%8F/">姿势小王子</a> 搬运，经过修改后发布。</p>
 
-<!-- wp:heading {"level":1} -->
-<h1>教程</h1>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>打开<a rel="noreferrer noopener" href="https://td.fastio.me" target="_blank">https://td.fastio.me</a><br><img src="https://tva1.sinaimg.cn/large/008kKrIXgy1gsufqkmhqfj30ha0bh40w.jpg" srcset="/img/loading.gif" lazyload alt="td.fastio.me"><br>输入相关信息，第3个空那里随便选，有一些已经不能用了，然后完成反人类验证码，点击Get!<br>打开咕鸽云端硬盘<br><img src="https://tva1.sinaimg.cn/large/008kKrIXgy1gsufrwpeybj31200gt0zb.jpg" srcset="/img/loading.gif" lazyload alt="咕鸽云端硬盘"><br>打开以后你就会发现我的云端硬盘下面多出了一个共享云端硬盘<br>点开后就能找到你申请的了<br><img src="https://tvax2.sinaimg.cn/large/008kKrIXgy1gsufsj5u16j31200gqall.jpg" srcset="/img/loading.gif" lazyload alt="芜湖"><br>测试（没有工具别访问了qwq）<br><a rel="noreferrer noopener" href="https://drive.google.com/file/d/10o7pFxLAsYRrsedJKqRAkEurM37JKPMU/view?usp=sharing" target="_blank">xiaolan.jpg</a></p>
-<!-- /wp:paragraph -->
             </div>
             <hr>
             <div>
@@ -392,9 +385,13 @@
                     
                       <a class="hover-with-bg" href="/tags/%E7%99%BD%E5%AB%96/">白嫖</a>
                     
-                      <a class="hover-with-bg" href="/tags/%E5%92%95%E9%B8%BD/">咕鸽</a>
+                      <a class="hover-with-bg" href="/tags/%E7%BD%91%E7%AB%99/">网站</a>
                     
-                      <a class="hover-with-bg" href="/tags/%E7%BD%91%E7%9B%98/">网盘</a>
+                      <a class="hover-with-bg" href="/tags/CloudFlare/">CloudFlare</a>
+                    
+                      <a class="hover-with-bg" href="/tags/%E6%90%AD%E5%BB%BA/">搭建</a>
+                    
+                      <a class="hover-with-bg" href="/tags/%E7%9F%AD%E7%BD%91%E5%9D%80/">短网址</a>
                     
                   </div>
                 
@@ -411,9 +408,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/articles/%E5%A6%82%E4%BD%95%E6%8A%8AWordPress%E8%BF%9E%E6%8E%A5%E4%B8%AD%E7%9A%84index-php%E5%8E%BB%E6%8E%89%EF%BC%88%E4%BC%AA%E9%9D%99%E6%80%81%E6%95%99%E7%A8%8B%EF%BC%89.shtml">
+                      <a href="/articles/QQ%E4%B9%9F%E8%83%BD%E5%BD%93%E5%9B%BE%E5%BA%8A%EF%BC%81.html">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">如何把WordPress连接中的index.php去掉（伪静态教程）</span>
+                        <span class="hidden-mobile">QQ也能当图床！</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -421,8 +418,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/articles/%E5%9C%A8%E4%BD%A0%E7%9A%84%E7%BD%91%E7%AB%99%E5%8F%B3%E4%B8%8B%E8%A7%92%E6%B7%BB%E5%8A%A0SSL%E8%AE%A4%E8%AF%81%E6%A0%87%E5%BF%97%EF%BC%81.shtml">
-                        <span class="hidden-mobile">在你的网站右下角添加SSL认证标志！</span>
+                      <a href="/articles/%E5%8F%91%E7%8E%B0%E4%BA%86%E4%B8%80%E4%B8%AA%E7%99%BD%E5%AB%96VPS%E7%9A%84%E5%9C%B0%E6%96%B9%EF%BC%81.html">
+                        <span class="hidden-mobile">发现了一个白嫖VPS的地方！</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>

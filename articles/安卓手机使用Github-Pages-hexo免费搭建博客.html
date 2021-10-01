@@ -22,7 +22,7 @@
   
     <link rel="manifest" href="/manifest.json"> <script src="./service-worker.js"></script>
   
-  <title>小岚的小窝已支持渐进式 Web 应用（PWA） - 小岚的小窝</title>
+  <title>安卓手机使用Github Pages + hexo免费搭建博客 - 小岚的小窝</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
 
@@ -287,12 +287,12 @@
 </nav>
 
     <div class="banner" id="banner" parallax=true
-         style="background: url('https://tva4.sinaimg.cn/large/008kKrIXgy1gtxq75uqm4j61kw0lfq6n02.jpg') no-repeat center center;
+         style="background: url('https://tva4.sinaimg.cn/large/008kKrIXgy1gtmdj95dbvj618g0qc43502.jpg') no-repeat center center;
            background-size: cover;">
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="小岚的小窝已支持渐进式 Web 应用（PWA）">
+            <span class="h2" id="subtitle" title="安卓手机使用Github Pages + hexo免费搭建博客">
               
             </span>
 
@@ -302,8 +302,8 @@
   
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2021-08-29 16:05" pubdate>
-        2021年8月29日 下午
+      <time datetime="2021-08-19 20:50" pubdate>
+        2021年8月19日 晚上
       </time>
     </span>
   
@@ -314,7 +314,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      304 字
+      778 字
     </span>
   
 
@@ -324,7 +324,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      3
+      9
        分钟
     </span>
   
@@ -354,28 +354,44 @@
         <div class="py-5" id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">小岚的小窝已支持渐进式 Web 应用（PWA）</h1>
+            <h1 style="display: none">安卓手机使用Github Pages + hexo免费搭建博客</h1>
             
             <div class="markdown-body">
-              <h2 id="PWA-是什么"><a href="#PWA-是什么" class="headerlink" title="PWA 是什么?"></a>PWA 是什么?</h2><p>PWA:渐进式 Web 应用</p>
-<p>PWA 介绍:<a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps">MDN</a></p>
-<h2 id="为什么要让博客支持-PWA-技术"><a href="#为什么要让博客支持-PWA-技术" class="headerlink" title="为什么要让博客支持 PWA 技术?"></a>为什么要让博客支持 PWA 技术?</h2><h3 id="优势"><a href="#优势" class="headerlink" title="优势"></a>优势</h3><p>PWA 是可被发现、易安装、可链接、独立于网络、渐进式、可重用、响应性和安全的。<br>如果你忘记了我的网站域名，你可以直接通过已安装的 PWA 应用来打开我的博客。<br>最重要的是能让我的网站进行离线访问！</p>
-<h2 id="如何安装-PWA-应用"><a href="#如何安装-PWA-应用" class="headerlink" title="如何安装 PWA 应用"></a>如何安装 PWA 应用</h2><h3 id="支持的浏览器"><a href="#支持的浏览器" class="headerlink" title="支持的浏览器"></a>支持的浏览器</h3><p>市场主流浏览器已经能够较好支持这一应用标准<br>PWA 所需的关键要素是 service worker 支持<br>所以只要是支持 service worker 的浏览器<br>理论上均支持 PWA 应用：</p>
-<ul>
-<li>Chrome（v70 稳定版及以上版本）</li>
-<li>Firefox（仅支持 Android v58+）</li>
-<li>Edge</li>
-<li>Safari（iOS 11.3+）<br>等等。</li>
+              <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本机教程仅针对安卓使用Termux搭建，网上已经有很多其他设备搭建的教程了，如果网上的教程不能用的话，你可以自己尝试参考我的文章。</p>
+<h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><ul>
+<li>安装Termux app</li>
+<li>安装AnLinux app</li>
+<li>安装VNC viewer app</li>
+<li>github账号</li>
+<li>合适的网络环境</li>
 </ul>
-<h3 id="安装应用"><a href="#安装应用" class="headerlink" title="安装应用"></a>安装应用</h3><blockquote>
-<p>图片中使用的均为 Google Chrome 浏览器，不同的浏览器位置可能不同。</p>
-</blockquote>
-<p>电脑：<br>可在浏览器右上角安装应用<br><img src="https://tva2.sinaimg.cn/large/008kKrIXgy1gtxpsdj6h2j60kq09pmyz02.jpg" srcset="/img/loading.gif" lazyload alt="电脑安装"></p>
-<p>安装好后将会在桌面生成图标<br><img src="https://tva2.sinaimg.cn/large/008kKrIXgy1gtxpsdbla3j61uo0u017502.jpg" srcset="/img/loading.gif" lazyload alt="电脑桌面"></p>
-<p>手机：<br>在浏览器最下面安装应用<br><img src="https://tva4.sinaimg.cn/large/008kKrIXgy1gtxpscs7rej60u01uotpo02.jpg" srcset="/img/loading.gif" lazyload alt="手机安装"></p>
-<p>或者点击右上角三个点安装<br><img src="https://tvax3.sinaimg.cn/large/008kKrIXgy1gtxr3gahfmj60u01uo4fx02.jpg" srcset="/img/loading.gif" lazyload alt="手机右上角安装 - 1"><br><img src="https://tva3.sinaimg.cn/large/008kKrIXgy1gtxr3fwva3j60u01uoqe502.jpg" srcset="/img/loading.gif" lazyload alt="手机右上角安装 - 2"></p>
-<p>安装好后将会在桌面生成图标<br><img src="https://tvax3.sinaimg.cn/large/008kKrIXgy1gtxpsbgov4j60u01uo18m02.jpg" srcset="/img/loading.gif" lazyload alt="手机桌面"></p>
-<p>手机打开的效果如下<br><img src="https://tvax3.sinaimg.cn/large/008kKrIXgy1gtxpsc6jxxj60u01uo1a202.jpg" srcset="/img/loading.gif" lazyload alt="手机效果图"></p>
+<h2 id="开始前"><a href="#开始前" class="headerlink" title="开始前"></a>开始前</h2><p>开始前我们需要安装Ubuntu和图形化界面在我们手机里，这里推荐一个教程视频</p>
+<p>【Termux系列：手机安装一个带桌面的Linux系统-哔哩哔哩】<a target="_blank" rel="noopener" href="https://b23.tv/y3eny7">https://b23.tv/y3eny7</a></p>
+<h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><p>在桌面或者其他地方右键打开终端，执行以下命令<br><code>apt-get update -y &amp;&amp; apt-get upgrade -y &amp;&amp; apt-get install firefox -y &amp;&amp; apt-get install git -y &amp;&amp; apt-get install npm -y &amp;&amp; apt-get install nodejs -y</code></p>
+<p>如果你不是root用户，请使用以下命令<br><code>sudo apt-get update -y &amp;&amp; sudo apt-get upgrade -y &amp;&amp; sudo apt-get install firefox -y &amp;&amp; sudo apt-get install git -y &amp;&amp; sudo apt-get install npm -y &amp;&amp; sudo apt-get install nodejs -y</code></p>
+<p>这个过程有点漫长，稍等亿会，如果你看到他停了很久了，说明好了。</p>
+<p>然后继续执行命令<br><code>npm install hexo-cli -g &amp;&amp; hexo init blog &amp;&amp; cd blog &amp;&amp; hexo g</code></p>
+<p>然后你就会发现，之前你右键的地方多出了一个叫blog的文件夹，那么博客安装也就到这里了。</p>
+<h2 id="Github配置"><a href="#Github配置" class="headerlink" title="Github配置"></a>Github配置</h2><p>创建一个仓库，根据下面的图片进行配置。<br><img src="https://tvax3.sinaimg.cn/large/008kKrIXgy1gtmf1h3j5rj60u01uoaja02.jpg" srcset="/img/loading.gif" lazyload alt="创建仓库"></p>
+<p>然后回到终端，执行<code>cd ~/.ssh</code><br>然后复制这串命令到终端进行修改<br><code>ssh-keygen -t rsa -C &quot;email&quot;</code><br>修改email成你的github注册时的邮箱（一般情况下是这个邮箱），然后执行命令连续按三次回车键。<br>然后打开文件管理，来到根目录（root）下<br>找到.ssh（如果找不见的话，请自己寻找<code>显示隐藏文件</code>选项）<br>打开id_rsa.pub，把里面的内容全选复制（为了确保万无一失，请使用CTRL+A）</p>
+<p>打开这个链接 <a target="_blank" rel="noopener" href="https://github.com/settings/keys">https://github.com/settings/keys</a></p>
+<p>点击 <code>New SSH key</code></p>
+<p>Title可以随意写，Key请粘贴刚刚复制的内容。</p>
+<p>然后点击<code>Add SSH key</code>。</p>
+<p>然后回到终端执行以下命令测试<code>ssh -T git@github.com</code></p>
+<p>如果它提示<code>Hi xxx! You&#39;ve successfully authenticated</code>说明已配置好。</p>
+<p>打开blog/_config.yml<br>滑到最下面，修改成这样</p>
+<figure class="highlight dts"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs dts"><span class="hljs-symbol">deploy:</span><br><span class="hljs-symbol">  type:</span> git<br><span class="hljs-symbol">  repo:</span> git@github.com:mcxiaolan/mcxiaolan.github.io.git <span class="hljs-meta">#请自行修改用户名</span><br><span class="hljs-symbol">  branch:</span> master <span class="hljs-meta">#默认是master</span><br></code></pre></div></td></tr></table></figure>
+
+<p>保存之后，回到终端执行命令<code>npm install hexo-deployer-git --save</code></p>
+<h2 id="大功告成"><a href="#大功告成" class="headerlink" title="大功告成"></a>大功告成</h2><p>现在你的系统已经安装好hexo并且成功配置好了github，最后执行一串命令<code>hexo d</code>，就会自动部署到github.</p>
+<h2 id="基本命令"><a href="#基本命令" class="headerlink" title="基本命令"></a>基本命令</h2><p>hexo new post “新建文章名” //新建文章</p>
+<p>hexo new page “新建页面名” //新建页面</p>
+<p>hexo clean //清除一些东西</p>
+<p>hexo g //生成文件</p>
+<p>hexo s //生成本地预览（按ctrl+C停止）<br>如果无法生成，请尝试使用以下命令<br>hexo s -p 1-65535任意一个数</p>
+<p>配置文件在_config.yml</p>
+<p>文章和页面在source.</p>
 
             </div>
             <hr>
@@ -385,7 +401,7 @@
                   <div class="post-meta mr-3">
                     <i class="iconfont icon-category"></i>
                     
-                      <a class="hover-with-bg" href="/categories/%E7%BB%8F%E5%8E%86/">经历</a>
+                      <a class="hover-with-bg" href="/categories/%E6%95%99%E7%A8%8B/">教程</a>
                     
                   </div>
                 
@@ -393,11 +409,17 @@
                   <div class="post-meta">
                     <i class="iconfont icon-tags"></i>
                     
-                      <a class="hover-with-bg" href="/tags/%E7%BD%91%E7%AB%99/">网站</a>
+                      <a class="hover-with-bg" href="/tags/%E5%85%8D%E8%B4%B9/">免费</a>
                     
-                      <a class="hover-with-bg" href="/tags/%E4%BC%98%E5%8C%96/">优化</a>
+                      <a class="hover-with-bg" href="/tags/%E5%8D%9A%E5%AE%A2/">博客</a>
                     
-                      <a class="hover-with-bg" href="/tags/PWA/">PWA</a>
+                      <a class="hover-with-bg" href="/tags/github/">github</a>
+                    
+                      <a class="hover-with-bg" href="/tags/hexo/">hexo</a>
+                    
+                      <a class="hover-with-bg" href="/tags/nodejs/">nodejs</a>
+                    
+                      <a class="hover-with-bg" href="/tags/git/">git</a>
                     
                   </div>
                 
@@ -414,9 +436,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/articles/Check-your-SSL.shtml">
+                      <a href="/articles/%E4%BD%BF%E7%94%A8cloudflare-page%E6%90%AD%E5%BB%BA%E5%B0%8F%E6%B8%B8%E6%88%8F%EF%BC%8Cm3u8%E5%9C%A8%E7%BA%BF%E4%B8%8B%E8%BD%BD%EF%BC%8C%E5%9B%BE%E7%89%87%E5%8A%A0%E6%B0%B4%E5%8D%B0%EF%BC%8C%E9%9F%B3%E4%B9%90%E8%A7%A3%E9%94%81%E7%AD%89%E5%9C%A8%E7%BA%BF%E7%BD%91%E9%A1%B5.html">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">免费搭建自己的证书透明网站！每日自动检查你的网站证书</span>
+                        <span class="hidden-mobile">使用cloudflare page搭建小游戏，m3u8在线下载，图片加水印，音乐解锁等在线网页</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -424,8 +446,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/articles/%E8%A7%A3%E5%86%B3vercel%E5%9B%BD%E5%86%85%E8%A2%AB%E5%A2%99%E9%97%AE%E9%A2%98.shtml">
-                        <span class="hidden-mobile">解决vercel国内被墙问题</span>
+                      <a href="/articles/%5B%E7%BD%AE%E9%A1%B6%5D%E4%BD%A0%E5%A5%BD%EF%BC%8CHexo.html">
+                        <span class="hidden-mobile">置顶：你好，Hexo</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>

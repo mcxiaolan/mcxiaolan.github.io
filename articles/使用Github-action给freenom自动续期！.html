@@ -22,7 +22,7 @@
   
     <link rel="manifest" href="/manifest.json"> <script src="./service-worker.js"></script>
   
-  <title>CloudFlare 搭建短网址程序? - 小岚的小窝</title>
+  <title>使用Github action给freenom自动续期！ - 小岚的小窝</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
 
@@ -287,12 +287,12 @@
 </nav>
 
     <div class="banner" id="banner" parallax=true
-         style="background: url('https://tvax4.sinaimg.cn/large/008kKrIXgy1gsxxzgvzisj30nw0dymyd.jpg') no-repeat center center;
+         style="background: url('https://tva3.sinaimg.cn/large/008kKrIXgy1gt7hzbe0xwj30u00iowhl.jpg') no-repeat center center;
            background-size: cover;">
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="CloudFlare 搭建短网址程序?">
+            <span class="h2" id="subtitle" title="使用Github action给freenom自动续期！">
               
             </span>
 
@@ -302,8 +302,8 @@
   
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2021-06-06 08:16" pubdate>
-        2021年6月6日 早上
+      <time datetime="2021-08-01 00:18" pubdate>
+        2021年8月1日 凌晨
       </time>
     </span>
   
@@ -314,7 +314,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      412 字
+      722 字
     </span>
   
 
@@ -324,7 +324,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      4
+      7
        分钟
     </span>
   
@@ -354,16 +354,87 @@
         <div class="py-5" id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">CloudFlare 搭建短网址程序?</h1>
+            <h1 style="display: none">使用Github action给freenom自动续期！</h1>
             
             <div class="markdown-body">
-              <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>CloudFlare相信很多人都知道，它可以防御DDoS,而且拥有全球 CDN 加速，静态页面也可托管在CloudFlare pages上，Workers 可以托管一些代码。<br>那么今天就使用 workers 创建一个短网址程序（y1s1，我愿称之为链接跳转，Workers 的域名太长了）</p>
-<iframe class="video" src="//player.bilibili.com/player.html?aid=888388740&bvid=BV1xK4y1V7uu&cid=349720107&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+              <h2 id="视频教程"><a href="#视频教程" class="headerlink" title="视频教程"></a>视频教程</h2><iframe class="video" src="//player.bilibili.com/player.html?aid=804583841&bvid=BV1ry4y157nE&cid=380195214&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
-<h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><p>原作者Github：<a target="_blank" rel="noopener" href="https://github.com/xyTom/Url-Shorten-Worker">https://github.com/xyTom/Url-Shorten-Worker</a><br>打开CloudFlare,打开Workers，弄好你的二级域名(如果已经做过，可忽略)<br><img src="https://tvax1.sinaimg.cn/large/0076PFmely1gr88qfob44j30ln03kt8p.jpg" srcset="/img/loading.gif" lazyload alt="域名"><br><a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/xyTom/Url-Shorten-Worker/main/index.js">点击此处</a>获取短网址代码<br>点击创建Worker，将之前的代码弄上去，之后在“部署后即可上线”的左边可以修改三级域名。<br><img src="https://tvax2.sinaimg.cn/large/0076PFmely1gr88xkme60j305m0130si.jpg" srcset="/img/loading.gif" lazyload alt="修改域名"><br>然后点击保存并部署。<br>然后重新回到workers界面，点开上面的KV<br><img src="https://tva2.sinaimg.cn/large/0076PFmely1gr890ho0e2j309s01u0si.jpg" srcset="/img/loading.gif" lazyload alt="KV"><br>输入名称后点击添加<br>打开你刚刚创建的workers，点击设置<br><img src="https://tvax3.sinaimg.cn/large/0076PFmely1gr8923f2nzj309u08z74b.jpg" srcset="/img/loading.gif" lazyload alt="设置"><br>然后找KV命名空间绑定，变量输入’LINKS’（全部大写），然后KV 命名空间选择你之前创建的就行，然后点击保存。<br><img src="https://tva1.sinaimg.cn/large/0076PFmely1gr895t20foj30zu0cr3yz.jpg" srcset="/img/loading.gif" lazyload alt="KV设置"><br>就完事儿了<br>如果你想修改html，请Fork原作者的Github<br><img src="https://tvax3.sinaimg.cn/large/0076PFmely1gr89e051thj304h019mwx.jpg" srcset="/img/loading.gif" lazyload alt="Fork"><br>修改gh-page分支里的index.html文件<br><img src="https://tvax1.sinaimg.cn/large/0076PFmely1gr89ka243pj316h0dz75h.jpg" srcset="/img/loading.gif" lazyload alt="html"><br>之后，然后使用jsdelivr加速一下你的仓库的index.html。然后修改一下worker，把jsdelivr加速地址改成自己就可以了。<br><a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/gh/username/Url-Shorten-Worker@gh-pages/index.html%EF%BC%88username%E5%A1%AB%E4%BD%A0%E7%9A%84Github%E7%94%A8%E6%88%B7%E5%90%8D%EF%BC%89">https://cdn.jsdelivr.net/gh/username/Url-Shorten-Worker@gh-pages/index.html（username填你的Github用户名）</a><br>在87行左右修改链接即可<br><img src="https://tvax3.sinaimg.cn/large/0076PFmely1gr89r7t2iqj30q000odfp.jpg" srcset="/img/loading.gif" lazyload alt="links"><br>看看我的 <a target="_blank" rel="noopener" href="https://github.com/mcxiaolan/Url-Shorten-Worker/blob/gh-pages/index.html">https://github.com/mcxiaolan/Url-Shorten-Worker/blob/gh-pages/index.html</a></p>
-<h2 id="成品"><a href="#成品" class="headerlink" title="成品"></a>成品</h2><p><a target="_blank" rel="noopener" href="https://www.sdwz1.workers.dev/">https://www.sdwz1.workers.dev/</a></p>
-<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>免费版每天只能访问10万次，允许储存1G数据</p>
-<h2 id="原作者"><a href="#原作者" class="headerlink" title="原作者"></a>原作者</h2><p>本篇文章从 <a target="_blank" rel="noopener" href="https://zsxwz.com/2021/05/21/workerkv%E6%90%AD%E5%BB%BA%E7%9F%AD%E7%BD%91%E5%9D%80%E7%A8%8B%E5%BA%8F/">姿势小王子</a> 搬运，经过修改后发布。</p>
+<p><a target="_blank" rel="noopener" href="https://b23.tv/buU0Ki">前往此视频</a></p>
+<h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><ul>
+<li>Github账号</li>
+<li>Freenom账号</li>
+<li>要免费续费的域名</li>
+</ul>
+<h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><blockquote>
+<p>推荐使用电脑操作，手机改为电脑UA.</p>
+</blockquote>
+<p>1.打开我的<a target="_blank" rel="noopener" href="https://github.com/mcxiaolan/freenom">Github仓库</a>，点击右上角的fork。<br><img src="https://tva2.sinaimg.cn/large/008kKrIXgy1gt7fhmlqkyj31400j9aio.jpg" srcset="/img/loading.gif" lazyload alt="fork"></p>
+<blockquote>
+<p>2.依次点击settings→secrets→new repository secret<br><img src="https://tvax3.sinaimg.cn/large/008kKrIXgy1gt7g3rde9gj31400j9gu4.jpg" srcset="/img/loading.gif" lazyload alt="settings"><br><img src="https://tvax2.sinaimg.cn/large/008kKrIXgy1gt7g3q79ovj31400j9wix.jpg" srcset="/img/loading.gif" lazyload alt="secrets"><br><img src="https://tva2.sinaimg.cn/large/008kKrIXgy1gt7g3p0228j31400j9n4w.jpg" srcset="/img/loading.gif" lazyload alt="new repository secret"></p>
+</blockquote>
+<p>添加如下变量</p>
+<table>
+<thead>
+<tr>
+<th align="center">变量名</th>
+<th align="center">含义</th>
+<th align="center">默认值</th>
+<th align="center">是否必须</th>
+<th align="center">备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">FREENOM_USERNAME</td>
+<td align="center">freenom 账户</td>
+<td align="center">-</td>
+<td align="center">是</td>
+<td align="center">只支持邮箱账户，不支持也不打算支持第三方社交账户登录</td>
+</tr>
+<tr>
+<td align="center">FREENOM_PASSWORD</td>
+<td align="center">freenom 密码</td>
+<td align="center">-</td>
+<td align="center">是</td>
+<td align="center">某些特殊字符可能需要转义，在<code>Github actions</code>环境，请在除字母数字以外的字符前加上“\”，否则可能无法正确读取密码，此举是防止某些字符在<code>shell</code>命令行被解析，举个例子，比如我密码是<code>fei.,:!~@#$%^&amp;*?233-_abcd^$$</code>，那么写到秘密变量时就应写为<code>fei\.\,\:\!\~\@\#\$\%\^\&amp;\*\?233\-\_abcd\^\$\$</code>。而在普通<code>VPS</code>环境，则只用在密码中的“#”或单双引号前加“\”，请参考<code>.env.example</code>文件内的注释，应该没人会设置那么变态的密码吧</td>
+</tr>
+<tr>
+<td align="center">MAIL_USERNAME</td>
+<td align="center">机器人邮箱账户</td>
+<td align="center">-</td>
+<td align="center">是</td>
+<td align="center">支持<code>Gmail</code>、<code>QQ邮箱</code>以及<code>163邮箱</code>，尽可能使用<code>163邮箱</code>或者<code>QQ邮箱</code>，而非之前推荐的<code>Gmail</code>。因为谷歌的安全机制，每次在新设备登录 <code>Gmail</code> 都会先被限制，需要手动解除限制才行，而<code>Github Actions</code>每次创建的虚拟环境都会分配一个新的设备<code>IP</code>，相当于每次都是从新设备登录<code>Gmail</code>，而我们不可能每次都去手动为<code>Gmail</code>解除登录限制，所以这种机制会导致无法发出通知邮件。具体的配置方法参考「 <a href="#--%E9%85%8D%E7%BD%AE%E5%8F%91%E4%BF%A1%E9%82%AE%E7%AE%B1">配置发信邮箱</a> 」</td>
+</tr>
+<tr>
+<td align="center">MAIL_PASSWORD</td>
+<td align="center">机器人邮箱密码</td>
+<td align="center">-</td>
+<td align="center">是</td>
+<td align="center"><code>Gmail</code>填密码，<code>QQ邮箱</code>或<code>163邮箱</code>填授权码</td>
+</tr>
+<tr>
+<td align="center">TO</td>
+<td align="center">接收通知的邮箱</td>
+<td align="center">-</td>
+<td align="center">是</td>
+<td align="center">你自己最常用的邮箱，推荐使用<code>QQ邮箱</code>，用来接收机器人邮箱发出的域名相关邮件</td>
+</tr>
+<tr>
+<td align="center">MAIL_ENABLE</td>
+<td align="center">是否启用邮件推送功能</td>
+<td align="center">true</td>
+<td align="center">否</td>
+<td align="center"><code>true</code>：启用<br><code>false</code>：不启用<br>默认启用，如果设为<code>false</code>，不启用邮件推送功能，则上面的<code>MAIL_USERNAME</code>、<code>MAIL_PASSWORD</code>、<code>TO</code>变量变为非必须，可不设置</td>
+</tr>
+<tr>
+<td align="center">NOTICE_FREQ</td>
+<td align="center">通知频率</td>
+<td align="center">1</td>
+<td align="center">否</td>
+<td align="center"><code>0</code>：仅当有续期操作的时候<br><code>1</code>：每次执行</td>
+</tr>
+</tbody></table>
+<p>多账户写法请查看自己的仓库，本教程是单账户的。<br>单账户有这5个即可。<br><img src="https://tva2.sinaimg.cn/large/008kKrIXgy1gt7gz6hr9nj30bi09g750.jpg" srcset="/img/loading.gif" lazyload alt="5个secrets"></p>
+<p>3.点击Actions<br><img src="https://tva2.sinaimg.cn/large/008kKrIXgy1gt7h0dmqukj31400j9gt6.jpg" srcset="/img/loading.gif" lazyload alt="Actions"><br>然后点击绿色的按钮，点击左侧的感叹号，然后有一个橙色提示框，有个按钮，点一下，然后返回仓库首页<br>4.点击.github，workflows，run.yml，点击笔，任意修改#号的银色部分，不要删除#号。<br>然后点击右上角绿色按钮，再点一次绿色按钮，然后返回Actions。看到开始运行后，看看你收信邮箱，有说明配置完成，以后将会自动续期。</p>
 
             </div>
             <hr>
@@ -381,17 +452,15 @@
                   <div class="post-meta">
                     <i class="iconfont icon-tags"></i>
                     
-                      <a class="hover-with-bg" href="/tags/CloudFlare/">CloudFlare</a>
-                    
                       <a class="hover-with-bg" href="/tags/%E5%85%8D%E8%B4%B9/">免费</a>
                     
-                      <a class="hover-with-bg" href="/tags/%E7%99%BD%E5%AB%96/">白嫖</a>
+                      <a class="hover-with-bg" href="/tags/%E5%9F%9F%E5%90%8D/">域名</a>
                     
-                      <a class="hover-with-bg" href="/tags/%E7%BD%91%E7%AB%99/">网站</a>
+                      <a class="hover-with-bg" href="/tags/freenom/">freenom</a>
                     
-                      <a class="hover-with-bg" href="/tags/%E6%90%AD%E5%BB%BA/">搭建</a>
+                      <a class="hover-with-bg" href="/tags/github/">github</a>
                     
-                      <a class="hover-with-bg" href="/tags/%E7%9F%AD%E7%BD%91%E5%9D%80/">短网址</a>
+                      <a class="hover-with-bg" href="/tags/%E7%BB%AD%E6%9C%9F/">续期</a>
                     
                   </div>
                 
@@ -408,9 +477,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/articles/QQ%E4%B9%9F%E8%83%BD%E5%BD%93%E5%9B%BE%E5%BA%8A%EF%BC%81.shtml">
+                      <a href="/articles/%E4%BD%BF%E7%94%A8Typecho%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%80%EF%BC%89.html">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">QQ也能当图床！</span>
+                        <span class="hidden-mobile">使用Typecho搭建博客（一）</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -418,8 +487,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/articles/%E5%8F%91%E7%8E%B0%E4%BA%86%E4%B8%80%E4%B8%AA%E7%99%BD%E5%AB%96VPS%E7%9A%84%E5%9C%B0%E6%96%B9%EF%BC%81.shtml">
-                        <span class="hidden-mobile">发现了一个白嫖VPS的地方！</span>
+                      <a href="/articles/%E4%BD%BF%E7%94%A8Heroku%E5%85%8D%E8%B4%B9%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BAOnedrive%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%9B%98%EF%BC%81.html">
+                        <span class="hidden-mobile">使用Heroku免费服务器搭建Onedrive个人网盘！</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>

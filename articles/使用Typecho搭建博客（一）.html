@@ -22,7 +22,7 @@
   
     <link rel="manifest" href="/manifest.json"> <script src="./service-worker.js"></script>
   
-  <title>发现了一个白嫖VPS的地方！ - 小岚的小窝</title>
+  <title>使用Typecho搭建博客（一） - 小岚的小窝</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
 
@@ -287,12 +287,12 @@
 </nav>
 
     <div class="banner" id="banner" parallax=true
-         style="background: url('https://tvax4.sinaimg.cn/large/008kKrIXgy1gsxy145a54j30lw0a7abg.jpg') no-repeat center center;
+         style="background: url('https://typecho.org/usr/themes/bluecode/img/typecho-logo.svg') no-repeat center center;
            background-size: cover;">
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="发现了一个白嫖VPS的地方！">
+            <span class="h2" id="subtitle" title="使用Typecho搭建博客（一）">
               
             </span>
 
@@ -302,8 +302,8 @@
   
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2021-04-15 22:21" pubdate>
-        2021年4月15日 晚上
+      <time datetime="2021-08-10 11:24" pubdate>
+        2021年8月10日 上午
       </time>
     </span>
   
@@ -314,7 +314,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      303 字
+      639 字
     </span>
   
 
@@ -324,7 +324,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      3
+      6
        分钟
     </span>
   
@@ -354,45 +354,37 @@
         <div class="py-5" id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">发现了一个白嫖VPS的地方！</h1>
+            <h1 style="display: none">使用Typecho搭建博客（一）</h1>
             
             <div class="markdown-body">
-              <h2 id="视频教程"><a href="#视频教程" class="headerlink" title="视频教程"></a>视频教程</h2><p>视频教程已被哔哩哔哩官方删除，呜呜呜。<br><img src="https://tvax2.sinaimg.cn/large/008kKrIXgy1gu3lvc3fjhj60u00g5dhm02.jpg" srcset="/img/loading.gif" lazyload alt="删除"></p>
-<h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><ul>
-<li>可以用的正常邮箱一个</li>
-<li>可以上网的设备一台</li>
-<li>还有可以用的手和脑子 ::aru:shutup:: </li>
+              <h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><ul>
+<li>一台虚拟主机（服务器的话，萌新建议安装宝塔）</li>
+<li>一个域名</li>
+<li><a target="_blank" rel="noopener" href="https://typecho.org/">Typecho</a>安装包</li>
 </ul>
-<h2 id="此服务器配置"><a href="#此服务器配置" class="headerlink" title="此服务器配置"></a>此服务器配置</h2><table>
-<thead>
-<tr>
-<th align="center">核心</th>
-<th align="center">下载</th>
-<th align="center">上传</th>
-<th align="center">IP</th>
-<th align="center">RAM</th>
-<th align="center">SSD盘</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">1</td>
-<td align="center">100Mpbs</td>
-<td align="center">100Mbps</td>
-<td align="center">1</td>
-<td align="center">512M</td>
-<td align="center">30GB</td>
-</tr>
-</tbody></table>
-<h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><ol>
-<li>点击<a target="_blank" rel="noopener" href="https://www.hkisl.net/?language=chinese_cn">这里</a>前往</li>
-<li>点击注册，填入个人信息进行注册，填完信息后点击注册，耐心等待一会儿，一定要等，不要急着离开页面。</li>
-<li>到你的邮箱去验证电子邮件</li>
-<li>验证完成以后，点击<a target="_blank" rel="noopener" href="https://www.hkisl.net/cart.php?gid=14">这个链接</a>，看到这个了没？<img src="https://tvax4.sinaimg.cn/large/008kKrIXgy1gsuge1myhqj30va01adgf.jpg" srcset="/img/loading.gif" lazyload>点击右边的立即购买 ::aru:cheer:: </li>
-<li>在可设定选项里，选择你需要的系统，我也是个萌新这里，我就用它默认的Centos7.5。<br><img src="https://tva2.sinaimg.cn/large/008kKrIXgy1gsugecxyjkj307d07iab4.jpg" srcset="/img/loading.gif" lazyload>点击继续，点击结算，勾选他们的服务协议，点击完成结算。之后就完成了，然后会往你的邮箱里发送IP、账号和密码。耐心等待5~15分钟，等待安装完毕。</li>
-</ol>
-<h2 id="感受"><a href="#感受" class="headerlink" title="感受"></a>感受</h2><blockquote>
-<p>依旧是舒服就完事了，而且官方没有明确说明到期时间，建议时不时来访问这个网站和看你的邮箱哦~</p>
+<h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><blockquote>
+<p>注意：本篇教程是按照swapidc和EasyPanel虚拟主机控制面板写的教程，不同的程序文字可能不同。</p>
 </blockquote>
+<p>1.获得虚拟主机后记住账号密码。<br><img src="https://tva1.sinaimg.cn/large/008kKrIXgy1gtbjiy89iej30fp0a7mxr.jpg" srcset="/img/loading.gif" lazyload alt="Username&amp;Password"></p>
+<p>2.点击主机管理上的一键登录，不同服务商可能按钮以及文字不同，点击后一般可以直接管理。</p>
+<p>3.点击主机面板上的域名绑定，先看要求，不同服务商可能需要不同的记录，一般情况下是A记录或CNAME记录。<br><img src="https://tva3.sinaimg.cn/large/008kKrIXgy1gtbjnfisq8j30qy0nsabd.jpg" srcset="/img/loading.gif" lazyload alt="绑域名"></p>
+<p>4.按照要求添加DNS记录，以下图片是使用我的二级域名的操作。<br><img src="https://tvax3.sinaimg.cn/large/008kKrIXgy1gtbjxgux3gj30s21dwjwl.jpg" srcset="/img/loading.gif" lazyload alt="添加DNS记录"></p>
+<p>5.然后将你的域名输入到主机面板绑定即可。<br><img src="https://tvax2.sinaimg.cn/large/008kKrIXgy1gtbk05i737j30p10nngm9.jpg" srcset="/img/loading.gif" lazyload alt="EP面板绑域名"></p>
+<p>6.打开你的域名绑定目录，一般是wwwroot，如果没有的话请自行添加。如果在绑定域名的时候，绑定目录为空，那么当你打开文件管理器的时候，就不用打开任何文件夹。</p>
+<p>7.上传Typecho压缩包。</p>
+<blockquote>
+<p>注意：如果你下载的压缩包格式为tar.gz，那么你要先在本地进行解压，一般要解压两次，当你看到build文件夹时，请打开这个文件夹，全选里面的内容，将它压缩为zip再上传。<br>但是如果你无法打开tar.gz:<br>电脑请尝试使用<a target="_blank" rel="noopener" href="https://7-zip.org/">7-zip</a>,<a target="_blank" rel="noopener" href="https://www.winrar.com.cn/">winRAR</a>,<a target="_blank" rel="noopener" href="https://www.bandizip.com/">Bandzip</a>;<br>手机请尝试使用ES文件浏览器.</p>
+</blockquote>
+<blockquote>
+<p>但是上面如果你还是不会的话，我这里已经为你们打包好了哦ヾ(≧∇≦*)ゝ <a target="_blank" rel="noopener" href="https://officedrive.herokuapp.com/Onedrive/Apps/%E6%BA%90%E7%A0%81/typecho.zip">点击下载</a>（2021.8.10打包，未来可能不是最新版本）</p>
+</blockquote>
+<p>8.上传完毕之后，EasyPanel面板后面会有一个解压按钮。</p>
+<p><img src="https://tva1.sinaimg.cn/large/008kKrIXgy1gtbkkvo9r7j30bm0a7weh.jpg" srcset="/img/loading.gif" lazyload alt="解压"></p>
+<p>点击解压，密码留空，继续，解压好以后，记得删除zip留空间哦~</p>
+<p>9.访问域名，开始安装：</p>
+<p>点击下一步<br><img src="https://tvax1.sinaimg.cn/large/008kKrIXgy1gtbmr187z3j30u00v0n2l.jpg" srcset="/img/loading.gif" lazyload alt="阿巴阿巴"></p>
+<p>EP面板请按照步骤操作：准备好第1步的账号密码。数据库地址、数据库端口保持默认；数据库用户名和数据库名一般情况下是相同的，填写好数据库密码；数据库前缀也可以保持默认，如果要修改，记得在后面加一个下划线；管理员账密我就不教大家填了，密码如果没填的话会自动生成。<br><img src="https://tva3.sinaimg.cn/large/008kKrIXgy1gtbmr0n5kfj30u01uodkz.jpg" srcset="/img/loading.gif" lazyload alt="配置"></p>
+<p>10.安装完毕，保存好你的博客账号密码，然后你就可以登录控制面板，开启你的创作之旅！</p>
 
             </div>
             <hr>
@@ -412,11 +404,11 @@
                     
                       <a class="hover-with-bg" href="/tags/%E5%85%8D%E8%B4%B9/">免费</a>
                     
-                      <a class="hover-with-bg" href="/tags/%E7%99%BD%E5%AB%96/">白嫖</a>
+                      <a class="hover-with-bg" href="/tags/%E6%90%AD%E5%BB%BA/">搭建</a>
                     
-                      <a class="hover-with-bg" href="/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/">服务器</a>
+                      <a class="hover-with-bg" href="/tags/%E6%95%99%E7%A8%8B/">教程</a>
                     
-                      <a class="hover-with-bg" href="/tags/vps/">vps</a>
+                      <a class="hover-with-bg" href="/tags/typecho/">typecho</a>
                     
                   </div>
                 
@@ -433,9 +425,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/articles/CloudFlare-%E6%90%AD%E5%BB%BA%E7%9F%AD%E7%BD%91%E5%9D%80%E7%A8%8B%E5%BA%8F.shtml">
+                      <a href="/articles/%5B%E7%BD%AE%E9%A1%B6%5D%E4%BD%A0%E5%A5%BD%EF%BC%8CHexo.html">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">CloudFlare 搭建短网址程序?</span>
+                        <span class="hidden-mobile">置顶：你好，Hexo</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -443,8 +435,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/articles/%E5%A6%82%E4%BD%95%E6%8A%8ATypecho%E8%BF%9E%E6%8E%A5%E4%B8%AD%E7%9A%84index-php%E5%8E%BB%E6%8E%89%EF%BC%88%E4%BC%AA%E9%9D%99%E6%80%81%E6%95%99%E7%A8%8B%EF%BC%89.shtml">
-                        <span class="hidden-mobile">如何把Typecho连接中的index.php去掉（伪静态教程）</span>
+                      <a href="/articles/%E4%BD%BF%E7%94%A8Github-action%E7%BB%99freenom%E8%87%AA%E5%8A%A8%E7%BB%AD%E6%9C%9F%EF%BC%81.html">
+                        <span class="hidden-mobile">使用Github action给freenom自动续期！</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
