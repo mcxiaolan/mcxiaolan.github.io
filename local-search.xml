@@ -8,7 +8,7 @@
     <link href="/articles/get-offline-chrome.html"/>
     <url>/articles/get-offline-chrome.html</url>
     
-    <content type="html"><![CDATA[<div class="note note-danger">            <p>文章搬运至<a href="https://www.smilingblog.cn/414.html">彩虹Smiling™️</a>，对原文进行了稍加改动。</p>          </div><p>如果直接访问 Google Chrome 中国官网<br><a href="https://www.google.cn/chrome/">https://www.google.cn/chrome/</a><br>点击下载后会自动下载几MB的在线版安装包🤔<br>但是当网络环境不好时，在线版安装包就会十分鸡肋🙃<br>从第三方网站下载的离线版安装包又多是老版本。</p><p>不过，可以通过下面的链接从官网下载最新版的离线安装包</p><p><a href="https://www.google.cn/chrome/browser/desktop/index.html?%60standalone=1%60&amp;platform=%60win64%60">https://www.google.cn/chrome/browser/desktop/index.html?`standalone=1`&amp;platform=`win64`</a></p><p>出来页面后点击下载即可下载离线版安装包</p><p>standalone=1 参数是指离线包</p><p>win64 是指win系统</p>]]></content>
+    <content type="html"><![CDATA[<div class="note note-danger">            <blockquote><p>文章搬运至<a href="https://www.smilingblog.cn/414.html">彩虹Smiling™️</a>，对原文进行了稍加改动。</p></blockquote>          </div><p>如果直接访问 Google Chrome 中国官网<br><a href="https://www.google.cn/chrome/">https://www.google.cn/chrome/</a><br>点击下载后会自动下载几MB的在线版安装包🤔<br>但是网络不好时，在线版安装包就会十分鸡肋🙃<br>从第三方网站下载的离线版安装包又多是老版本。</p><p>不过，可以通过下面的链接从官网下载最新版的离线安装包</p><p><a href="https://www.google.cn/chrome/browser/desktop/index.html?standalone=1&amp;platform=win64">https://www.google.cn/chrome/browser/desktop/index.html?standalone=1&amp;platform=win64</a></p><p>出来页面后点击下载即可下载离线版安装包</p><p>standalone=1 参数是指离线包</p><p>win64 是指win系统</p>]]></content>
     
     
     <categories>
@@ -49,13 +49,13 @@
       
       <tag>免费</tag>
       
-      <tag>域名</tag>
-      
       <tag>白嫖</tag>
       
       <tag>hyperbeam</tag>
       
       <tag>freenom</tag>
+      
+      <tag>域名</tag>
       
     </tags>
     
@@ -138,9 +138,9 @@
     
     <tags>
       
-      <tag>优化</tag>
-      
       <tag>网站</tag>
+      
+      <tag>优化</tag>
       
       <tag>PWA</tag>
       
@@ -194,13 +194,13 @@
     
     <tags>
       
-      <tag>porkbun</tag>
-      
       <tag>免费</tag>
+      
+      <tag>白嫖</tag>
       
       <tag>域名</tag>
       
-      <tag>白嫖</tag>
+      <tag>porkbun</tag>
       
     </tags>
     
@@ -225,13 +225,13 @@
     
     <tags>
       
+      <tag>CloudFlare</tag>
+      
       <tag>免费</tag>
       
       <tag>白嫖</tag>
       
       <tag>网站</tag>
-      
-      <tag>CloudFlare</tag>
       
       <tag>github</tag>
       
@@ -260,9 +260,9 @@
       
       <tag>免费</tag>
       
-      <tag>博客</tag>
-      
       <tag>github</tag>
+      
+      <tag>博客</tag>
       
       <tag>hexo</tag>
       
@@ -339,9 +339,9 @@
       
       <tag>免费</tag>
       
-      <tag>域名</tag>
-      
       <tag>freenom</tag>
+      
+      <tag>域名</tag>
       
       <tag>github</tag>
       
@@ -409,9 +409,9 @@
       
       <tag>免费</tag>
       
-      <tag>域名</tag>
-      
       <tag>白嫖</tag>
+      
+      <tag>域名</tag>
       
     </tags>
     
@@ -461,11 +461,11 @@
     
     <tags>
       
+      <tag>CloudFlare</tag>
+      
       <tag>免费</tag>
       
       <tag>白嫖</tag>
-      
-      <tag>CloudFlare</tag>
       
       <tag>搭建</tag>
       
@@ -548,13 +548,13 @@
     
     <tags>
       
+      <tag>CloudFlare</tag>
+      
       <tag>免费</tag>
       
       <tag>白嫖</tag>
       
       <tag>网站</tag>
-      
-      <tag>CloudFlare</tag>
       
       <tag>搭建</tag>
       
@@ -651,9 +651,9 @@
       
       <tag>白嫖</tag>
       
-      <tag>免费主机</tag>
-      
       <tag>主机</tag>
+      
+      <tag>免费主机</tag>
       
     </tags>
     
@@ -765,9 +765,9 @@
       
       <tag>免费</tag>
       
-      <tag>域名</tag>
-      
       <tag>白嫖</tag>
+      
+      <tag>域名</tag>
       
     </tags>
     
@@ -796,11 +796,11 @@
       
       <tag>白嫖</tag>
       
+      <tag>office</tag>
+      
       <tag>onedrive</tag>
       
       <tag>微软</tag>
-      
-      <tag>office</tag>
       
     </tags>
     
