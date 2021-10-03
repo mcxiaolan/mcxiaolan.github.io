@@ -4,6 +4,35 @@
   
   
   <entry>
+    <title>免费 SSL 证书汇总</title>
+    <link href="/articles/freessl-list.html"/>
+    <url>/articles/freessl-list.html</url>
+    
+    <content type="html"><![CDATA[<h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><p>文章只列出岚天呀能申请到的服务。</p><h2 id="最后更新"><a href="#最后更新" class="headerlink" title="最后更新"></a>最后更新</h2><p>2021-10-03</p><h2 id="list"><a href="#list" class="headerlink" title="list"></a>list</h2><h3 id="CDN-证书"><a href="#CDN-证书" class="headerlink" title="CDN 证书"></a>CDN 证书</h3><ul><li><a href="https://dash.cloudflare.com/">Cloudflare</a><br>到期时自动续订，通配符证书.</li></ul><p>以及各大国内 CDN 厂商，几乎都是免费的。</p><h3 id="域名证书"><a href="#域名证书" class="headerlink" title="域名证书"></a>域名证书</h3><ul><li><p><a href="https://freessl.org/">Freessl.org</a><br>双域名90天证书，支持Email、DNS(CNAME)、文件验证。</p></li><li><p><a href="https://freessl.cn/">Fredssl.cn</a><br>双域名1年证书，通配符90天证书<br>证书类型:RSA、ECC<br>验证方式:DNS(TXT)、文件验证。<br>CSR直接生成需要电脑，如果用移动设备，选择浏览器生成</p></li><li><p><a href="https://zerossl.com/">ZeroSSL</a><br>与Freessl.org一样</p></li><li><p><a href="https://letsencrypt.osfipin.com/">来此加密</a><br>单域名或通配符证书<br>证书类型:RSA、ECC<br>验证方式:DNS(TXT)、文件验证。</p></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>资源分享</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>免费</tag>
+      
+      <tag>ssl</tag>
+      
+      <tag>证书</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>获取最新的 Google Chrome 离线安装包</title>
     <link href="/articles/get-offline-chrome.html"/>
     <url>/articles/get-offline-chrome.html</url>
@@ -49,13 +78,13 @@
       
       <tag>免费</tag>
       
-      <tag>域名</tag>
-      
       <tag>白嫖</tag>
       
-      <tag>hyperbeam</tag>
+      <tag>域名</tag>
       
       <tag>freenom</tag>
+      
+      <tag>hyperbeam</tag>
       
     </tags>
     
@@ -138,9 +167,9 @@
     
     <tags>
       
-      <tag>优化</tag>
-      
       <tag>网站</tag>
+      
+      <tag>优化</tag>
       
       <tag>PWA</tag>
       
@@ -194,13 +223,13 @@
     
     <tags>
       
-      <tag>porkbun</tag>
-      
       <tag>免费</tag>
       
-      <tag>域名</tag>
-      
       <tag>白嫖</tag>
+      
+      <tag>porkbun</tag>
+      
+      <tag>域名</tag>
       
     </tags>
     
@@ -225,13 +254,13 @@
     
     <tags>
       
+      <tag>CloudFlare</tag>
+      
       <tag>免费</tag>
       
       <tag>白嫖</tag>
       
       <tag>网站</tag>
-      
-      <tag>CloudFlare</tag>
       
       <tag>github</tag>
       
@@ -341,11 +370,11 @@
       
       <tag>域名</tag>
       
-      <tag>freenom</tag>
-      
       <tag>github</tag>
       
       <tag>续期</tag>
+      
+      <tag>freenom</tag>
       
     </tags>
     
@@ -376,11 +405,11 @@
       
       <tag>搭建</tag>
       
-      <tag>免费主机</tag>
-      
       <tag>onedrive</tag>
       
       <tag>微软</tag>
+      
+      <tag>免费主机</tag>
       
       <tag>onemanager</tag>
       
@@ -409,9 +438,9 @@
       
       <tag>免费</tag>
       
-      <tag>域名</tag>
-      
       <tag>白嫖</tag>
+      
+      <tag>域名</tag>
       
     </tags>
     
@@ -461,11 +490,11 @@
     
     <tags>
       
+      <tag>CloudFlare</tag>
+      
       <tag>免费</tag>
       
       <tag>白嫖</tag>
-      
-      <tag>CloudFlare</tag>
       
       <tag>搭建</tag>
       
@@ -548,13 +577,13 @@
     
     <tags>
       
+      <tag>CloudFlare</tag>
+      
       <tag>免费</tag>
       
       <tag>白嫖</tag>
       
       <tag>网站</tag>
-      
-      <tag>CloudFlare</tag>
       
       <tag>搭建</tag>
       
@@ -651,9 +680,9 @@
       
       <tag>白嫖</tag>
       
-      <tag>主机</tag>
-      
       <tag>免费主机</tag>
+      
+      <tag>主机</tag>
       
     </tags>
     
@@ -765,9 +794,9 @@
       
       <tag>免费</tag>
       
-      <tag>域名</tag>
-      
       <tag>白嫖</tag>
+      
+      <tag>域名</tag>
       
     </tags>
     
@@ -796,11 +825,11 @@
       
       <tag>白嫖</tag>
       
-      <tag>office</tag>
-      
       <tag>onedrive</tag>
       
       <tag>微软</tag>
+      
+      <tag>office</tag>
       
     </tags>
     
