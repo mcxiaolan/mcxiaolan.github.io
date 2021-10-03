@@ -6,7 +6,7 @@
   <link href="https://blog.mcxiaolan.top/atom.xml" rel="self"/>
   
   <link href="https://blog.mcxiaolan.top/"/>
-  <updated>2021-10-03T02:10:29.670Z</updated>
+  <updated>2021-10-03T02:14:21.266Z</updated>
   <id>https://blog.mcxiaolan.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.mcxiaolan.top/articles/freessl-list.html"/>
     <id>https://blog.mcxiaolan.top/articles/freessl-list.html</id>
     <published>2021-10-03T01:30:42.000Z</published>
-    <updated>2021-10-03T02:10:29.670Z</updated>
+    <updated>2021-10-03T02:14:21.266Z</updated>
     
     <content type="html"><![CDATA[<h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><p>文章只列出岚天呀能申请到的服务。</p><h2 id="最后更新"><a href="#最后更新" class="headerlink" title="最后更新"></a>最后更新</h2><p>2021-10-03</p><h2 id="list"><a href="#list" class="headerlink" title="list"></a>list</h2><h3 id="CDN-证书"><a href="#CDN-证书" class="headerlink" title="CDN 证书"></a>CDN 证书</h3><ul><li><a href="https://dash.cloudflare.com/">Cloudflare</a><br>到期时自动续订，通配符证书.</li></ul><p>以及各大国内 CDN 厂商，几乎都是免费的。</p><h3 id="域名证书"><a href="#域名证书" class="headerlink" title="域名证书"></a>域名证书</h3><ul><li><p><a href="https://freessl.org/">Freessl.org</a><br>双域名90天证书，支持Email、DNS(CNAME)、文件验证。</p></li><li><p><a href="https://freessl.cn/">Fredssl.cn</a><br>双域名1年证书，通配符90天证书<br>证书类型:RSA、ECC<br>验证方式:DNS(TXT)、文件验证。<br>CSR直接生成需要电脑，如果用移动设备，选择浏览器生成</p></li><li><p><a href="https://zerossl.com/">ZeroSSL</a><br>与Freessl.org一样</p></li><li><p><a href="https://letsencrypt.osfipin.com/">来此加密</a><br>单域名或通配符证书<br>证书类型:RSA、ECC<br>验证方式:DNS(TXT)、文件验证。</p></li></ul>]]></content>
     
@@ -103,11 +103,11 @@
     
     <category term="白嫖" scheme="https://blog.mcxiaolan.top/tags/%E7%99%BD%E5%AB%96/"/>
     
-    <category term="域名" scheme="https://blog.mcxiaolan.top/tags/%E5%9F%9F%E5%90%8D/"/>
+    <category term="hyperbeam" scheme="https://blog.mcxiaolan.top/tags/hyperbeam/"/>
     
     <category term="freenom" scheme="https://blog.mcxiaolan.top/tags/freenom/"/>
     
-    <category term="hyperbeam" scheme="https://blog.mcxiaolan.top/tags/hyperbeam/"/>
+    <category term="域名" scheme="https://blog.mcxiaolan.top/tags/%E5%9F%9F%E5%90%8D/"/>
     
   </entry>
   
@@ -165,9 +165,9 @@
     
     <category term="免费" scheme="https://blog.mcxiaolan.top/tags/%E5%85%8D%E8%B4%B9/"/>
     
-    <category term="github" scheme="https://blog.mcxiaolan.top/tags/github/"/>
-    
     <category term="ssl" scheme="https://blog.mcxiaolan.top/tags/ssl/"/>
+    
+    <category term="github" scheme="https://blog.mcxiaolan.top/tags/github/"/>
     
     <category term="证书透明" scheme="https://blog.mcxiaolan.top/tags/%E8%AF%81%E4%B9%A6%E9%80%8F%E6%98%8E/"/>
     
@@ -260,9 +260,9 @@
     
     <category term="白嫖" scheme="https://blog.mcxiaolan.top/tags/%E7%99%BD%E5%AB%96/"/>
     
-    <category term="porkbun" scheme="https://blog.mcxiaolan.top/tags/porkbun/"/>
-    
     <category term="域名" scheme="https://blog.mcxiaolan.top/tags/%E5%9F%9F%E5%90%8D/"/>
+    
+    <category term="porkbun" scheme="https://blog.mcxiaolan.top/tags/porkbun/"/>
     
   </entry>
   
@@ -326,9 +326,9 @@
     
     <category term="免费" scheme="https://blog.mcxiaolan.top/tags/%E5%85%8D%E8%B4%B9/"/>
     
-    <category term="博客" scheme="https://blog.mcxiaolan.top/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
     <category term="github" scheme="https://blog.mcxiaolan.top/tags/github/"/>
+    
+    <category term="博客" scheme="https://blog.mcxiaolan.top/tags/%E5%8D%9A%E5%AE%A2/"/>
     
     <category term="hexo" scheme="https://blog.mcxiaolan.top/tags/hexo/"/>
     
@@ -419,13 +419,13 @@
     
     <category term="免费" scheme="https://blog.mcxiaolan.top/tags/%E5%85%8D%E8%B4%B9/"/>
     
+    <category term="freenom" scheme="https://blog.mcxiaolan.top/tags/freenom/"/>
+    
     <category term="域名" scheme="https://blog.mcxiaolan.top/tags/%E5%9F%9F%E5%90%8D/"/>
     
     <category term="github" scheme="https://blog.mcxiaolan.top/tags/github/"/>
     
     <category term="续期" scheme="https://blog.mcxiaolan.top/tags/%E7%BB%AD%E6%9C%9F/"/>
-    
-    <category term="freenom" scheme="https://blog.mcxiaolan.top/tags/freenom/"/>
     
   </entry>
   
