@@ -8,7 +8,7 @@
     <link href="/articles/freessl-list.html"/>
     <url>/articles/freessl-list.html</url>
     
-    <content type="html"><![CDATA[<h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><p>文章只列出岚天呀能申请到的服务。</p><h2 id="最后更新"><a href="#最后更新" class="headerlink" title="最后更新"></a>最后更新</h2><p>2021-10-06</p><h2 id="list"><a href="#list" class="headerlink" title="list"></a>list</h2><h3 id="CDN-证书"><a href="#CDN-证书" class="headerlink" title="CDN 证书"></a>CDN 证书</h3><ul><li><a href="https://dash.cloudflare.com/">Cloudflare</a><br>到期时自动续订，通配符证书.</li></ul><p>以及各大国内 CDN 厂商，几乎都是免费的。</p><h3 id="域名证书"><a href="#域名证书" class="headerlink" title="域名证书"></a>域名证书</h3><ul><li><p><a href="https://freessl.org/">Freessl.org</a><br>双域名90天证书，支持Email、DNS(CNAME)、文件验证。</p></li><li><p><a href="https://freessl.cn/">Freessl.cn</a><br>双域名1年证书，通配符90天证书<br>证书类型:RSA、ECC<br>验证方式:DNS(TXT)、文件验证。<br>CSR直接生成需要电脑，如果用移动设备，选择浏览器生成</p></li><li><p><a href="https://zerossl.com/">ZeroSSL</a><br>与Freessl.org一样</p></li><li><p><a href="https://letsencrypt.osfipin.com/">来此加密</a><br>单域名或通配符90天证书<br>证书类型:RSA、ECC<br>验证方式:DNS(TXT)、文件验证。</p></li><li><p><a href="https://crazyssl.com/">CrazySSL</a><br>3-1000个单域名和通配符90天证书<br>证书类型:RSA、ECC<br>验证方式:DNS(CNAME)、文件验证。</p></li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><p>文章只列出岚天呀能申请到的服务。</p><h2 id="最后更新"><a href="#最后更新" class="headerlink" title="最后更新"></a>最后更新</h2><p>2021-10-06</p><h2 id="list"><a href="#list" class="headerlink" title="list"></a>list</h2><h3 id="CDN-证书"><a href="#CDN-证书" class="headerlink" title="CDN 证书"></a>CDN 证书</h3><ul><li><a href="https://dash.cloudflare.com/">Cloudflare</a><br>到期时自动续订，通配符证书.</li></ul><p>以及各大国内 CDN 厂商，几乎都是免费的。</p><h3 id="域名证书"><a href="#域名证书" class="headerlink" title="域名证书"></a>域名证书</h3><ul><li><p><a href="https://freessl.org/">Freessl.org</a><br>双域名90天证书，支持Email、DNS(CNAME)、文件验证。</p></li><li><p><a href="https://freessl.cn/">Freessl.cn</a><br>双域名1年证书，通配符90天证书<br>证书类型:RSA、ECC<br>验证方式:DNS(TXT)、文件验证。<br>CSR直接生成需要电脑，如果用移动设备，选择浏览器生成</p></li><li><p><a href="https://zerossl.com/">ZeroSSL</a><br>与Freessl.org一样</p></li><li><p><a href="https://letsencrypt.osfipin.com/">来此加密</a><br>单域名或通配符90天证书<br>证书类型:RSA、ECC<br>验证方式:DNS(TXT)、文件验证。</p></li><li><p><a href="https://crazyssl.com/">CrazySSL</a><br>3-1000个单域名和通配符90天证书<br>证书类型:RSA、ECC<br>验证方式:DNS(CNAME)、文件验证。</p></li></ul><blockquote><p>感谢@长夜看海.的提示</p></blockquote>]]></content>
     
     
     <categories>
@@ -20,9 +20,9 @@
     
     <tags>
       
-      <tag>ssl</tag>
-      
       <tag>免费</tag>
+      
+      <tag>ssl</tag>
       
       <tag>证书</tag>
       
@@ -136,13 +136,13 @@
     
     <tags>
       
-      <tag>github</tag>
+      <tag>免费</tag>
       
       <tag>ssl</tag>
       
-      <tag>证书透明</tag>
+      <tag>github</tag>
       
-      <tag>免费</tag>
+      <tag>证书透明</tag>
       
     </tags>
     
@@ -167,9 +167,9 @@
     
     <tags>
       
-      <tag>网站</tag>
-      
       <tag>优化</tag>
+      
+      <tag>网站</tag>
       
       <tag>PWA</tag>
       
@@ -223,9 +223,9 @@
     
     <tags>
       
-      <tag>免费</tag>
-      
       <tag>porkbun</tag>
+      
+      <tag>免费</tag>
       
       <tag>域名</tag>
       
@@ -254,15 +254,15 @@
     
     <tags>
       
-      <tag>github</tag>
-      
       <tag>免费</tag>
       
       <tag>白嫖</tag>
       
+      <tag>网站</tag>
+      
       <tag>CloudFlare</tag>
       
-      <tag>网站</tag>
+      <tag>github</tag>
       
     </tags>
     
@@ -287,11 +287,11 @@
     
     <tags>
       
-      <tag>github</tag>
-      
       <tag>免费</tag>
       
       <tag>博客</tag>
+      
+      <tag>github</tag>
       
       <tag>hexo</tag>
       
@@ -366,13 +366,13 @@
     
     <tags>
       
-      <tag>github</tag>
-      
       <tag>免费</tag>
       
       <tag>域名</tag>
       
       <tag>freenom</tag>
+      
+      <tag>github</tag>
       
       <tag>续期</tag>
       
@@ -581,11 +581,11 @@
       
       <tag>白嫖</tag>
       
+      <tag>网站</tag>
+      
       <tag>CloudFlare</tag>
       
       <tag>搭建</tag>
-      
-      <tag>网站</tag>
       
       <tag>短网址</tag>
       
@@ -643,13 +643,13 @@
     
     <tags>
       
+      <tag>优化</tag>
+      
       <tag>教程</tag>
       
       <tag>typecho</tag>
       
       <tag>美化</tag>
-      
-      <tag>优化</tag>
       
       <tag>伪静态</tag>
       
