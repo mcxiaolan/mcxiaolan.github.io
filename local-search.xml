@@ -4,6 +4,35 @@
   
   
   <entry>
+    <title>分享购买 xyz 域名记录</title>
+    <link href="/articles/buy-a-new-xyz-domain.html"/>
+    <url>/articles/buy-a-new-xyz-domain.html</url>
+    
+    <content type="html"><![CDATA[<h2 id="闲话"><a href="#闲话" class="headerlink" title="闲话"></a>闲话</h2><p>昨天晚上我购买了一个 xyz 域名:</p><p><a href="https://www.589000.xyz/">589000.xyz</a></p><p>这域名看上去没有多大的寓意，如果你用的是九宫格键盘，你或许会知道:<br><code>LTY</code>这三个字母分别对应着5,8,9.</p><h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><p>有的人可能会问:</p><div class="note note-primary">            <p>为什么你要在后面加3个0呢?</p>          </div><p>其实，589.xyz已经被买了（<br>最主要的原因还是多加数字便宜😎</p><div class="note note-success">            <p>懂我的人知道下面要开始教便宜买xyz域名了😂</p>          </div><p>确实，这个域名购买和续费都是$0.99<br>mcxiaolan.top购买7元续费25元😞</p><p>那么现在就来教大家吧</p><p>其实，购买纯数字xyz域名就很便宜<br>从000000.xyz~999999999.xyz<br>都是这个价</p><p>我看了DnsPod和namesilo<br>DnsPod 8元<br><img src="https://tva3.sinaimg.cn/large/008kKrIXgy1gv6fzc68d8j60u00isdhn02.jpg" alt="DnsPod"><br>namesilo $0.99<br><img src="https://tvax4.sinaimg.cn/large/008kKrIXgy1gv6fzbw3grj60u009saaw02.jpg" alt="namesilo"></p><p>其他的我并没有看。</p><p>我用的是namesilo，就凭不用实名，免费whois保护。<br>而且支持微信和支付宝支付，我买的时候花的是6.48元<br>以后可能汇率会上升，总之先上波车吧😎</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>经历</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>域名</tag>
+      
+      <tag>namesilo</tag>
+      
+      <tag>经验分享</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>免费 SSL 证书汇总</title>
     <link href="/articles/freessl-list.html"/>
     <url>/articles/freessl-list.html</url>
@@ -306,9 +335,9 @@
   
   
   <entry>
-    <title>置顶：你好，Hexo</title>
-    <link href="/articles/%5B%E7%BD%AE%E9%A1%B6%5D%E4%BD%A0%E5%A5%BD%EF%BC%8CHexo.html"/>
-    <url>/articles/%5B%E7%BD%AE%E9%A1%B6%5D%E4%BD%A0%E5%A5%BD%EF%BC%8CHexo.html</url>
+    <title>你好，Hexo</title>
+    <link href="/articles/%E4%BD%A0%E5%A5%BD%EF%BC%8CHexo.html"/>
+    <url>/articles/%E4%BD%A0%E5%A5%BD%EF%BC%8CHexo.html</url>
     
     <content type="html"><![CDATA[<p>欢迎，这是我第一次使用 <a href="https://hexo.io/zh-cn">Hexo</a> 搭建博客。</p><hr><h2 id="轻巧"><a href="#轻巧" class="headerlink" title="轻巧"></a>轻巧</h2><p>整站静态化，速度快。</p><h2 id="灵活"><a href="#灵活" class="headerlink" title="灵活"></a>灵活</h2><p>有主题插件，够美观。</p><h2 id="安全"><a href="#安全" class="headerlink" title="安全"></a>安全</h2><p>重要的文件都在本地。</p><hr><h2 id="关于-Hexo"><a href="#关于-Hexo" class="headerlink" title="关于 Hexo"></a>关于 Hexo</h2><p>Hexo 最初由Tommy Chen于 2012 年创建和维护。从那时起，它已经帮助成千上万的人建立了他们梦想中的网站/博客。<br><a href="https://github.com/hexojs/hexo"><img src="https://img.shields.io/github/stars/hexojs/hexo?style=for-the-badge&color=0e83cd&logo=github" alt="Stars"></a></p>]]></content>
     
@@ -645,11 +674,11 @@
       
       <tag>优化</tag>
       
+      <tag>美化</tag>
+      
       <tag>教程</tag>
       
       <tag>typecho</tag>
-      
-      <tag>美化</tag>
       
       <tag>伪静态</tag>
       
@@ -868,22 +897,22 @@
   
   
   <entry>
-    <title>about</title>
+    <title>留言栏</title>
     <link href="/"/>
     <url>/</url>
     
-    <content type="html"><![CDATA[<h2 id="联系我"><a href="#联系我" class="headerlink" title="联系我"></a>联系我</h2><p>点击头像下的 SNS 图标即可<br>欢迎加入Q群与萌新交流<br><a href="https://jq.qq.com/?_wv=1027&amp;k=l8wjjemd">https://jq.qq.com/?_wv=1027&amp;k=l8wjjemd</a></p><h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><blockquote><p>我是岚天呀，常叫小岚或Xiaolan.<br>职业：学生</p></blockquote><h2 id="擅长"><a href="#擅长" class="headerlink" title="擅长"></a>擅长</h2><p>会一点html和Markdown</p><h2 id="经历"><a href="#经历" class="headerlink" title="经历"></a>经历</h2><p>搭建网站的道路上经历了许多坎坷<br>刚开始看到萌新杰少这位大佬的视频<br><a href="https://b23.tv/nl1WsI">视频链接</a><br>然后就开始对搭建网站有了兴趣<br>后来开始做了一些分享教程<br>碰到了叶某云的广告<br>那时候也用了一阵子<br>然后呢？带着我的数据跑了😭<br>于是我就开始用Freenom的域名<br>到现在自己买的top域名<br>从xiaolan.ml<br>到lantianya.ga<br>最后到mcxiaolan.top<br>后来开始接触Termux<br>也开始学了学基础的指令<br>于是我抛弃了虚拟主机<br>换成了现在的Hexo<br>我是不是很惨?😞</p><h2 id="安卓-RSS-软件"><a href="#安卓-RSS-软件" class="headerlink" title="安卓 RSS 软件"></a>安卓 RSS 软件</h2><p><a href="https://www.coolapk.com/apk/com.blend.rolly">Rolly RSS Reader</a></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="欢迎留言"><a href="#欢迎留言" class="headerlink" title="欢迎留言"></a>欢迎留言</h2><p>感谢你能在岚天呀的小破站留言。<br>有任何建议或者问题，欢迎留言。<br>粉丝群：715255814<br>无法搜索到Q群?<br>使用链接 <a href="https://jq.qq.com/?_wv=1027&amp;k=l8wjjemd">https://jq.qq.com/?_wv=1027&amp;k=l8wjjemd</a></p><h2 id="评论规则"><a href="#评论规则" class="headerlink" title="评论规则"></a>评论规则</h2><ol><li>发布评论时，请遵守您所在国家和中华人民共和国的法律法规，禁止发布政治相关内容；</li><li>评论内容应该和所在页面的内容相关，禁止一切无意义和严重跑题的内容；</li><li>请尊重他人，友好评论，请像和他人面对面谈话时一样保持对他人的尊重；</li><li>禁止发布广告；</li><li>请勿使用类似“谢谢谢谢谢谢谢谢谢”、“哈哈哈哈哈哈哈哈”这样的术语。表达感谢请真诚，此种方式视为灌水。</li></ol><blockquote><p>此规则来自 <a href="https://www.midishow.com/help/comment-rules.ab">MidiShow</a></p></blockquote>]]></content>
     
   </entry>
   
   
   
   <entry>
-    <title>留言栏</title>
+    <title>about</title>
     <link href="/"/>
     <url>/</url>
     
-    <content type="html"><![CDATA[<h2 id="欢迎留言"><a href="#欢迎留言" class="headerlink" title="欢迎留言"></a>欢迎留言</h2><p>感谢你能在岚天呀的小破站留言。<br>有任何建议或者问题，欢迎留言。<br>粉丝群：715255814<br>无法搜索到Q群?<br>使用链接 <a href="https://jq.qq.com/?_wv=1027&amp;k=l8wjjemd">https://jq.qq.com/?_wv=1027&amp;k=l8wjjemd</a></p><h2 id="评论规则"><a href="#评论规则" class="headerlink" title="评论规则"></a>评论规则</h2><ol><li>发布评论时，请遵守您所在国家和中华人民共和国的法律法规，禁止发布政治相关内容；</li><li>评论内容应该和所在页面的内容相关，禁止一切无意义和严重跑题的内容；</li><li>请尊重他人，友好评论，请像和他人面对面谈话时一样保持对他人的尊重；</li><li>禁止发布广告；</li><li>请勿使用类似“谢谢谢谢谢谢谢谢谢”、“哈哈哈哈哈哈哈哈”这样的术语。表达感谢请真诚，此种方式视为灌水。</li></ol><blockquote><p>此规则来自 <a href="https://www.midishow.com/help/comment-rules.ab">MidiShow</a></p></blockquote>]]></content>
+    <content type="html"><![CDATA[<h2 id="联系我"><a href="#联系我" class="headerlink" title="联系我"></a>联系我</h2><p>点击头像下的 SNS 图标即可<br>欢迎加入Q群与萌新交流<br><a href="https://jq.qq.com/?_wv=1027&amp;k=l8wjjemd">https://jq.qq.com/?_wv=1027&amp;k=l8wjjemd</a></p><h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><blockquote><p>我是岚天呀，常叫小岚或Xiaolan.<br>职业：学生</p></blockquote><h2 id="擅长"><a href="#擅长" class="headerlink" title="擅长"></a>擅长</h2><p>会一点html和Markdown</p><h2 id="经历"><a href="#经历" class="headerlink" title="经历"></a>经历</h2><p>搭建网站的道路上经历了许多坎坷<br>刚开始看到萌新杰少这位大佬的视频<br><a href="https://b23.tv/nl1WsI">视频链接</a><br>然后就开始对搭建网站有了兴趣<br>后来开始做了一些分享教程<br>碰到了叶某云的广告<br>那时候也用了一阵子<br>然后呢？带着我的数据跑了😭<br>于是我就开始用Freenom的域名<br>到现在自己买的top域名<br>从xiaolan.ml<br>到lantianya.ga<br>最后到mcxiaolan.top<br>后来开始接触Termux<br>也开始学了学基础的指令<br>于是我抛弃了虚拟主机<br>换成了现在的Hexo<br>我是不是很惨?😞</p><h2 id="安卓-RSS-软件"><a href="#安卓-RSS-软件" class="headerlink" title="安卓 RSS 软件"></a>安卓 RSS 软件</h2><p><a href="https://www.coolapk.com/apk/com.blend.rolly">Rolly RSS Reader</a></p>]]></content>
     
   </entry>
   
