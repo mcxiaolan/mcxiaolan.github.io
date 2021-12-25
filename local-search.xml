@@ -8,7 +8,7 @@
     <link href="/articles/change-link.html"/>
     <url>/articles/change-link.html</url>
     
-    <content type="html"><![CDATA[<p>现在我购买了服务器和新的域名。</p><p>新域名：<a href="https://blog.589000.xyz/">https://blog.589000.xyz</a></p><p>此域名和Hexo博客将不再维护。<br>Hexo会一直挂在<a href="https://xiaolan.vercel.app/">https://xiaolan.vercel.app</a><br>mcxiaolan.top将在2023年1月左右到期。</p>]]></content>
+    <content type="html"><![CDATA[<p>现在我购买了服务器和新的域名。</p><p>新域名：<a href="https://blog.ltya.top/">https://blog.ltya.top</a></p><p>此域名和Hexo博客将不再维护。<br>Hexo会一直挂在<a href="https://xiaolan.vercel.app/">https://xiaolan.vercel.app</a><br>mcxiaolan.top将在2023年1月左右到期。</p>]]></content>
     
     
     
@@ -447,11 +447,11 @@
       
       <tag>搭建</tag>
       
-      <tag>免费主机</tag>
-      
       <tag>onedrive</tag>
       
       <tag>微软</tag>
+      
+      <tag>免费主机</tag>
       
       <tag>onemanager</tag>
       
@@ -722,9 +722,9 @@
       
       <tag>白嫖</tag>
       
-      <tag>主机</tag>
-      
       <tag>免费主机</tag>
+      
+      <tag>主机</tag>
       
     </tags>
     
@@ -910,22 +910,22 @@
   
   
   <entry>
-    <title>留言栏</title>
+    <title>about</title>
     <link href="/"/>
     <url>/</url>
     
-    <content type="html"><![CDATA[<h2 id="欢迎留言"><a href="#欢迎留言" class="headerlink" title="欢迎留言"></a>欢迎留言</h2><p>感谢你能在岚天呀的小破站留言。<br>有任何建议或者问题，欢迎留言。<br>粉丝群：715255814<br>无法搜索到Q群?<br>使用链接 <a href="https://jq.qq.com/?_wv=1027&amp;k=l8wjjemd">https://jq.qq.com/?_wv=1027&amp;k=l8wjjemd</a></p><h2 id="评论规则"><a href="#评论规则" class="headerlink" title="评论规则"></a>评论规则</h2><ol><li>发布评论时，请遵守您所在国家和中华人民共和国的法律法规，禁止发布政治相关内容；</li><li>评论内容应该和所在页面的内容相关，禁止一切无意义和严重跑题的内容；</li><li>请尊重他人，友好评论，请像和他人面对面谈话时一样保持对他人的尊重；</li><li>禁止发布广告；</li><li>请勿使用类似“谢谢谢谢谢谢谢谢谢”、“哈哈哈哈哈哈哈哈”这样的术语。表达感谢请真诚，此种方式视为灌水。</li></ol><blockquote><p>此规则来自 <a href="https://www.midishow.com/help/comment-rules.ab">MidiShow</a></p></blockquote>]]></content>
+    <content type="html"><![CDATA[<h2 id="联系我"><a href="#联系我" class="headerlink" title="联系我"></a>联系我</h2><p>点击头像下的 SNS 图标即可<br>欢迎加入Q群与萌新交流<br><a href="https://jq.qq.com/?_wv=1027&amp;k=l8wjjemd">https://jq.qq.com/?_wv=1027&amp;k=l8wjjemd</a></p><h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><blockquote><p>我是岚天呀，常叫小岚或Xiaolan.<br>职业：学生</p></blockquote><h2 id="擅长"><a href="#擅长" class="headerlink" title="擅长"></a>擅长</h2><p>会一点html和Markdown</p><h2 id="经历"><a href="#经历" class="headerlink" title="经历"></a>经历</h2><p>搭建网站的道路上经历了许多坎坷<br>刚开始看到萌新杰少这位大佬的视频<br><a href="https://b23.tv/nl1WsI">视频链接</a><br>然后就开始对搭建网站有了兴趣<br>后来开始做了一些分享教程<br>碰到了叶某云的广告<br>那时候也用了一阵子<br>然后呢？带着我的数据跑了😭<br>于是我就开始用Freenom的域名<br>到现在自己买的top域名<br>从xiaolan.ml<br>到lantianya.ga<br>最后到mcxiaolan.top<br>后来开始接触Termux<br>也开始学了学基础的指令<br>于是我抛弃了虚拟主机<br>换成了现在的Hexo<br>我是不是很惨?😞</p><h2 id="安卓-RSS-软件"><a href="#安卓-RSS-软件" class="headerlink" title="安卓 RSS 软件"></a>安卓 RSS 软件</h2><p><a href="https://www.coolapk.com/apk/com.blend.rolly">Rolly RSS Reader</a></p>]]></content>
     
   </entry>
   
   
   
   <entry>
-    <title>about</title>
+    <title>留言栏</title>
     <link href="/"/>
     <url>/</url>
     
-    <content type="html"><![CDATA[<h2 id="联系我"><a href="#联系我" class="headerlink" title="联系我"></a>联系我</h2><p>点击头像下的 SNS 图标即可<br>欢迎加入Q群与萌新交流<br><a href="https://jq.qq.com/?_wv=1027&amp;k=l8wjjemd">https://jq.qq.com/?_wv=1027&amp;k=l8wjjemd</a></p><h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><blockquote><p>我是岚天呀，常叫小岚或Xiaolan.<br>职业：学生</p></blockquote><h2 id="擅长"><a href="#擅长" class="headerlink" title="擅长"></a>擅长</h2><p>会一点html和Markdown</p><h2 id="经历"><a href="#经历" class="headerlink" title="经历"></a>经历</h2><p>搭建网站的道路上经历了许多坎坷<br>刚开始看到萌新杰少这位大佬的视频<br><a href="https://b23.tv/nl1WsI">视频链接</a><br>然后就开始对搭建网站有了兴趣<br>后来开始做了一些分享教程<br>碰到了叶某云的广告<br>那时候也用了一阵子<br>然后呢？带着我的数据跑了😭<br>于是我就开始用Freenom的域名<br>到现在自己买的top域名<br>从xiaolan.ml<br>到lantianya.ga<br>最后到mcxiaolan.top<br>后来开始接触Termux<br>也开始学了学基础的指令<br>于是我抛弃了虚拟主机<br>换成了现在的Hexo<br>我是不是很惨?😞</p><h2 id="安卓-RSS-软件"><a href="#安卓-RSS-软件" class="headerlink" title="安卓 RSS 软件"></a>安卓 RSS 软件</h2><p><a href="https://www.coolapk.com/apk/com.blend.rolly">Rolly RSS Reader</a></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="欢迎留言"><a href="#欢迎留言" class="headerlink" title="欢迎留言"></a>欢迎留言</h2><p>感谢你能在岚天呀的小破站留言。<br>有任何建议或者问题，欢迎留言。<br>粉丝群：715255814<br>无法搜索到Q群?<br>使用链接 <a href="https://jq.qq.com/?_wv=1027&amp;k=l8wjjemd">https://jq.qq.com/?_wv=1027&amp;k=l8wjjemd</a></p><h2 id="评论规则"><a href="#评论规则" class="headerlink" title="评论规则"></a>评论规则</h2><ol><li>发布评论时，请遵守您所在国家和中华人民共和国的法律法规，禁止发布政治相关内容；</li><li>评论内容应该和所在页面的内容相关，禁止一切无意义和严重跑题的内容；</li><li>请尊重他人，友好评论，请像和他人面对面谈话时一样保持对他人的尊重；</li><li>禁止发布广告；</li><li>请勿使用类似“谢谢谢谢谢谢谢谢谢”、“哈哈哈哈哈哈哈哈”这样的术语。表达感谢请真诚，此种方式视为灌水。</li></ol><blockquote><p>此规则来自 <a href="https://www.midishow.com/help/comment-rules.ab">MidiShow</a></p></blockquote>]]></content>
     
   </entry>
   

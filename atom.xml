@@ -6,7 +6,7 @@
   <link href="https://blog.mcxiaolan.top/atom.xml" rel="self"/>
   
   <link href="https://blog.mcxiaolan.top/"/>
-  <updated>2021-10-16T01:53:13.094Z</updated>
+  <updated>2021-12-25T15:38:54.828Z</updated>
   <id>https://blog.mcxiaolan.top/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://blog.mcxiaolan.top/articles/change-link.html"/>
     <id>https://blog.mcxiaolan.top/articles/change-link.html</id>
     <published>2021-10-15T23:57:59.000Z</published>
-    <updated>2021-10-16T01:53:13.094Z</updated>
+    <updated>2021-12-25T15:38:54.828Z</updated>
     
-    <content type="html"><![CDATA[<p>现在我购买了服务器和新的域名。</p><p>新域名：<a href="https://blog.589000.xyz/">https://blog.589000.xyz</a></p><p>此域名和Hexo博客将不再维护。<br>Hexo会一直挂在<a href="https://xiaolan.vercel.app/">https://xiaolan.vercel.app</a><br>mcxiaolan.top将在2023年1月左右到期。</p>]]></content>
+    <content type="html"><![CDATA[<p>现在我购买了服务器和新的域名。</p><p>新域名：<a href="https://blog.ltya.top/">https://blog.ltya.top</a></p><p>此域名和Hexo博客将不再维护。<br>Hexo会一直挂在<a href="https://xiaolan.vercel.app/">https://xiaolan.vercel.app</a><br>mcxiaolan.top将在2023年1月左右到期。</p>]]></content>
     
     
       
@@ -512,11 +512,11 @@
     
     <category term="搭建" scheme="https://blog.mcxiaolan.top/tags/%E6%90%AD%E5%BB%BA/"/>
     
-    <category term="免费主机" scheme="https://blog.mcxiaolan.top/tags/%E5%85%8D%E8%B4%B9%E4%B8%BB%E6%9C%BA/"/>
-    
     <category term="onedrive" scheme="https://blog.mcxiaolan.top/tags/onedrive/"/>
     
     <category term="微软" scheme="https://blog.mcxiaolan.top/tags/%E5%BE%AE%E8%BD%AF/"/>
+    
+    <category term="免费主机" scheme="https://blog.mcxiaolan.top/tags/%E5%85%8D%E8%B4%B9%E4%B8%BB%E6%9C%BA/"/>
     
     <category term="onemanager" scheme="https://blog.mcxiaolan.top/tags/onemanager/"/>
     
@@ -805,9 +805,9 @@
     
     <category term="白嫖" scheme="https://blog.mcxiaolan.top/tags/%E7%99%BD%E5%AB%96/"/>
     
-    <category term="主机" scheme="https://blog.mcxiaolan.top/tags/%E4%B8%BB%E6%9C%BA/"/>
-    
     <category term="免费主机" scheme="https://blog.mcxiaolan.top/tags/%E5%85%8D%E8%B4%B9%E4%B8%BB%E6%9C%BA/"/>
+    
+    <category term="主机" scheme="https://blog.mcxiaolan.top/tags/%E4%B8%BB%E6%9C%BA/"/>
     
   </entry>
   
